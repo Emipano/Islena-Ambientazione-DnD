@@ -1,0 +1,38 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {0.1}Introduzione}{2}{section.0.1}%
+\contentsline {part}{I\hspace {1em}Cosmologia}{3}{part.1}%
+\contentsline {chapter}{\numberline {1}Introduzione alla Cosmologia}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Origine del Cosmo}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}I Piani}{4}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Divinità}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduzione}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Descrizione delle Divinità}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Le Due Divinità Draghe}{11}{section.2.3}%
+\contentsline {chapter}{\numberline {3}La Magia Arcana}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Origine}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Scintipietra}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Legame tra magia e scintipietra: Le implicazioni}{14}{section.3.3}%
+\contentsline {part}{II\hspace {1em}Islena}{15}{part.2}%
+\contentsline {chapter}{\numberline {4}Storia}{16}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Carattere del Continente}{18}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Elementi Generali}{18}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Le Culture}{19}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Mappa delle Culture di Islena}{21}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Il Calendario}{21}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Reami di Islena}{23}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduzione ai Reami}{23}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Elenco e Descrizione dei Reami}{23}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Elementi Geografici di Interesse}{31}{chapter.7}%
+\contentsline {part}{III\hspace {1em}Aspetti di Gioco}{32}{part.3}%
+\contentsline {section}{\numberline {7.1}Introduzione}{33}{section.7.1}%
+\contentsline {chapter}{\numberline {8}Regole di Gioco}{34}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Scoprire trappole}{34}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Metamagia}{34}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Razze}{35}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Azuril}{35}{section.9.1}%
+\contentsline {chapter}{\numberline {10}Classi e CdP}{37}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Incantatrix}{37}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Luogotenente della Spada Alata}{40}{section.10.2}%
+\contentsline {chapter}{\numberline {11}Talenti}{42}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Metamagia Rapida [Generale]}{42}{section.11.1}%
