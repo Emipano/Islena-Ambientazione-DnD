@@ -22,7 +22,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{tikz}
 \usepackage{enumitem}
-
+\usepackage{etoolbox}
 
 % Define custom colors for the D&D theme
 \definecolor{DNDGold}{rgb}{0.698, 0.549, 0.278} % Darker Gold #B28C47
@@ -400,6 +400,7 @@ Engur, Signore delle Profondità Entropiche. È rappresentato come un minaccioso
 \vspace{1cm}
 \begin{table}[h]
 \centering
+{\sffamily
 \begin{tabular}{||c|c||}
 \hline
 \bf	Razza & \bf Divinità\\
@@ -421,11 +422,13 @@ Halfling & Djenl, Hnana o per classe e allineamento\\
 Azuril & Talas, Whest Falia o per classe e allineamento\\
 \hline
 \end{tabular}
+}
 \caption{Divinità per razza}
 \end{table}
 
 \begin{table}[h]
 \centering
+{\sffamily
 \begin{tabular}{||c|c||}
 \hline
 \bf Classe & \bf Divinità(Allineamento)\\
@@ -453,6 +456,7 @@ Ranger & Hnana(NB), Althes(N)\\
 Stregone & Moohona(N), Lialgha(NM)\\
 \hline
 \end{tabular}
+}
 \caption{Divinità per classe}
 \end{table}
 
@@ -1005,6 +1009,7 @@ Questo beneficio viene applicato anche alle altre capacità di classe dell'incan
 \end{multicols}
 
 \hspace{-1.6cm}
+{\sffamily
 \begin{tabular}{|c|c|c|c|c|l|l|}
 	\hline
 	\textbf{Livello} & \textbf{BAB} & \textbf{Tem} & \textbf{Rif} & \textbf{Vol} & \textbf{Speciale} & \textbf{Incantesimi} \\
@@ -1030,6 +1035,8 @@ Questo beneficio viene applicato anche alle altre capacità di classe dell'incan
 	10° & +5 & +3  & +3  & +7 & Metamagia migliorata     & +1 livello incantatore arcano esistente \\
 	\hline
 \end{tabular}
+}
+
 \newpage
 \begin{multicols}{2}
 
@@ -1086,6 +1093,7 @@ Questo beneficio viene applicato anche alle altre capacità di classe dell'incan
 \end{multicols}
 
 \hspace{-1.25cm}
+{\sffamily
 \begin{tabular}{|c|c|c|c|c|p{6cm}|p{6cm}|}
 \hline
 \textbf{Livello} & \textbf{BAB} & \textbf{Tem} & \textbf{Rif} & \textbf{Vol} & \textbf{Speciale} & \textbf{Progressione} \\ 
@@ -1117,6 +1125,7 @@ Questo beneficio viene applicato anche alle altre capacità di classe dell'incan
 13 & +9 & +8 & +4 & +8 & Fusione col Brillanio & +1 livello incantatore \\ 
 \hline
 \end{tabular}
+}
 
 \chapter{Talenti}
 \begin{multicols}{2}

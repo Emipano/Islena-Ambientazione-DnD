@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.12)  18 JAN 2025 15:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.12)  18 JAN 2025 18:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1390,12 +1390,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 397--399
 
  []
 
-[12 <./imgs//gizzard.jpg> <./imgs//engur.jpg>]
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
+03.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+) [12 <./imgs//gizzard.jpg> <./imgs//engur.jpg>]
 Capitolo 3.
-<imgs//monascintipietra.jpeg, id=233, 1017.8025pt x 1606.0pt>
+<imgs//monascintipietra.jpeg, id=234, 1017.8025pt x 1606.0pt>
 File: imgs//monascintipietra.jpeg Graphic file (type jpg)
 <use imgs//monascintipietra.jpeg>
-Package pdftex.def Info: imgs//monascintipietra.jpeg  used on input line 480.
+Package pdftex.def Info: imgs//monascintipietra.jpeg  used on input line 484.
 (pdftex.def)             Requested size: 170.71652pt x 269.36507pt.
 [13
 
@@ -1404,7 +1408,7 @@ Package pdftex.def Info: imgs//monascintipietra.jpeg  used on input line 480.
 ]
 Capitolo 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 523--523
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
 |\T1/cmr/bx/sc/14.4 Dall'Ultima Bat-ta-glia ai
  []
 
@@ -1413,47 +1417,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 523--523
 ] [17]
 Capitolo 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 544--545
-
- []
-
-<imgs//ruins.png, id=255, 1784.6675pt x 1003.75pt>
-File: imgs//ruins.png Graphic file (type png)
-<use imgs//ruins.png>
-Package pdftex.def Info: imgs//ruins.png  used on input line 546.
-(pdftex.def)             Requested size: 199.16928pt x 112.00569pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
-
- []
-
-<imgs//insideruins.jpg, id=256, 1927.2pt x 1128.215pt>
-File: imgs//insideruins.jpg Graphic file (type jpg)
-<use imgs//insideruins.jpg>
-Package pdftex.def Info: imgs//insideruins.jpg  used on input line 548.
-(pdftex.def)             Requested size: 199.16928pt x 116.58101pt.
-
 Underfull \hbox (badness 10000) in paragraph at lines 548--549
 
  []
 
-<imgs//ruinsincity.jpg, id=257, 1445.4pt x 781.92125pt>
-File: imgs//ruinsincity.jpg Graphic file (type jpg)
-<use imgs//ruinsincity.jpg>
-Package pdftex.def Info: imgs//ruinsincity.jpg  used on input line 550.
-(pdftex.def)             Requested size: 199.16928pt x 107.7382pt.
+<imgs//ruins.png, id=256, 1784.6675pt x 1003.75pt>
+File: imgs//ruins.png Graphic file (type png)
+<use imgs//ruins.png>
+Package pdftex.def Info: imgs//ruins.png  used on input line 550.
+(pdftex.def)             Requested size: 199.16928pt x 112.00569pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
  []
 
-<imgs//ruinsinwall.png, id=258, 1407.2575pt x 757.83125pt>
-File: imgs//ruinsinwall.png Graphic file (type png)
-<use imgs//ruinsinwall.png>
-Package pdftex.def Info: imgs//ruinsinwall.png  used on input line 552.
-(pdftex.def)             Requested size: 199.16928pt x 107.252pt.
+<imgs//insideruins.jpg, id=257, 1927.2pt x 1128.215pt>
+File: imgs//insideruins.jpg Graphic file (type jpg)
+<use imgs//insideruins.jpg>
+Package pdftex.def Info: imgs//insideruins.jpg  used on input line 552.
+(pdftex.def)             Requested size: 199.16928pt x 116.58101pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 552--553
+
+ []
+
+<imgs//ruinsincity.jpg, id=258, 1445.4pt x 781.92125pt>
+File: imgs//ruinsincity.jpg Graphic file (type jpg)
+<use imgs//ruinsincity.jpg>
+Package pdftex.def Info: imgs//ruinsincity.jpg  used on input line 554.
+(pdftex.def)             Requested size: 199.16928pt x 107.7382pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--555
+
+ []
+
+<imgs//ruinsinwall.png, id=259, 1407.2575pt x 757.83125pt>
+File: imgs//ruinsinwall.png Graphic file (type png)
+<use imgs//ruinsinwall.png>
+Package pdftex.def Info: imgs//ruinsinwall.png  used on input line 556.
+(pdftex.def)             Requested size: 199.16928pt x 107.252pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
 
  []
 
@@ -1461,154 +1465,154 @@ Underfull \hbox (badness 10000) in paragraph at lines 552--553
 
  <./imgs//ruins.png> <./imgs//insideruins.jpg> <./imgs//ruinsincity.jpg> <./img
 s//ruinsinwall.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 558--562
+Underfull \hbox (badness 10000) in paragraph at lines 562--566
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--562
+Underfull \hbox (badness 10000) in paragraph at lines 562--566
 
  []
 
-<imgs//nord.jpg, id=264, 1927.2pt x 1197.47375pt>
+<imgs//nord.jpg, id=265, 1927.2pt x 1197.47375pt>
 File: imgs//nord.jpg Graphic file (type jpg)
 <use imgs//nord.jpg>
-Package pdftex.def Info: imgs//nord.jpg  used on input line 566.
+Package pdftex.def Info: imgs//nord.jpg  used on input line 570.
 (pdftex.def)             Requested size: 170.71652pt x 106.0687pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--569
+Underfull \hbox (badness 10000) in paragraph at lines 568--573
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--569
+Underfull \hbox (badness 10000) in paragraph at lines 568--573
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--569
+Underfull \hbox (badness 10000) in paragraph at lines 568--573
 
  []
 
-<imgs//islenici.jpg, id=265, 355.3275pt x 130.3269pt>
+<imgs//islenici.jpg, id=266, 355.3275pt x 130.3269pt>
 File: imgs//islenici.jpg Graphic file (type jpg)
 <use imgs//islenici.jpg>
-Package pdftex.def Info: imgs//islenici.jpg  used on input line 572.
+Package pdftex.def Info: imgs//islenici.jpg  used on input line 576.
 (pdftex.def)             Requested size: 170.71652pt x 62.61584pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 570--574
+Underfull \hbox (badness 10000) in paragraph at lines 574--578
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 570--574
+Underfull \hbox (badness 10000) in paragraph at lines 574--578
 
  []
 
-<imgs//injines.jpg, id=266, 693.792pt x 271.37386pt>
+<imgs//injines.jpg, id=267, 693.792pt x 271.37386pt>
 File: imgs//injines.jpg Graphic file (type jpg)
 <use imgs//injines.jpg>
-Package pdftex.def Info: imgs//injines.jpg  used on input line 577.
+Package pdftex.def Info: imgs//injines.jpg  used on input line 581.
 (pdftex.def)             Requested size: 170.71652pt x 66.77495pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--579
+Underfull \hbox (badness 10000) in paragraph at lines 579--583
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--579
+Underfull \hbox (badness 10000) in paragraph at lines 579--583
 
  []
 
-<imgs//arabas.jpg, id=267, 1284.8pt x 803.0pt>
+<imgs//arabas.jpg, id=268, 1284.8pt x 803.0pt>
 File: imgs//arabas.jpg Graphic file (type jpg)
 <use imgs//arabas.jpg>
-Package pdftex.def Info: imgs//arabas.jpg  used on input line 582.
+Package pdftex.def Info: imgs//arabas.jpg  used on input line 586.
 (pdftex.def)             Requested size: 170.71652pt x 106.69717pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--584
+Underfull \hbox (badness 10000) in paragraph at lines 584--588
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--584
+Underfull \hbox (badness 10000) in paragraph at lines 584--588
 
  []
 
-<imgs//egisci.jpg, id=268, 1195.06268pt x 671.29144pt>
+<imgs//egisci.jpg, id=269, 1195.06268pt x 671.29144pt>
 File: imgs//egisci.jpg Graphic file (type jpg)
 <use imgs//egisci.jpg>
-Package pdftex.def Info: imgs//egisci.jpg  used on input line 587.
+Package pdftex.def Info: imgs//egisci.jpg  used on input line 591.
 (pdftex.def)             Requested size: 170.71652pt x 95.89561pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--588
+Underfull \hbox (badness 10000) in paragraph at lines 589--592
 
  []
 
-<imgs//felezi.jpg, id=269, 2055.68pt x 1174.3875pt>
+<imgs//felezi.jpg, id=270, 2055.68pt x 1174.3875pt>
 File: imgs//felezi.jpg Graphic file (type jpg)
 <use imgs//felezi.jpg>
-Package pdftex.def Info: imgs//felezi.jpg  used on input line 591.
+Package pdftex.def Info: imgs//felezi.jpg  used on input line 595.
 (pdftex.def)             Requested size: 170.71652pt x 97.51894pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 589--593
+Underfull \hbox (badness 10000) in paragraph at lines 593--597
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 589--593
+Underfull \hbox (badness 10000) in paragraph at lines 593--597
 
  []
 
-<imgs//gerici.jpg, id=270, 963.6pt x 542.025pt>
+<imgs//gerici.jpg, id=271, 963.6pt x 542.025pt>
 File: imgs//gerici.jpg Graphic file (type jpg)
 <use imgs//gerici.jpg>
-Package pdftex.def Info: imgs//gerici.jpg  used on input line 596.
+Package pdftex.def Info: imgs//gerici.jpg  used on input line 600.
 (pdftex.def)             Requested size: 170.71652pt x 96.02194pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--598
+Underfull \hbox (badness 10000) in paragraph at lines 598--602
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--598
+Underfull \hbox (badness 10000) in paragraph at lines 598--602
 
  []
 
 [19 <./imgs//nord.jpg> <./imgs//islenici.jpg> <./imgs//injines.jpg> <./imgs//ar
 abas.jpg> <./imgs//egisci.jpg> <./imgs//felezi.jpg>]
-<imgs//silvanese.png, id=275, 1003.75pt x 526.96875pt>
+<imgs//silvanese.png, id=276, 1003.75pt x 526.96875pt>
 File: imgs//silvanese.png Graphic file (type png)
 <use imgs//silvanese.png>
-Package pdftex.def Info: imgs//silvanese.png  used on input line 601.
+Package pdftex.def Info: imgs//silvanese.png  used on input line 605.
 (pdftex.def)             Requested size: 170.71652pt x 89.6237pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--602
+Underfull \hbox (badness 10000) in paragraph at lines 603--606
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--609
+Underfull \hbox (badness 10000) in paragraph at lines 609--613
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--609
+Underfull \hbox (badness 10000) in paragraph at lines 609--613
 
  []
 
-<imgs//moonaegisci.jpg, id=276, 1927.2pt x 1084.05pt>
+<imgs//moonaegisci.jpg, id=277, 1927.2pt x 1084.05pt>
 File: imgs//moonaegisci.jpg Graphic file (type jpg)
 <use imgs//moonaegisci.jpg>
-Package pdftex.def Info: imgs//moonaegisci.jpg  used on input line 610.
+Package pdftex.def Info: imgs//moonaegisci.jpg  used on input line 614.
 (pdftex.def)             Requested size: 199.16928pt x 112.01733pt.
-<imgs//islenacultures.png, id=277, 7708.8pt x 4308.095pt>
+<imgs//islenacultures.png, id=278, 7708.8pt x 4308.095pt>
 File: imgs//islenacultures.png Graphic file (type png)
 <use imgs//islenacultures.png>
-Package pdftex.def Info: imgs//islenacultures.png  used on input line 616.
+Package pdftex.def Info: imgs//islenacultures.png  used on input line 620.
 (pdftex.def)             Requested size: 512.1496pt x 286.21521pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 616--617
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 620--621
  [][] 
  []
 
@@ -1618,12 +1622,12 @@ Capitolo 6.
 [22
 
 ] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 749--750
+Underfull \hbox (badness 10000) in paragraph at lines 753--754
 \T1/cmr/m/n/10 Clay-ho-st(M), New-to-w-n-wall(M), Cit-tà
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 749--750
+Underfull \hbox (badness 10000) in paragraph at lines 753--754
 \T1/cmr/m/n/10 di Ze-ta (GC), Boul-se-mi(GC), Wil-
  []
 
@@ -1639,185 +1643,204 @@ Capitolo 8.
 
 ]
 Capitolo 9.
-<imgs//azuril.png, id=338, 311.1625pt x 443.6575pt>
+<imgs//azuril.png, id=339, 311.1625pt x 443.6575pt>
 File: imgs//azuril.png Graphic file (type png)
 <use imgs//azuril.png>
-Package pdftex.def Info: imgs//azuril.png  used on input line 930.
+Package pdftex.def Info: imgs//azuril.png  used on input line 934.
 (pdftex.def)             Requested size: 142.26378pt x 202.8393pt.
 [33
 
  <./imgs//azuril.png>] [34]
 Capitolo 10.
 
-Underfull \hbox (badness 10000) in paragraph at lines 960--964
+Underfull \hbox (badness 10000) in paragraph at lines 964--968
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 965--970
+Underfull \hbox (badness 10000) in paragraph at lines 969--974
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 965--970
+Underfull \hbox (badness 10000) in paragraph at lines 969--974
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 965--970
+Underfull \hbox (badness 10000) in paragraph at lines 969--974
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 971--972
+Underfull \hbox (badness 10000) in paragraph at lines 975--976
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 973--975
+Underfull \hbox (badness 10000) in paragraph at lines 977--979
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 976--977
+Underfull \hbox (badness 10000) in paragraph at lines 980--981
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 978--979
+Underfull \hbox (badness 10000) in paragraph at lines 982--983
 
  []
 
 [35
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 987--988
+Underfull \hbox (badness 10000) in paragraph at lines 991--992
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 989--991
+Underfull \hbox (badness 10000) in paragraph at lines 993--995
 
  []
 
-<imgs//incantatrix.png, id=353, 401.5pt x 502.87875pt>
+<imgs//incantatrix.png, id=354, 401.5pt x 502.87875pt>
 File: imgs//incantatrix.png Graphic file (type png)
 <use imgs//incantatrix.png>
-Package pdftex.def Info: imgs//incantatrix.png  used on input line 992.
+Package pdftex.def Info: imgs//incantatrix.png  used on input line 996.
 (pdftex.def)             Requested size: 199.16928pt x 249.4667pt.
 [36 <./imgs//incantatrix.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 998--999
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1003
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1000--1001
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1002--1004
+Underfull \hbox (badness 10000) in paragraph at lines 1006--1008
 
  []
 
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+1017.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+Overfull \hbox (17.6554pt too wide) in paragraph at lines 1011--1039
+[]  []
+ []
 
-Overfull \hbox (45.98875pt too wide) in paragraph at lines 1007--1033
-[]  [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1011--1039
+
  []
 
 [37]
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1036
+Underfull \hbox (badness 10000) in paragraph at lines 1043--1043
 |[]\T1/cmr/bx/n/14.4 10.2[] \T1/cmr/bx/sc/14.4 Luo-go-te-nen-te del-la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1039--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1052
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1051
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1058
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1051
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1058
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1051
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1058
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1052--1053
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1060
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
+Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1058--1059
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1066
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1060--1061
+Underfull \hbox (badness 10000) in paragraph at lines 1067--1068
 
  []
 
-<imgs//ldsa.png, id=366, 501.875pt x 501.875pt>
+<imgs//ldsa.png, id=369, 501.875pt x 501.875pt>
 File: imgs//ldsa.png Graphic file (type png)
 <use imgs//ldsa.png>
-Package pdftex.def Info: imgs//ldsa.png  used on input line 1062.
+Package pdftex.def Info: imgs//ldsa.png  used on input line 1069.
 (pdftex.def)             Requested size: 170.71652pt x 170.71947pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1064--1065
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1072
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1066--1067
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
 
  []
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 38 might be wrong on input line 106
-7.
+(multicol)                Footnotes on page 38 might be wrong on input line 107
+4.
 
 [38 <./imgs//ldsa.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1076
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1070--1071
+Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1087
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1081--1082
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1089
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1083--1084
+Underfull \hbox (badness 10000) in paragraph at lines 1090--1091
 
  []
 
 
-Overfull \hbox (36.69072pt too wide) in paragraph at lines 1088--1120
-[]  [] 
+Underfull \hbox (badness 2285) in paragraph at lines 1101--1101
+[]\T1/cmss/m/n/10 Armatura di bril-la-nio, Do-mi-nio del-la
+ []
+
+
+Overfull \hbox (23.43701pt too wide) in paragraph at lines 1095--1129
+[]  []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1095--1129
+
  []
 
 [39]
@@ -1831,11 +1854,11 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 24662 strings out of 476091
- 457892 string characters out of 5794081
+ 24706 strings out of 476091
+ 459220 string characters out of 5794081
  1881330 words of memory out of 5000000
- 44459 multiletter control sequences out of 15000+600000
- 533964 words of font info for 71 fonts, out of 8000000 for 9000
+ 44494 multiletter control sequences out of 15000+600000
+ 535825 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,8n,90p,1847b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
@@ -1849,16 +1872,17 @@ share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sfsl0500.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-ftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1200.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfxc1440.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfxc2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-xc2488.pfb>
-Output written on "Guida all'ambientazione di Islena.pdf" (41 pages, 29224019 b
+e1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+fsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfxc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+xc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc2074.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfxc2488.pfb>
+Output written on "Guida all'ambientazione di Islena.pdf" (41 pages, 29258853 b
 ytes).
 PDF statistics:
- 596 PDF objects out of 1000 (max. 8388607)
- 420 compressed objects within 5 object streams
+ 609 PDF objects out of 1000 (max. 8388607)
+ 428 compressed objects within 5 object streams
  89 named destinations out of 1000 (max. 500000)
  669 words of extra memory for PDF output out of 10000 (max. 10000000)
 
