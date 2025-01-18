@@ -6,7 +6,6 @@
 \usepackage{titlesec, color}
 \definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}}
-\titleformat{\chapter}{\Huge\bfseries}{\thechapter\hsp\textcolor{CadetBlue}{/}\hsp}{0pt}{\Huge\bfseries}
 \usepackage[svgnames]{xcolor}
 \usepackage{float}
 \usepackage{multirow}
@@ -22,6 +21,57 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{tikz}
+\usepackage{enumitem}
+
+
+% Define custom colors for the D&D theme
+\definecolor{DNDGold}{rgb}{0.698, 0.549, 0.278} % Darker Gold #B28C47
+\definecolor{DNDDarkBlue}{rgb}{0.173, 0.290, 0.365} % Darker Blue #2C4A5D
+\definecolor{DNDGray}{rgb}{0.2, 0.2, 0.2} % Dark gray for text
+
+% Custom part title format
+\titleformat{\part}[display]
+{\Huge\bfseries\color{DNDDarkBlue}\centering} % Centered, bold, dark blue font
+{\textcolor{DNDDarkBlue}{Parte \textcolor{DNDGold}{\thepart}}} % "Parte" + part number in gold
+{0em} % No space between number and title
+{\vspace{0.5cm}\Huge\scshape} % Title in small caps
+[] % Rule below title
+
+% Custom chapter title format
+\titleformat{\chapter}[block]
+{\huge\bfseries\color{DNDDarkBlue}} % Slightly smaller than \part
+{\textcolor{DNDGold}{\thechapter}} % Chapter number in gold
+{1em} % Space between number and title
+{\huge\scshape} % Title in small caps
+[\vspace{-0.16em}\titlerule] % Rule below title
+
+% Custom section title format
+\titleformat{\section}[block]
+{\Large\bfseries\color{DNDDarkBlue}} % Smaller font than \chapter
+{\textcolor{DNDGold}{\thesection}} % Section number in gold
+{1em} % Space between number and title
+{\Large\scshape} % Title in small caps
+[\vspace{-0.16em}\titlerule] % Thin rule below title
+
+
+% Custom subsubsection title format
+\titleformat{\subsection}[block]
+{\fontsize{13}{16}\bfseries\color{DNDDarkBlue}} % Normal font, dark blue color, bold
+{\textcolor{DNDGold}{\thesubsection}} % Subsection number
+{1em} % Space between number and title
+{\fontsize{13}{17}\scshape}
+[] % No rule below
+
+% Custom subsubsection title format
+\titleformat{\subsubsection}[block]
+{\large\bfseries\color{DNDDarkBlue}\bfseries} % Normal font, dark blue color, bold
+{\textcolor{DNDGold}{\thesubsubsection}} % Subsubsection number
+{1em} % Space between number and title
+{\large\bfseries}
+[] % No rule below
+
+% Global configuration for itemize
+\setlist[itemize]{label=\small$\diamond$}  % Set smaller bullets for all itemize lists
 
 \graphicspath{{imgs/}}
 
@@ -78,8 +128,9 @@ PS: Se trovate cazzate di ortografia, robe che non tornano o che non capite e al
 
 
 \part{Cosmologia}
+\chapter{Struttura della Cosmologia}
 \begin{multicols}{2}
-\chapter{Introduzione alla Cosmologia}
+\section{Introduzione}
  Per semplificare le cose e evitare problemi non ci allontaneremo dalla struttura \enquote{a piani} della cosmologia canonica descritta nel Manuale del Dungeon Master, ovviamente ho creato nuovi piani a sostituire quelli canonici ma manterremo quelli principali e legati al funzionamento di incantesimi vari. Nonostante ciò alcuni incantesimi potrebbero avere funzionamenti diversi dal normale, a causa di alcuni comportamenti dei piani che non sono necessariamente riportati in questo documento.
 \section{Origine del Cosmo}
 Prima di elencare e descrivere ogni piano racconto la storia dell'origine del cosmo per avere un'idea generale della struttura della cosmologia e anche perché mi andava e ormai l'avevo inventata quindi ve la puppate. Sia ben chiaro che questa è la versione che gli Dei raccontano dell'origine del mondo, nulla vieta che pg e png credano a versioni diverse. 
@@ -312,10 +363,13 @@ Cosa sono le divintà draconiche? Perché esistono? Da dove vengono? Cosa voglio
 Ho letto le divinità del calva e sono rimasto colpito dal fascino di quelle draconiche al punto di freebootarle? \\
 Senza nulla togliere al calva e alle sue divinità vorrei asserbarmi la carta freebooting per il futuro. Sappiate che le divinità draconiche sono due, e il motivo per cui hanno la loro personalissima sezione è che sono morte, e pure stronze. Per spiegare come mai erano stronze, segue un pippone sulle divinità draconiche e non.\\
 Partiamo dagli Dei \enquote*{normali} (insomma quelli descritti nella sezione precedente); ognuno di loro ha degli obbiettivi, degli ideali che vuole diffondere nel mondo ed incaricano dei mortali a loro devoti, aka chierici, di seguire la loro volontà divina e diffonderla nel mondo dei mortali. I chierici in cambio ottengono poteri forniti direttamente dalla divinità che hanno lo scopo di aiutarli nella loro missione per servire il loro dio. Questo non sorprende nessuno perché è la base su cui è fondato il Chierico come classe. Questo meccanismo ha un effetto secondario, ovvero l'inevitabilmente stretto legame tra mondo divino e mondo dei mortali, e ciò rende le divinità\footnote{tecnicamente per come ho posto questo ragionamento si dovrebbe poter applicare tutti gli Dei, in qualsiasi ambientazione che ammetta l'esistenza dei chierici; ci limitiamo ad applicarlo esclusivamente alle nostre care divinità di Islena poiché sono le uniche rilevanti ai fini del discorso} \enquote*{umane} nei loro interessi e nei loro modi di agire e di interagire, sia con i mortali che tra di loro. Inoltre, come probabilmente vi ho già detto a voce ma lo ripeto qui per completezza, le divinità di questa ambientazione sono fortemente ispirate agli Dei Greci/Romani, sono per l'appunto molto \enquote*{umane}, commetto errori, hanno vizi e difetti e così via\footnote{Achtung! Questo non vuol dire che sono un branco di totali coglioni (in parte un pochino sì), rimangono comunque delle divinità e sono la massima espressione del concetto a loro legato.}. Per riassumere quindi le divinità sono imperfette nella loro essenza, sono strettamente legate al mondo dei mortali e ai mortali stessi tramite i chierici e soprattutto hanno interessi nel mondo dei mortali. \\
-In cosa differivano le due divinità draconiche? Tutto, o quasi. Per iniziare non erano figlie dei Titani Elementali ma erano più loro simili, in quanto anche esse originarono dal caos della battaglia nel Tatakai, e rappresentavano una memoria di quello scontro tra Bene e Male. Inoltre erano completamente isolate dal mondo dei mortali e dalle altre divinità per un motivo principale, ovvero i loro interessi erano completamente autocontenuti, in quanto l'obbiettivo di uno era distruggere l'altro e viceversa. Il loro conflitto stava mettendo fortemente a rischio l'intero cosmo, dunque gli altri Dei presero la decisione di ucciderli.
+In cosa differivano le due divinità draconiche? Tutto, o quasi. Per iniziare non erano figlie dei Titani Elementali ma erano più loro simili, in quanto anche esse originarono dal caos della battaglia nel Tatakai, e rappresentavano una memoria di quello scontro tra Bene e Male. Inoltre erano completamente isolate dal mondo dei mortali e dalle altre divinità per un motivo principale, ovvero i loro interessi erano completamente autocontenuti, in quanto l'obbiettivo di uno era distruggere l'altro e viceversa. 
+\newcolumn
+
+Il loro conflitto stava mettendo fortemente a rischio l'intero cosmo, dunque gli altri Dei presero la decisione di ucciderli.
 Segue una simpatica storiella eziologica, cantata da Byrœ, Il Dio Bardo in persona, sulle Divinità Draghe e sulla creazione dei draghi metallici e cromatici:
+
 \begin{verse}
-	
 	\textit{In un'era primordiale, quando il cosmo vedeva i primi amori tra i Titani, nacquero due divinità draconiche: Ansur, Custode degli Eterei Cieli, e Engur, Signore delle Profondità Entropiche. Da subito, un'inesorabile forza le spinse in un fatal conflitto.\\
 	Quando lo scontro tra i Draghi Primordiali minacciava di strappare il tessuto stesso del Mondo, le lamentele degli Dei risuonarono come una sinfonia funerea attraverso il Tatakai. \\
 	Mentre alcuni sussurravano il loro dispiacere, le divinità guerriere, con spade ardenti e scudi inviolabili, avanzarono risolute verso l'epicentro del conflitto.\\
@@ -412,12 +466,15 @@ La magia arcana è stata creata da Moohona, come concetto e come disciplina. L'o
 \begin{verse}
 	
 \textit{In un'era antica, quando il creato era un canto appena intonato e gli Dei tracciavano la loro dimora nel Tatakai, Moohna, la sublime Maga Celeste, sedeva pensosa sul margine del firmamento.\\ Ella scrutava il Mare di Stelle, quell’incommensurabile abisso scintillante che sussurrava segreti arcani al di là del velo del comprensibile.
-Fu allora che il suo sguardo divino si posò su una luce inusuale, più viva e tremula di tutte le altre.\\ Una stella che sembrava pulsare come il cuore stesso dell'universo, una scintilla di potere pura e separata, un'energia che nulla nel mondo conosciuto avrebbe potuto eguagliare.\\ In quel bagliore, la Dea percepì una verità primordiale, un concetto che non esisteva ma che doveva nascere nel cuore stesso della sua mente divina: la magia arcana, una forza distinta che nulla di ciò che esisteva fino a quel momento poteva governare.\\ Spinta dal desiderio di donare al mondo ciò che aveva visto, Moohna tese la mano, e con gesto solenne afferrò quella luce. Il Mare di Stelle, come sospeso, trattenne il respiro. Quando riaprì il palmo, la stella non era più luce, ma una pietra di bellezza straordinaria, lucente come il cielo stesso, cangiante nei colori di aurore e tramonti. Era la prima scintipietra, un frammento tangibile di quella potenza che ella aveva concepito, ma che era al di fuori della realtà ordinaria.\\
-Eppure, la Dea capì che la sua creazione non doveva restare una prerogativa divina. La pietra, sebbene fatta di potenza incommensurabile, era destinata ad altri, era il tramite per attingere a quella forza separata che ella aveva creato. Ma ella sapeva che i mortali, con le loro menti limitate, non sarebbero stati in grado di cogliere la natura originaria di quel potere. Loro non avrebbero potuto vedere, come lei, il concetto puro nel cuore della stella. \\
+Fu allora che il suo sguardo divino si posò su una luce inusuale, più viva e tremula di tutte le altre.\\ Una stella che sembrava pulsare come il cuore stesso dell'universo, una scintilla di potere pura e separata, un'energia che nulla nel mondo conosciuto avrebbe potuto eguagliare.\\ In quel bagliore, la Dea percepì una verità primordiale, un concetto che non esisteva ma che doveva nascere nel cuore stesso della sua mente divina: la magia arcana, una forza distinta che nulla di ciò che esisteva fino a quel momento poteva governare.\\ Spinta dal desiderio di donare al mondo ciò che aveva visto, Moohna tese la mano, e con gesto solenne afferrò quella luce. Il Mare di Stelle, come sospeso, trattenne il respiro.\\ Quando riaprì il palmo, la stella non era più luce, ma una pietra di bellezza straordinaria, lucente come il cielo stesso, cangiante nei colori di aurore e tramonti. Era la prima scintipietra, un frammento tangibile di quella potenza che ella aveva concepito, ma che era al di fuori della realtà ordinaria.\\
+Eppure, la Dea capì che la sua creazione non doveva restare una prerogativa divina. La pietra, sebbene fatta di potenza incommensurabile, era destinata ad altri, era il tramite per attingere a quella forza separata che ella aveva creato.}
+\end{verse}
+\newcolumn
+\begin{verse}
+\textit{Ma ella sapeva che i mortali, con le loro menti limitate, non sarebbero stati in grado di cogliere la natura originaria di quel potere. Loro non avrebbero potuto vedere, come lei, il concetto puro nel cuore della stella. \\
 Ella così scese tra i mortali, li fece radunare sotto il cielo stellato, e, con voce che risuonava come un canto eterno, disse loro:\\
 \enquote*{O figli della terra, il cielo che vi sovrasta è il riflesso di un cosmo ben più grande, un’immagine distorta e lontana del Mare di Stelle che io sola posso contemplare. Non cercate di vedere ciò che è nascosto ai vostri occhi mortali, né tentate di afferrare ciò che non è destinato alla vostra comprensione. Ma sappiate questo: in ogni stella che brilla nel cielo si cela una scintilla del mio potere, una scintilla che può illuminare il cammino di chi sa vedere oltre l’apparenza. Studiate il cielo sopra di voi, guardate nei suoi schemi e nei suoi disegni, cercate la scintilla che parla al vostro spirito e lasciate che vi guidi. Vi guiderà nel creare la scintipietra, essa sarà il vostro legame con il potere arcano, il vostro ponte tra ciò che è e ciò che può essere.}\\
-Da quel giorno, la magia si diffuse nel mondo, non come dono o potere concesso, ma come una disciplina, un’arte che richiede studio e introspezione. Ogni frammento di scintipietra è un testamento dell’intimo legame tra il mortale e l’infinito, un ponte tra la terra e il cielo, tra ciò che si può conoscere e ciò che si deve cercare in eterno.
-Si narra che, ancora oggi, ogni volta che un mortale forgia una scintipietra, un tremolio attraversi le stelle, un’eco del momento in cui Moohna afferrò la prima luce.}
+Da quel giorno, la magia si diffuse nel mondo, non come dono o potere concesso, ma come una disciplina, un’arte che richiede studio e introspezione. Ogni frammento di scintipietra è un testamento dell’intimo legame tra il mortale e l’infinito, un ponte tra la terra e il cielo, tra ciò che si può conoscere e ciò che si deve cercare in eterno.\\ Si narra che, ancora oggi, ogni volta che un mortale forgia una scintipietra, un tremolio attraversi le stelle, un’eco del momento in cui Moohna afferrò la prima luce.}
 \end{verse}
 
 \includegraphics[width=6cm]{monascintipietra.jpeg}
@@ -533,7 +590,7 @@ Le culture principali del continente (a cui	ho dato nomi solamente per distingue
 	\\
 	\includegraphics[width=6cm]{felezi.jpg} 
 	\\
-	\newpage
+
 	\item I Gerici: Cultura ampiamente diffusa sulle coste orientali. È la cultura caratterizzata dagli elementi steam-punk, di cui si è già parlato, su una base simile all'antica Grecia ma un po' più sobria. Ripeto che la roba steam-punk è in secondo piano e è molto più legata alla magia che alla scienza.\\
 	\\
 	\includegraphics[width=6cm]{gerici.jpg}	
@@ -552,14 +609,14 @@ Ad esempio una rappresentazione egiscia di Moohona potrebbe essere qualcosa del 
 
 \includegraphics[width=7cm]{moonaegisci.jpg}
 \end{multicols}
-\newpage
+\vspace{1cm}
 \subsection{Mappa delle Culture di Islena}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=18cm]{islenacultures.png}
 	\caption{Mappa delle Culture. In viola i Nord, in celeste gli Slenici, in rosa scuro i Silvanesi, in arancione gli Arabas, in rosso gli injines, in blu gli Egisci, in verde i Felezi, in giallo i Gerici}
 \end{figure}
-
+\newpage
 \begin{multicols}{2}
 \section{Il Calendario}
 		Il calendario in uso è molto semplice e sobrio. Un anno è composto da 330 giorni suddivisi in 11 mesi da 30 giorni ciascuno. Ogni mese è composto da 5 settimane da 6 giorni (ok non sono settimane si dovrebbero chiamare seimane ma fottesega). Le festività sono 4 e successivamente verranno descritte molto brevemente brevemente.
@@ -613,7 +670,7 @@ Ad esempio una rappresentazione egiscia di Moohona potrebbe essere qualcosa del 
 	
 \section{Introduzione ai Reami}
 In questo capitolo verranno descritti gli stati di Islena per come sono al giorno d'oggi ovvero nell'anno 1183esimo. Cercherò dove possibile di fornire alcune notizie sulla storia dei singoli stati, se interessante. Le città elencate sono solo alcune, altre potrebbero essere aggiunte nel corso del tempo.
-\section{Elenco e Descrizione dei Reami}
+\section{Descrizione dei Reami}
 
 \subsection*{Ajedij}
 \begin{itemize}
@@ -668,7 +725,7 @@ Il governo della Repubblica di Aruba si pone come obiettivo quello di impedire u
 	\item \textbf{Risorse:} Alimentari, spezie, olio, soia, riso, tè, pesce, ceramiche, tessuti, vetro. 
 	\item \textbf{Popolazione e Cultura:} Injines, Umani 84\%, Mezzelfi 6\%, Halfling 5\%, Nani 3\%, Elfi 1\%, Mezzorchi 1\%
 	\item \textbf{Legge:} NB
-	\item \textbf{Situazione diplomatica:} Nessun nemico, nessun alleato.
+	\item \textbf{Situazione diplomatica:} Alleati: Unione Centrale; Nessun nemico.
 \end{itemize}
 I territori di Ashina sono tra i più pacifici ed indisturbati di tutta Islena, dato che questo stato non ha mai preso parte a guerre o conflitti tra altre nazioni (limitrofe e non). Tuttavia, questa tendenza isolazionista dei precedenti regnanti di Ashina, si riflette ancora oggi nella sua popolazione, la quale è famosa per la sua diffidenza nei confronti degli stranieri e per la riluttanza a lasciare il proprio paese. Inoltre, la gente di Ashina è molto legata alle proprie tradizioni e spesso fa molta fatica a superare usanze antiquate in favore di alternative più moderne ed efficienti. Tuttavia, grazie alla politica di Lord Kuro, queste tendenze si stanno attenuando, rendendo un popolo già pacifico ed abbastanza amichevole anche più aperto mentalmente e curioso nei confronti delle altre culture. Questo ha dato luogo ad un notevole sviluppo recente del commercio marittimo. Ad ogni modo questi cambiamenti non sono certo avvenuti istantaneamente, né senza un costo, dato che, negli ultimi 30 anni, manifestazioni e scioperi sono stati all’ordine del giorno, dato che parte della popolazione non approvava l’operato di Kuro; giungendo, addirittura, allo scoppio di una piccola guerra civile. La situazione, fino ad ora, si è sempre risolta senza troppe violenze, però, recentemente, gli animi si stanno scaldando nuovamente e non è da escludersi che il popolo insorga un’altra volta.
 
@@ -793,9 +850,9 @@ La capitale di Vega, Dahio, è una città scintillante che nasconde una massicci
 
 \subsection*{Volpfelterz}
 \begin{itemize}
-	\item \textbf{Nome appropriato:} Territorio escluso del Volpfelterz
-	\item \textbf{Sovrano: -} 
-	\item \textbf{Governo: -} 
+	\item \textbf{Nome appropriato:} Territorio escluso di Volpfer
+	\item \textbf{Sovrano:} - 
+	\item \textbf{Governo:} -
 	\item \textbf{Città:}  Volpfer (-)
 	\item \textbf{Risorse:} -
 	\item \textbf{Popolazione e cultura:} -
@@ -838,18 +895,16 @@ L’Impero di Ghiur ha origini antiche. Inizialmente era solo una piccola città
 Chissà se questo capitolo verrà mai scritto...
 
 \part{Aspetti di Gioco}
-\section{Introduzione}
-In questa parte sono raccolti tutti i cambiamenti e aggiunte agli aspetti del gioco vero e proprio.
 
 \chapter{Regole di Gioco}
 \begin{multicols}{2}
 
 \section{Scoprire trappole}
 Una meccanica terribile di D\&D 3.5 è la ricerca delle trappole, è una palla dover cercare in ogni quadretto, con una prova singola per ogni quadretto ecc.
-Quindi, ispirandosi alla 5e (lo so, terribile), si attueranno questi cambiamenti:
+Quindi si attueranno questi cambiamenti:
 \begin{itemize}
 	\item Un personaggio che non ha l'abilità di \textit{Scoprire Trappole} dovrà volontariamente effettuare una prova di Cercare per scovare trappole con CD 20 o inferiore in una zona. Basta una prova per cercare tutte le trappole in una data area. Se nella stessa area ci sono più trappole, verranno trovate solo quelle di cui si è passata la CD.
-	\item Un personaggio che possiede l'abilità di \textit{Scoprire Trappole} (o un nano che affronta trappole di pietra) che passa entro un raggio di 1.5m da una trappola può effettuare una prova di Cercare per trovare quella trappola, come un elfo può rilevare le porte nascoste. Altrimenti può scegliere di perlustrare attentamente una zona con una prova di Cercare, riuscendo però a trovare anche trappole con CD superiore a 20.
+	\item Un personaggio che possiede l'abilità di \textit{Scoprire Trappole} (o un nano che affronta trappole di pietra) che passa entro un raggio di 1.5m da una trappola con CD 20 o inferiore può individuarla automaticamente se la prova passiva, pari a 10 + Modificatore di Cercare, supera la CD della trappola. Altrimenti può scegliere di perlustrare attentamente una zona con una prova di Cercare, in questo caso ha la possibilità di trovare anche trappole con CD superiore a 20.
 \end{itemize}
 
 \section{Metamagia}
@@ -1064,8 +1119,10 @@ Questo beneficio viene applicato anche alle altre capacità di classe dell'incan
 \end{tabular}
 
 \chapter{Talenti}
-
-\section{Metamagia Rapida [Generale]}
+\begin{multicols}{2}
+\section{Descrizione Talenti}
+\end{multicols}
+\subsection{Metamagia Rapida [Generale]}
 \label{rapidmetamagic}
 \textbf{Prerequisiti}\\
 Sapienza Magica 6 gradi, abilità di lanciare incantesimi spontaneamente\\
