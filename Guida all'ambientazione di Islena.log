@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.12)  18 JAN 2025 18:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.12)  19 JAN 2025 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -754,6 +754,46 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count336
 \enitdp@description=\count337
 )
+(/usr/share/texlive/texmf-dist/tex/latex/imfellenglish/imfellEnglish.sty
+Package: imfellEnglish 2022/10/01 (Bob Tennent and autoinst) Style file for IM 
+Fell English fonts.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks42
+\XKV@tempa@toks=\toks43
+)
+\XKV@depth=\count338
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+))
    defining Unicode char U+011F (decimal 287)
    defining Unicode char U+0259 (decimal 601)
    defining Unicode char U+015F (decimal 351)
@@ -761,28 +801,41 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'italian'.
+LaTeX Font Info:    Trying to load font information for T1+IMFELLEnglish-TLF on
+ input line 85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/imfellenglish/T1IMFELLEnglish-TLF.fd
+File: T1IMFELLEnglish-TLF.fd 2019/10/11 (autoinst) Font definitions for T1/IMFE
+LLEnglish-TLF.
+)
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/n' in size <10> not avai
+lable
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/n' tried instead o
+n input line 85.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 85.
 
 (./Guida all'ambientazione di Islena.aux)
 \openout1 = `"Guida all'ambientazione di Islena.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -820,17 +873,17 @@ LaTeX Font Info:    ... okay on input line 82.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
+\scratchcounter=\count339
 \scratchdimen=\dimen287
 \scratchbox=\box114
-\nofMPsegments=\count339
-\nofMParguments=\count340
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count341
+\nofMPsegments=\count340
+\nofMParguments=\count341
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count342
 \MPscratchDim=\dimen288
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
-\everyMPtoPDFconversion=\toks43
+\MPnumerator=\count343
+\makeMPintoPDFobject=\count344
+\everyMPtoPDFconversion=\toks45
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -840,24 +893,75 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \it@ocap on input line 82.
-LaTeX Info: Redefining \it@ccap on input line 82.
-Package hyperref Info: Link coloring OFF on input line 82.
+LaTeX Info: Redefining \it@ocap on input line 85.
+LaTeX Info: Redefining \it@ccap on input line 85.
+Package hyperref Info: Link coloring OFF on input line 85.
+\c@mv@tabular=\count345
+\c@mv@boldtabular=\count346
 <imgs//titlepageislena1.jpg, id=7, 1027.84pt x 1453.43pt>
 File: imgs//titlepageislena1.jpg Graphic file (type jpg)
 <use imgs//titlepageislena1.jpg>
-Package pdftex.def Info: imgs//titlepageislena1.jpg  used on input line 87.
+Package pdftex.def Info: imgs//titlepageislena1.jpg  used on input line 90.
 (pdftex.def)             Requested size: 597.51208pt x 845.07468pt.
 <imgs//dnd1.png, id=8, 668.4975pt x 376.40625pt>
 File: imgs//dnd1.png Graphic file (type png)
 <use imgs//dnd1.png>
-Package pdftex.def Info: imgs//dnd1.png  used on input line 95.
+Package pdftex.def Info: imgs//dnd1.png  used on input line 98.
 (pdftex.def)             Requested size: 267.39426pt x 150.55983pt.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/n' in size <24.88> not a
+vailable
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/n' tried instead o
+n input line 103.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/n' will be
+(Font)              scaled to size 24.88pt on input line 103.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/sc' in size <24.88> not 
+available
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/sc' tried instead 
+on input line 103.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/sc' will be
+(Font)              scaled to size 24.88pt on input line 103.
 
+
+LaTeX Font Warning: Font shape `T1/IMFELLEnglish-TLF/b/n' undefined
+(Font)              using `T1/IMFELLEnglish-TLF/m/n' instead on input line 107.
+
+
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/b/n' in size <10> not avai
+lable
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/n' tried instead o
+n input line 109.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 109.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./imgs//titlepageislena1.j
-pg> <./imgs//dnd1.png>] (./Guida all'ambientazione di Islena.toc)
+pg> <./imgs//dnd1.png>]
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/n' in size <20.74> not a
+vailable
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/n' tried instead o
+n input line 115.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/n' will be
+(Font)              scaled to size 20.74pt on input line 115.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/sc' in size <20.74> not 
+available
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/sc' tried instead 
+on input line 115.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/sc' will be
+(Font)              scaled to size 20.74pt on input line 115.
+ (./Guida all'ambientazione di Islena.toc
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/n' in size <12> not avai
+lable
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/n' tried instead o
+n input line 4.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 4.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/b/n' in size <12> not avai
+lable
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/n' tried instead o
+n input line 4.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 4.
+)
 \tf@toc=\write4
 \openout4 = `"Guida all'ambientazione di Islena.toc"'.
 
@@ -866,26 +970,39 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 \newpage
+l.118 \newpage
                [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 118--128
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/n' in size <14.4> not av
+ailable
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/n' tried instead o
+n input line 120.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/n' will be
+(Font)              scaled to size 14.4pt on input line 120.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/sc' in size <14.4> not a
+vailable
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/sc' tried instead 
+on input line 120.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/sc' will be
+(Font)              scaled to size 14.4pt on input line 120.
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--128
+Underfull \hbox (badness 10000) in paragraph at lines 121--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--128
+Underfull \hbox (badness 10000) in paragraph at lines 121--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--128
+Underfull \hbox (badness 10000) in paragraph at lines 121--131
 
  []
 
@@ -896,140 +1013,174 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--128
 ]
 Capitolo 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
-
-LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <13> not available
-(Font)              size <12> substituted on input line 146.
-
-
-LaTeX Font Warning: Font shape `T1/cmr/bx/sc' in size <13> not available
-(Font)              size <12> substituted on input line 146.
-
-<imgs//stars.jpeg, id=110, 542.025pt x 338.76563pt>
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/it' in size <10> not ava
+ilable
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/it' tried instead 
+on input line 144.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 144.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/sc' in size <13> not ava
+ilable
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/sc' tried instead 
+on input line 149.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/sc' will be
+(Font)              scaled to size 13.0pt on input line 149.
+<imgs//stars.jpeg, id=104, 542.025pt x 338.76563pt>
 File: imgs//stars.jpeg Graphic file (type jpg)
 <use imgs//stars.jpeg>
-Package pdftex.def Info: imgs//stars.jpeg  used on input line 149.
+Package pdftex.def Info: imgs//stars.jpeg  used on input line 152.
 (pdftex.def)             Requested size: 170.71652pt x 106.69621pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--153
+Underfull \hbox (badness 10000) in paragraph at lines 150--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--153
+Underfull \hbox (badness 10000) in paragraph at lines 150--156
 
+ []
+
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/n' in size <9> not avail
+able
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/n' tried instead o
+n input line 156.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 156.
+
+Underfull \hbox (badness 6808) in paragraph at lines 166--167
+\T1/IMFELLEnglish-TLF/regular/n/10 Questi pia-ni so-no iden-ti-ci a quel-li ca-
+no-ni-ci; fa-re
  []
 
 [4
 
  <./imgs//stars.jpeg>]
-<imgs//tatakai.png, id=119, 1927.2pt x 1084.05pt>
+<imgs//tatakai.png, id=111, 1927.2pt x 1084.05pt>
 File: imgs//tatakai.png Graphic file (type png)
 <use imgs//tatakai.png>
-Package pdftex.def Info: imgs//tatakai.png  used on input line 180.
+Package pdftex.def Info: imgs//tatakai.png  used on input line 183.
 (pdftex.def)             Requested size: 170.71652pt x 96.02194pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--184
+Underfull \hbox (badness 10000) in paragraph at lines 179--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--184
+Underfull \hbox (badness 10000) in paragraph at lines 179--187
 
  []
 
-<imgs//takai.jpg, id=120, 421.575pt x 210.7875pt>
+<imgs//takai.jpg, id=112, 421.575pt x 210.7875pt>
 File: imgs//takai.jpg Graphic file (type jpg)
 <use imgs//takai.jpg>
-Package pdftex.def Info: imgs//takai.jpg  used on input line 196.
+Package pdftex.def Info: imgs//takai.jpg  used on input line 199.
 (pdftex.def)             Requested size: 170.71652pt x 85.35881pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--200
+Underfull \hbox (badness 10000) in paragraph at lines 197--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--200
+Underfull \hbox (badness 10000) in paragraph at lines 197--203
 
  []
 
-<imgs//fukai.jpeg, id=121, 848.16875pt x 356.33125pt>
+<imgs//fukai.jpeg, id=113, 848.16875pt x 356.33125pt>
 File: imgs//fukai.jpeg Graphic file (type jpg)
 <use imgs//fukai.jpeg>
-Package pdftex.def Info: imgs//fukai.jpeg  used on input line 212.
+Package pdftex.def Info: imgs//fukai.jpeg  used on input line 215.
 (pdftex.def)             Requested size: 170.71652pt x 71.7217pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--216
+Underfull \hbox (badness 10000) in paragraph at lines 213--219
 
  []
 
 [5 <./imgs//tatakai.png> <./imgs//takai.jpg> <./imgs//fukai.jpeg>]
 Capitolo 2.
-<imgs//althes.png, id=127, 694.595pt x 1027.84pt>
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/n' in size <7> not avail
+able
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/n' tried instead o
+n input line 235.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 235.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/n' in size <8> not avail
+able
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/n' tried instead o
+n input line 235.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 235.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/n' in size <6> not avail
+able
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/n' tried instead o
+n input line 235.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/n' will be
+(Font)              scaled to size 6.0pt on input line 235.
+<imgs//althes.png, id=119, 694.595pt x 1027.84pt>
 File: imgs//althes.png Graphic file (type png)
 <use imgs//althes.png>
-Package pdftex.def Info: imgs//althes.png  used on input line 239.
+Package pdftex.def Info: imgs//althes.png  used on input line 242.
 (pdftex.def)             Requested size: 99.58464pt x 147.36269pt.
-<imgs//althes_simbolo.png, id=128, 501.875pt x 501.875pt>
+<imgs//althes_simbolo.png, id=120, 501.875pt x 501.875pt>
 File: imgs//althes_simbolo.png Graphic file (type png)
 <use imgs//althes_simbolo.png>
-Package pdftex.def Info: imgs//althes_simbolo.png  used on input line 240.
+Package pdftex.def Info: imgs//althes_simbolo.png  used on input line 243.
 (pdftex.def)             Requested size: 128.0374pt x 128.03386pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--241
+Underfull \hbox (badness 10000) in paragraph at lines 240--244
 
  []
 
 
-Overfull \hbox (2.22166pt too wide) in paragraph at lines 237--241
+Overfull \hbox (1.45499pt too wide) in paragraph at lines 240--244
 [] [] 
  []
 
-<imgs//asvahal.jpg, id=129, 727.71875pt x 779.91376pt>
+<imgs//asvahal.jpg, id=121, 727.71875pt x 779.91376pt>
 File: imgs//asvahal.jpg Graphic file (type jpg)
 <use imgs//asvahal.jpg>
-Package pdftex.def Info: imgs//asvahal.jpg  used on input line 244.
+Package pdftex.def Info: imgs//asvahal.jpg  used on input line 247.
 (pdftex.def)             Requested size: 99.58464pt x 106.72377pt.
-<imgs//asvahal_simbolo.jpg, id=130, 325.215pt x 325.215pt>
+<imgs//asvahal_simbolo.jpg, id=122, 325.215pt x 325.215pt>
 File: imgs//asvahal_simbolo.jpg Graphic file (type jpg)
 <use imgs//asvahal_simbolo.jpg>
-Package pdftex.def Info: imgs//asvahal_simbolo.jpg  used on input line 245.
+Package pdftex.def Info: imgs//asvahal_simbolo.jpg  used on input line 248.
 (pdftex.def)             Requested size: 85.35826pt x 85.3578pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--246
+Underfull \hbox (badness 10000) in paragraph at lines 245--249
 
  []
 
-<imgs//bharbhero.jpg, id=131, 319.1925pt x 404.51125pt>
+<imgs//bharbhero.jpg, id=123, 319.1925pt x 404.51125pt>
 File: imgs//bharbhero.jpg Graphic file (type jpg)
 <use imgs//bharbhero.jpg>
-Package pdftex.def Info: imgs//bharbhero.jpg  used on input line 249.
+Package pdftex.def Info: imgs//bharbhero.jpg  used on input line 252.
 (pdftex.def)             Requested size: 99.58464pt x 126.19958pt.
-<imgs//bharbhero_symbol.png, id=132, 803.0pt x 722.7pt>
+<imgs//bharbhero_symbol.png, id=124, 803.0pt x 722.7pt>
 File: imgs//bharbhero_symbol.png Graphic file (type png)
 <use imgs//bharbhero_symbol.png>
-Package pdftex.def Info: imgs//bharbhero_symbol.png  used on input line 250.
+Package pdftex.def Info: imgs//bharbhero_symbol.png  used on input line 253.
 (pdftex.def)             Requested size: 85.35826pt x 76.81755pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--251
+Underfull \hbox (badness 10000) in paragraph at lines 250--254
 
  []
 
-<imgs//byroe.jpeg, id=133, 497.86pt x 628.3475pt>
+<imgs//byroe.jpeg, id=125, 497.86pt x 628.3475pt>
 File: imgs//byroe.jpeg Graphic file (type jpg)
 <use imgs//byroe.jpeg>
-Package pdftex.def Info: imgs//byroe.jpeg  used on input line 254.
+Package pdftex.def Info: imgs//byroe.jpeg  used on input line 257.
 (pdftex.def)             Requested size: 99.58464pt x 125.68645pt.
-<imgs//byroe_simbolo.png, id=134, 271.0125pt x 302.12875pt>
+<imgs//byroe_simbolo.png, id=126, 271.0125pt x 302.12875pt>
 File: imgs//byroe_simbolo.png Graphic file (type png)
 <use imgs//byroe_simbolo.png>
-Package pdftex.def Info: imgs//byroe_simbolo.png  used on input line 255.
+Package pdftex.def Info: imgs//byroe_simbolo.png  used on input line 258.
 (pdftex.def)             Requested size: 85.35826pt x 95.15723pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--256
+Underfull \hbox (badness 10000) in paragraph at lines 255--259
 
  []
 
@@ -1037,83 +1188,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--256
 
  <./imgs//althes.png> <./imgs//althes_simbolo.png> <./imgs//asvahal.jpg> <./img
 s//asvahal_simbolo.jpg> <./imgs//bharbhero.jpg> <./imgs//bharbhero_symbol.png>]
-<imgs//chaahad.jpeg, id=147, 96.36pt x 95.8782pt>
+<imgs//chaahad.jpeg, id=136, 96.36pt x 95.8782pt>
 File: imgs//chaahad.jpeg Graphic file (type jpg)
 <use imgs//chaahad.jpeg>
-Package pdftex.def Info: imgs//chaahad.jpeg  used on input line 259.
+Package pdftex.def Info: imgs//chaahad.jpeg  used on input line 262.
 (pdftex.def)             Requested size: 113.81102pt x 113.24207pt.
-<imgs//chaahad_simbolo.png, id=148, 501.875pt x 452.69125pt>
+<imgs//chaahad_simbolo.png, id=137, 501.875pt x 452.69125pt>
 File: imgs//chaahad_simbolo.png Graphic file (type png)
 <use imgs//chaahad_simbolo.png>
-Package pdftex.def Info: imgs//chaahad_simbolo.png  used on input line 260.
+Package pdftex.def Info: imgs//chaahad_simbolo.png  used on input line 263.
 (pdftex.def)             Requested size: 85.35826pt x 76.99103pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--261
+Underfull \hbox (badness 10000) in paragraph at lines 260--264
 
  []
 
-<imgs//ccc.jpeg, id=149, 1027.84pt x 1027.84pt>
+<imgs//ccc.jpeg, id=138, 1027.84pt x 1027.84pt>
 File: imgs//ccc.jpeg Graphic file (type jpg)
 <use imgs//ccc.jpeg>
-Package pdftex.def Info: imgs//ccc.jpeg  used on input line 264.
+Package pdftex.def Info: imgs//ccc.jpeg  used on input line 267.
 (pdftex.def)             Requested size: 113.81102pt x 113.79987pt.
-<imgs//ccc_simbolo.png, id=150, 501.875pt x 501.875pt>
+<imgs//ccc_simbolo.png, id=139, 501.875pt x 501.875pt>
 File: imgs//ccc_simbolo.png Graphic file (type png)
 <use imgs//ccc_simbolo.png>
-Package pdftex.def Info: imgs//ccc_simbolo.png  used on input line 265.
+Package pdftex.def Info: imgs//ccc_simbolo.png  used on input line 268.
 (pdftex.def)             Requested size: 113.81102pt x 113.80533pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--266
+Underfull \hbox (badness 10000) in paragraph at lines 265--269
 
  []
 
 
-Overfull \hbox (2.22166pt too wide) in paragraph at lines 262--266
+Overfull \hbox (1.45499pt too wide) in paragraph at lines 265--269
 [] [] 
  []
 
-<imgs//coepius.jpg, id=151, 602.25pt x 569.87906pt>
+<imgs//coepius.jpg, id=140, 602.25pt x 569.87906pt>
 File: imgs//coepius.jpg Graphic file (type jpg)
 <use imgs//coepius.jpg>
-Package pdftex.def Info: imgs//coepius.jpg  used on input line 269.
+Package pdftex.def Info: imgs//coepius.jpg  used on input line 272.
 (pdftex.def)             Requested size: 99.58464pt x 94.22598pt.
-<imgs//coepius_simbolo.png, id=152, 36.91954pt x 32.6738pt>
+<imgs//coepius_simbolo.png, id=141, 36.91954pt x 32.6738pt>
 File: imgs//coepius_simbolo.png Graphic file (type png)
 <use imgs//coepius_simbolo.png>
-Package pdftex.def Info: imgs//coepius_simbolo.png  used on input line 270.
+Package pdftex.def Info: imgs//coepius_simbolo.png  used on input line 273.
 (pdftex.def)             Requested size: 99.58464pt x 88.14507pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--271
+Underfull \hbox (badness 10000) in paragraph at lines 270--274
 
  []
 
-<imgs//dictum.jpeg, id=153, 1027.84pt x 1027.84pt>
+<imgs//dictum.jpeg, id=142, 1027.84pt x 1027.84pt>
 File: imgs//dictum.jpeg Graphic file (type jpg)
 <use imgs//dictum.jpeg>
-Package pdftex.def Info: imgs//dictum.jpeg  used on input line 274.
+Package pdftex.def Info: imgs//dictum.jpeg  used on input line 277.
 (pdftex.def)             Requested size: 99.58464pt x 99.57489pt.
-<imgs//dictum_simbolo.png, id=154, 579.16376pt x 434.62375pt>
+<imgs//dictum_simbolo.png, id=143, 579.16376pt x 434.62375pt>
 File: imgs//dictum_simbolo.png Graphic file (type png)
 <use imgs//dictum_simbolo.png>
-Package pdftex.def Info: imgs//dictum_simbolo.png  used on input line 275.
+Package pdftex.def Info: imgs//dictum_simbolo.png  used on input line 278.
 (pdftex.def)             Requested size: 99.58464pt x 74.7273pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--276
+Underfull \hbox (badness 10000) in paragraph at lines 275--279
 
  []
 
-<imgs//djenl.png, id=155, 722.7pt x 883.3pt>
+<imgs//djenl.png, id=144, 722.7pt x 883.3pt>
 File: imgs//djenl.png Graphic file (type png)
 <use imgs//djenl.png>
-Package pdftex.def Info: imgs//djenl.png  used on input line 279.
+Package pdftex.def Info: imgs//djenl.png  used on input line 282.
 (pdftex.def)             Requested size: 113.81102pt x 139.09352pt.
-<imgs//djenl_simbolo.jpeg, id=156, 1027.84pt x 1027.84pt>
+<imgs//djenl_simbolo.jpeg, id=145, 1027.84pt x 1027.84pt>
 File: imgs//djenl_simbolo.jpeg Graphic file (type jpg)
 <use imgs//djenl_simbolo.jpeg>
-Package pdftex.def Info: imgs//djenl_simbolo.jpeg  used on input line 280.
+Package pdftex.def Info: imgs//djenl_simbolo.jpeg  used on input line 283.
 (pdftex.def)             Requested size: 85.35826pt x 85.3499pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--281
+Underfull \hbox (badness 10000) in paragraph at lines 280--284
 
  []
 
@@ -1121,93 +1272,93 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--281
 mgs//chaahad_simbolo.png> <./imgs//ccc.jpeg> <./imgs//ccc_simbolo.png> <./imgs/
 /coepius.jpg> <./imgs//coepius_simbolo.png> <./imgs//dictum.jpeg> <./imgs//dict
 um_simbolo.png>]
-<imgs//fjorsh.jpg, id=165, 3262.1875pt x 4896.2925pt>
+<imgs//fjorsh.jpg, id=154, 3262.1875pt x 4896.2925pt>
 File: imgs//fjorsh.jpg Graphic file (type jpg)
 <use imgs//fjorsh.jpg>
-Package pdftex.def Info: imgs//fjorsh.jpg  used on input line 284.
+Package pdftex.def Info: imgs//fjorsh.jpg  used on input line 287.
 (pdftex.def)             Requested size: 99.58464pt x 149.42262pt.
-<imgs//fjorsh_simbolo.jpeg, id=166, 1027.84pt x 1027.84pt>
+<imgs//fjorsh_simbolo.jpeg, id=155, 1027.84pt x 1027.84pt>
 File: imgs//fjorsh_simbolo.jpeg Graphic file (type jpg)
 <use imgs//fjorsh_simbolo.jpeg>
-Package pdftex.def Info: imgs//fjorsh_simbolo.jpeg  used on input line 285.
+Package pdftex.def Info: imgs//fjorsh_simbolo.jpeg  used on input line 288.
 (pdftex.def)             Requested size: 99.58464pt x 99.57489pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--286
+Underfull \hbox (badness 10000) in paragraph at lines 285--289
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--286
+Underfull \hbox (badness 10000) in paragraph at lines 285--289
 
  []
 
-<imgs//hnana.jpeg, id=167, 1247.66125pt x 1340.00626pt>
+<imgs//hnana.jpeg, id=156, 1247.66125pt x 1340.00626pt>
 File: imgs//hnana.jpeg Graphic file (type jpg)
 <use imgs//hnana.jpeg>
-Package pdftex.def Info: imgs//hnana.jpeg  used on input line 290.
+Package pdftex.def Info: imgs//hnana.jpeg  used on input line 293.
 (pdftex.def)             Requested size: 113.81102pt x 122.2311pt.
-<imgs//hnana_simbolo.jpeg, id=168, 694.595pt x 645.41125pt>
+<imgs//hnana_simbolo.jpeg, id=157, 694.595pt x 645.41125pt>
 File: imgs//hnana_simbolo.jpeg Graphic file (type jpg)
 <use imgs//hnana_simbolo.jpeg>
-Package pdftex.def Info: imgs//hnana_simbolo.jpeg  used on input line 291.
+Package pdftex.def Info: imgs//hnana_simbolo.jpeg  used on input line 294.
 (pdftex.def)             Requested size: 85.35826pt x 79.30731pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--292
+Underfull \hbox (badness 10000) in paragraph at lines 290--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--292
+Underfull \hbox (badness 10000) in paragraph at lines 290--295
 
  []
 
-<imgs//huaifu.jpeg, id=169, 496.85625pt x 642.4pt>
+<imgs//huaifu.jpeg, id=158, 496.85625pt x 642.4pt>
 File: imgs//huaifu.jpeg Graphic file (type jpg)
 <use imgs//huaifu.jpeg>
-Package pdftex.def Info: imgs//huaifu.jpeg  used on input line 295.
+Package pdftex.def Info: imgs//huaifu.jpeg  used on input line 298.
 (pdftex.def)             Requested size: 99.58464pt x 128.75218pt.
-<imgs//huaifu_simbolo.png, id=170, 2007.5pt x 2007.5pt>
+<imgs//huaifu_simbolo.png, id=159, 2007.5pt x 2007.5pt>
 File: imgs//huaifu_simbolo.png Graphic file (type png)
 <use imgs//huaifu_simbolo.png>
-Package pdftex.def Info: imgs//huaifu_simbolo.png  used on input line 296.
+Package pdftex.def Info: imgs//huaifu_simbolo.png  used on input line 299.
 (pdftex.def)             Requested size: 113.81102pt x 113.79767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--297
+Underfull \hbox (badness 10000) in paragraph at lines 296--300
 
  []
 
-<imgs//immaru.jpg, id=171, 738.76pt x 844.15375pt>
+<imgs//immaru.jpg, id=160, 738.76pt x 844.15375pt>
 File: imgs//immaru.jpg Graphic file (type jpg)
 <use imgs//immaru.jpg>
-Package pdftex.def Info: imgs//immaru.jpg  used on input line 300.
+Package pdftex.def Info: imgs//immaru.jpg  used on input line 303.
 (pdftex.def)             Requested size: 99.58464pt x 113.78839pt.
-<imgs//immaru_simbolo.jpg, id=172, 1029.8475pt x 983.675pt>
+<imgs//immaru_simbolo.jpg, id=161, 1029.8475pt x 983.675pt>
 File: imgs//immaru_simbolo.jpg Graphic file (type jpg)
 <use imgs//immaru_simbolo.jpg>
-Package pdftex.def Info: imgs//immaru_simbolo.jpg  used on input line 301.
+Package pdftex.def Info: imgs//immaru_simbolo.jpg  used on input line 304.
 (pdftex.def)             Requested size: 85.35826pt x 81.51741pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--302
+Underfull \hbox (badness 10000) in paragraph at lines 301--305
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--302
+Underfull \hbox (badness 10000) in paragraph at lines 301--305
 
  []
 
-<imgs//kygeus.jpeg, id=173, 511.9125pt x 569.12625pt>
+<imgs//kygeus.jpeg, id=162, 511.9125pt x 569.12625pt>
 File: imgs//kygeus.jpeg Graphic file (type jpg)
 <use imgs//kygeus.jpeg>
-Package pdftex.def Info: imgs//kygeus.jpeg  used on input line 307.
+Package pdftex.def Info: imgs//kygeus.jpeg  used on input line 310.
 (pdftex.def)             Requested size: 99.58464pt x 110.7143pt.
-<imgs//kygeus_simbolo.jpg, id=174, 904.37875pt x 1048.91875pt>
+<imgs//kygeus_simbolo.jpg, id=163, 904.37875pt x 1048.91875pt>
 File: imgs//kygeus_simbolo.jpg Graphic file (type jpg)
 <use imgs//kygeus_simbolo.jpg>
-Package pdftex.def Info: imgs//kygeus_simbolo.jpg  used on input line 308.
+Package pdftex.def Info: imgs//kygeus_simbolo.jpg  used on input line 311.
 (pdftex.def)             Requested size: 85.35826pt x 98.9921pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--309
+Underfull \hbox (badness 10000) in paragraph at lines 306--312
 
  []
 
@@ -1215,73 +1366,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--309
 s//fjorsh_simbolo.jpeg> <./imgs//hnana.jpeg> <./imgs//hnana_simbolo.jpeg> <./im
 gs//huaifu.jpeg> <./imgs//huaifu_simbolo.png> <./imgs//immaru.jpg> <./imgs//imm
 aru_simbolo.jpg>]
-<imgs//lialgha.jpeg, id=180, 1606.0pt x 1902.10625pt>
+<imgs//lialgha.jpeg, id=169, 1606.0pt x 1902.10625pt>
 File: imgs//lialgha.jpeg Graphic file (type jpg)
 <use imgs//lialgha.jpeg>
-Package pdftex.def Info: imgs//lialgha.jpeg  used on input line 313.
+Package pdftex.def Info: imgs//lialgha.jpeg  used on input line 316.
 (pdftex.def)             Requested size: 99.58464pt x 117.92355pt.
-<imgs//lialgha_simbolo.jpeg, id=181, 602.25pt x 622.325pt>
+<imgs//lialgha_simbolo.jpeg, id=170, 602.25pt x 622.325pt>
 File: imgs//lialgha_simbolo.jpeg Graphic file (type jpg)
 <use imgs//lialgha_simbolo.jpeg>
-Package pdftex.def Info: imgs//lialgha_simbolo.jpeg  used on input line 314.
+Package pdftex.def Info: imgs//lialgha_simbolo.jpeg  used on input line 317.
 (pdftex.def)             Requested size: 85.35826pt x 88.19794pt.
-<imgs//mona1.jpeg, id=182, 642.4pt x 732.7375pt>
+<imgs//mona1.jpeg, id=171, 642.4pt x 732.7375pt>
 File: imgs//mona1.jpeg Graphic file (type jpg)
 <use imgs//mona1.jpeg>
-Package pdftex.def Info: imgs//mona1.jpeg  used on input line 318.
+Package pdftex.def Info: imgs//mona1.jpeg  used on input line 321.
 (pdftex.def)             Requested size: 113.81102pt x 129.80745pt.
-<imgs//moohona_simbolo.jpg, id=183, 62.1522pt x 86.724pt>
+<imgs//moohona_simbolo.jpg, id=172, 62.1522pt x 86.724pt>
 File: imgs//moohona_simbolo.jpg Graphic file (type jpg)
 <use imgs//moohona_simbolo.jpg>
-Package pdftex.def Info: imgs//moohona_simbolo.jpg  used on input line 319.
+Package pdftex.def Info: imgs//moohona_simbolo.jpg  used on input line 322.
 (pdftex.def)             Requested size: 85.35826pt x 119.1102pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--323
 
  []
 
-<imgs//pathon.jpg, id=184, 578.16pt x 770.88pt>
+<imgs//pathon.jpg, id=173, 578.16pt x 770.88pt>
 File: imgs//pathon.jpg Graphic file (type jpg)
 <use imgs//pathon.jpg>
-Package pdftex.def Info: imgs//pathon.jpg  used on input line 323.
+Package pdftex.def Info: imgs//pathon.jpg  used on input line 326.
 (pdftex.def)             Requested size: 99.58464pt x 132.77698pt.
-<imgs//pathon_simbolo.png, id=185, 464.73625pt x 501.875pt>
+<imgs//pathon_simbolo.png, id=174, 464.73625pt x 501.875pt>
 File: imgs//pathon_simbolo.png Graphic file (type png)
 <use imgs//pathon_simbolo.png>
-Package pdftex.def Info: imgs//pathon_simbolo.png  used on input line 324.
+Package pdftex.def Info: imgs//pathon_simbolo.png  used on input line 327.
 (pdftex.def)             Requested size: 99.58464pt x 107.54109pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--325
+Underfull \hbox (badness 10000) in paragraph at lines 324--328
 
  []
 
-<imgs//sathona.jpeg, id=186, 495.8525pt x 668.4975pt>
+<imgs//sathona.jpeg, id=175, 495.8525pt x 668.4975pt>
 File: imgs//sathona.jpeg Graphic file (type jpg)
 <use imgs//sathona.jpeg>
-Package pdftex.def Info: imgs//sathona.jpeg  used on input line 328.
+Package pdftex.def Info: imgs//sathona.jpeg  used on input line 331.
 (pdftex.def)             Requested size: 85.35826pt x 115.07112pt.
-<imgs//sathona_simbolo.png, id=187, 260.975pt x 254.9525pt>
+<imgs//sathona_simbolo.png, id=176, 260.975pt x 254.9525pt>
 File: imgs//sathona_simbolo.png Graphic file (type png)
 <use imgs//sathona_simbolo.png>
-Package pdftex.def Info: imgs//sathona_simbolo.png  used on input line 329.
+Package pdftex.def Info: imgs//sathona_simbolo.png  used on input line 332.
 (pdftex.def)             Requested size: 85.35826pt x 83.38765pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--330
+Underfull \hbox (badness 10000) in paragraph at lines 329--333
 
  []
 
-<imgs//tahia.jpg, id=188, 1023.825pt x 1284.8pt>
+<imgs//tahia.jpg, id=177, 1023.825pt x 1284.8pt>
 File: imgs//tahia.jpg Graphic file (type jpg)
 <use imgs//tahia.jpg>
-Package pdftex.def Info: imgs//tahia.jpg  used on input line 334.
+Package pdftex.def Info: imgs//tahia.jpg  used on input line 337.
 (pdftex.def)             Requested size: 99.58464pt x 124.95872pt.
-<imgs//tahia_simbolo.png, id=189, 260.975pt x 254.9525pt>
+<imgs//tahia_simbolo.png, id=178, 260.975pt x 254.9525pt>
 File: imgs//tahia_simbolo.png Graphic file (type png)
 <use imgs//tahia_simbolo.png>
-Package pdftex.def Info: imgs//tahia_simbolo.png  used on input line 335.
+Package pdftex.def Info: imgs//tahia_simbolo.png  used on input line 338.
 (pdftex.def)             Requested size: 85.35826pt x 83.38765pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--336
+Underfull \hbox (badness 10000) in paragraph at lines 334--339
 
  []
 
@@ -1289,69 +1440,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 331--336
 /imgs//lialgha_simbolo.jpeg> <./imgs//mona1.jpeg> <./imgs//moohona_simbolo.jpg>
  <./imgs//pathon.jpg> <./imgs//pathon_simbolo.png> <./imgs//sathona.jpeg> <./im
 gs//sathona_simbolo.png>]
-<imgs//talas.png, id=195, 235.88126pt x 301.125pt>
+<imgs//talas.png, id=184, 235.88126pt x 301.125pt>
 File: imgs//talas.png Graphic file (type png)
 <use imgs//talas.png>
-Package pdftex.def Info: imgs//talas.png  used on input line 340.
+Package pdftex.def Info: imgs//talas.png  used on input line 343.
 (pdftex.def)             Requested size: 99.58464pt x 127.12868pt.
-<imgs//talas_simbolo.png, id=196, 501.875pt x 501.875pt>
+<imgs//talas_simbolo.png, id=185, 501.875pt x 501.875pt>
 File: imgs//talas_simbolo.png Graphic file (type png)
 <use imgs//talas_simbolo.png>
-Package pdftex.def Info: imgs//talas_simbolo.png  used on input line 341.
+Package pdftex.def Info: imgs//talas_simbolo.png  used on input line 344.
 (pdftex.def)             Requested size: 102.43008pt x 102.42555pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--342
+Underfull \hbox (badness 10000) in paragraph at lines 340--345
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--342
+Underfull \hbox (badness 10000) in paragraph at lines 340--345
 
  []
 
-<imgs//whestfalia.png, id=197, 427.5975pt x 596.2275pt>
+<imgs//whestfalia.png, id=186, 427.5975pt x 596.2275pt>
 File: imgs//whestfalia.png Graphic file (type png)
 <use imgs//whestfalia.png>
-Package pdftex.def Info: imgs//whestfalia.png  used on input line 345.
+Package pdftex.def Info: imgs//whestfalia.png  used on input line 348.
 (pdftex.def)             Requested size: 85.35826pt x 119.01595pt.
-<imgs//whestfalia_simbolo.jpeg, id=198, 246.6816pt x 238.491pt>
+<imgs//whestfalia_simbolo.jpeg, id=187, 246.6816pt x 238.491pt>
 File: imgs//whestfalia_simbolo.jpeg Graphic file (type jpg)
 <use imgs//whestfalia_simbolo.jpeg>
-Package pdftex.def Info: imgs//whestfalia_simbolo.jpeg  used on input line 346.
+Package pdftex.def Info: imgs//whestfalia_simbolo.jpeg  used on input line 349.
 
 (pdftex.def)             Requested size: 99.58464pt x 96.27536pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--347
+Underfull \hbox (badness 10000) in paragraph at lines 346--350
 
  []
 
-<imgs//wrhat.jpeg, id=199, 829.0975pt x 1082.0425pt>
+<imgs//wrhat.jpeg, id=188, 829.0975pt x 1082.0425pt>
 File: imgs//wrhat.jpeg Graphic file (type jpg)
 <use imgs//wrhat.jpeg>
-Package pdftex.def Info: imgs//wrhat.jpeg  used on input line 350.
+Package pdftex.def Info: imgs//wrhat.jpeg  used on input line 353.
 (pdftex.def)             Requested size: 99.58464pt x 129.95506pt.
-<imgs//wrhat_simbolo.jpeg, id=200, 738.76pt x 951.555pt>
+<imgs//wrhat_simbolo.jpeg, id=189, 738.76pt x 951.555pt>
 File: imgs//wrhat_simbolo.jpeg Graphic file (type jpg)
 <use imgs//wrhat_simbolo.jpeg>
-Package pdftex.def Info: imgs//wrhat_simbolo.jpeg  used on input line 351.
+Package pdftex.def Info: imgs//wrhat_simbolo.jpeg  used on input line 354.
 (pdftex.def)             Requested size: 85.35826pt x 109.94196pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--352
+Underfull \hbox (badness 10000) in paragraph at lines 351--355
 
  []
 
-<imgs//yennifer.jpg, id=201, 341.3553pt x 427.8384pt>
+<imgs//yennifer.jpg, id=190, 341.3553pt x 427.8384pt>
 File: imgs//yennifer.jpg Graphic file (type jpg)
 <use imgs//yennifer.jpg>
-Package pdftex.def Info: imgs//yennifer.jpg  used on input line 355.
+Package pdftex.def Info: imgs//yennifer.jpg  used on input line 358.
 (pdftex.def)             Requested size: 99.58464pt x 124.81418pt.
-<imgs//yennifer_simbolo.jpeg, id=202, 1027.84pt x 1027.84pt>
+<imgs//yennifer_simbolo.jpeg, id=191, 1027.84pt x 1027.84pt>
 File: imgs//yennifer_simbolo.jpeg Graphic file (type jpg)
 <use imgs//yennifer_simbolo.jpeg>
-Package pdftex.def Info: imgs//yennifer_simbolo.jpeg  used on input line 356.
+Package pdftex.def Info: imgs//yennifer_simbolo.jpeg  used on input line 359.
 (pdftex.def)             Requested size: 85.35826pt x 85.3499pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--357
+Underfull \hbox (badness 10000) in paragraph at lines 356--360
 
  []
 
@@ -1360,46 +1511,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--357
  <./imgs//wrhat.jpeg> <./imgs//wrhat_simbolo.jpeg> <./imgs//yennifer.jpg> <./im
 gs//yennifer_simbolo.jpeg>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-62.
+65.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 ) [11]
-<imgs//gizzard.jpg, id=220, 963.6pt x 770.88pt>
+<imgs//gizzard.jpg, id=209, 963.6pt x 770.88pt>
 File: imgs//gizzard.jpg Graphic file (type jpg)
 <use imgs//gizzard.jpg>
-Package pdftex.def Info: imgs//gizzard.jpg  used on input line 386.
+Package pdftex.def Info: imgs//gizzard.jpg  used on input line 389.
 (pdftex.def)             Requested size: 170.71652pt x 136.56456pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--387
+Underfull \hbox (badness 10000) in paragraph at lines 387--390
 
  []
 
-<imgs//engur.jpg, id=221, 462.528pt x 346.896pt>
+<imgs//engur.jpg, id=210, 462.528pt x 346.896pt>
 File: imgs//engur.jpg Graphic file (type jpg)
 <use imgs//engur.jpg>
-Package pdftex.def Info: imgs//engur.jpg  used on input line 391.
+Package pdftex.def Info: imgs//engur.jpg  used on input line 394.
 (pdftex.def)             Requested size: 170.71652pt x 128.0372pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--392
+Underfull \hbox (badness 10000) in paragraph at lines 392--395
 
  []
 
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/n' in size <5> not avail
+able
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/n' tried instead o
+n input line 399.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/n' will be
+(Font)              scaled to size 5.0pt on input line 399.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/sl' in size <5> not avai
+lable
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/sl' tried instead 
+on input line 400.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/sl' in size <5> no
+t available
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/it' tried instead 
+on input line 400.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/it' will be
+(Font)              scaled to size 5.0pt on input line 400.
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 400--402
 
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
-03.
+06.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 ) [12 <./imgs//gizzard.jpg> <./imgs//engur.jpg>]
 Capitolo 3.
-<imgs//monascintipietra.jpeg, id=234, 1017.8025pt x 1606.0pt>
+<imgs//monascintipietra.jpeg, id=221, 1017.8025pt x 1606.0pt>
 File: imgs//monascintipietra.jpeg Graphic file (type jpg)
 <use imgs//monascintipietra.jpeg>
-Package pdftex.def Info: imgs//monascintipietra.jpeg  used on input line 484.
+Package pdftex.def Info: imgs//monascintipietra.jpeg  used on input line 487.
 (pdftex.def)             Requested size: 170.71652pt x 269.36507pt.
 [13
 
@@ -1408,481 +1575,526 @@ Package pdftex.def Info: imgs//monascintipietra.jpeg  used on input line 484.
 ]
 Capitolo 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
-|\T1/cmr/bx/sc/14.4 Dall'Ultima Bat-ta-glia ai
- []
+Overfull \vbox (8.64095pt too high) has occurred while \output is active []
+
 
 [16
 
-] [17]
+]
 Capitolo 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 548--549
+Underfull \hbox (badness 10000) in paragraph at lines 551--552
 
  []
 
-<imgs//ruins.png, id=256, 1784.6675pt x 1003.75pt>
+<imgs//ruins.png, id=239, 1784.6675pt x 1003.75pt>
 File: imgs//ruins.png Graphic file (type png)
 <use imgs//ruins.png>
-Package pdftex.def Info: imgs//ruins.png  used on input line 550.
+Package pdftex.def Info: imgs//ruins.png  used on input line 553.
 (pdftex.def)             Requested size: 199.16928pt x 112.00569pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
 
  []
 
-<imgs//insideruins.jpg, id=257, 1927.2pt x 1128.215pt>
+<imgs//insideruins.jpg, id=240, 1927.2pt x 1128.215pt>
 File: imgs//insideruins.jpg Graphic file (type jpg)
 <use imgs//insideruins.jpg>
-Package pdftex.def Info: imgs//insideruins.jpg  used on input line 552.
+Package pdftex.def Info: imgs//insideruins.jpg  used on input line 555.
 (pdftex.def)             Requested size: 199.16928pt x 116.58101pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 552--553
+Underfull \hbox (badness 10000) in paragraph at lines 555--556
 
  []
 
-<imgs//ruinsincity.jpg, id=258, 1445.4pt x 781.92125pt>
+<imgs//ruinsincity.jpg, id=241, 1445.4pt x 781.92125pt>
 File: imgs//ruinsincity.jpg Graphic file (type jpg)
 <use imgs//ruinsincity.jpg>
-Package pdftex.def Info: imgs//ruinsincity.jpg  used on input line 554.
+Package pdftex.def Info: imgs//ruinsincity.jpg  used on input line 557.
 (pdftex.def)             Requested size: 199.16928pt x 107.7382pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 554--555
+Underfull \hbox (badness 10000) in paragraph at lines 557--558
 
  []
 
-<imgs//ruinsinwall.png, id=259, 1407.2575pt x 757.83125pt>
+<imgs//ruinsinwall.png, id=242, 1407.2575pt x 757.83125pt>
 File: imgs//ruinsinwall.png Graphic file (type png)
 <use imgs//ruinsinwall.png>
-Package pdftex.def Info: imgs//ruinsinwall.png  used on input line 556.
+Package pdftex.def Info: imgs//ruinsinwall.png  used on input line 559.
 (pdftex.def)             Requested size: 199.16928pt x 107.252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--557
+Underfull \hbox (badness 10000) in paragraph at lines 559--560
 
  []
 
-[18
+[17
 
  <./imgs//ruins.png> <./imgs//insideruins.jpg> <./imgs//ruinsincity.jpg> <./img
 s//ruinsinwall.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 562--566
+Underfull \hbox (badness 10000) in paragraph at lines 565--569
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--566
+Underfull \hbox (badness 10000) in paragraph at lines 565--569
 
  []
 
-<imgs//nord.jpg, id=265, 1927.2pt x 1197.47375pt>
+<imgs//nord.jpg, id=247, 1927.2pt x 1197.47375pt>
 File: imgs//nord.jpg Graphic file (type jpg)
 <use imgs//nord.jpg>
-Package pdftex.def Info: imgs//nord.jpg  used on input line 570.
+Package pdftex.def Info: imgs//nord.jpg  used on input line 573.
 (pdftex.def)             Requested size: 170.71652pt x 106.0687pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--573
+Underfull \hbox (badness 10000) in paragraph at lines 571--576
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--573
+Underfull \hbox (badness 10000) in paragraph at lines 571--576
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--573
+Underfull \hbox (badness 10000) in paragraph at lines 571--576
 
  []
 
-<imgs//islenici.jpg, id=266, 355.3275pt x 130.3269pt>
+<imgs//islenici.jpg, id=248, 355.3275pt x 130.3269pt>
 File: imgs//islenici.jpg Graphic file (type jpg)
 <use imgs//islenici.jpg>
-Package pdftex.def Info: imgs//islenici.jpg  used on input line 576.
+Package pdftex.def Info: imgs//islenici.jpg  used on input line 579.
 (pdftex.def)             Requested size: 170.71652pt x 62.61584pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 574--578
+Underfull \hbox (badness 10000) in paragraph at lines 577--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 574--578
+Underfull \hbox (badness 10000) in paragraph at lines 577--581
 
  []
 
-<imgs//injines.jpg, id=267, 693.792pt x 271.37386pt>
+<imgs//injines.jpg, id=249, 693.792pt x 271.37386pt>
 File: imgs//injines.jpg Graphic file (type jpg)
 <use imgs//injines.jpg>
-Package pdftex.def Info: imgs//injines.jpg  used on input line 581.
+Package pdftex.def Info: imgs//injines.jpg  used on input line 584.
 (pdftex.def)             Requested size: 170.71652pt x 66.77495pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--583
+Underfull \hbox (badness 10000) in paragraph at lines 582--586
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--583
+Underfull \hbox (badness 10000) in paragraph at lines 582--586
 
  []
 
-<imgs//arabas.jpg, id=268, 1284.8pt x 803.0pt>
+<imgs//arabas.jpg, id=250, 1284.8pt x 803.0pt>
 File: imgs//arabas.jpg Graphic file (type jpg)
 <use imgs//arabas.jpg>
-Package pdftex.def Info: imgs//arabas.jpg  used on input line 586.
+Package pdftex.def Info: imgs//arabas.jpg  used on input line 589.
 (pdftex.def)             Requested size: 170.71652pt x 106.69717pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--588
+Underfull \hbox (badness 10000) in paragraph at lines 587--591
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--588
+Underfull \hbox (badness 10000) in paragraph at lines 587--591
 
  []
 
-<imgs//egisci.jpg, id=269, 1195.06268pt x 671.29144pt>
+<imgs//egisci.jpg, id=251, 1195.06268pt x 671.29144pt>
 File: imgs//egisci.jpg Graphic file (type jpg)
 <use imgs//egisci.jpg>
-Package pdftex.def Info: imgs//egisci.jpg  used on input line 591.
+Package pdftex.def Info: imgs//egisci.jpg  used on input line 594.
 (pdftex.def)             Requested size: 170.71652pt x 95.89561pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 589--592
+Underfull \hbox (badness 10000) in paragraph at lines 592--595
 
  []
 
-<imgs//felezi.jpg, id=270, 2055.68pt x 1174.3875pt>
+<imgs//felezi.jpg, id=252, 2055.68pt x 1174.3875pt>
 File: imgs//felezi.jpg Graphic file (type jpg)
 <use imgs//felezi.jpg>
-Package pdftex.def Info: imgs//felezi.jpg  used on input line 595.
+Package pdftex.def Info: imgs//felezi.jpg  used on input line 598.
 (pdftex.def)             Requested size: 170.71652pt x 97.51894pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--597
+Underfull \hbox (badness 10000) in paragraph at lines 596--600
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--597
+Underfull \hbox (badness 10000) in paragraph at lines 596--600
 
  []
 
-<imgs//gerici.jpg, id=271, 963.6pt x 542.025pt>
+<imgs//gerici.jpg, id=253, 963.6pt x 542.025pt>
 File: imgs//gerici.jpg Graphic file (type jpg)
 <use imgs//gerici.jpg>
-Package pdftex.def Info: imgs//gerici.jpg  used on input line 600.
+Package pdftex.def Info: imgs//gerici.jpg  used on input line 603.
 (pdftex.def)             Requested size: 170.71652pt x 96.02194pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--602
+Underfull \hbox (badness 10000) in paragraph at lines 601--605
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--602
+Underfull \hbox (badness 10000) in paragraph at lines 601--605
 
  []
 
-[19 <./imgs//nord.jpg> <./imgs//islenici.jpg> <./imgs//injines.jpg> <./imgs//ar
+[18 <./imgs//nord.jpg> <./imgs//islenici.jpg> <./imgs//injines.jpg> <./imgs//ar
 abas.jpg> <./imgs//egisci.jpg> <./imgs//felezi.jpg>]
-<imgs//silvanese.png, id=276, 1003.75pt x 526.96875pt>
+<imgs//silvanese.png, id=259, 1003.75pt x 526.96875pt>
 File: imgs//silvanese.png Graphic file (type png)
 <use imgs//silvanese.png>
-Package pdftex.def Info: imgs//silvanese.png  used on input line 605.
+Package pdftex.def Info: imgs//silvanese.png  used on input line 608.
 (pdftex.def)             Requested size: 170.71652pt x 89.6237pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--606
+Underfull \hbox (badness 10000) in paragraph at lines 606--609
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--613
+Underfull \hbox (badness 10000) in paragraph at lines 612--616
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--613
+Underfull \hbox (badness 10000) in paragraph at lines 612--616
 
  []
 
-<imgs//moonaegisci.jpg, id=277, 1927.2pt x 1084.05pt>
+<imgs//moonaegisci.jpg, id=260, 1927.2pt x 1084.05pt>
 File: imgs//moonaegisci.jpg Graphic file (type jpg)
 <use imgs//moonaegisci.jpg>
-Package pdftex.def Info: imgs//moonaegisci.jpg  used on input line 614.
+Package pdftex.def Info: imgs//moonaegisci.jpg  used on input line 617.
 (pdftex.def)             Requested size: 199.16928pt x 112.01733pt.
-<imgs//islenacultures.png, id=278, 7708.8pt x 4308.095pt>
+<imgs//islenacultures.png, id=261, 7708.8pt x 4308.095pt>
 File: imgs//islenacultures.png Graphic file (type png)
 <use imgs//islenacultures.png>
-Package pdftex.def Info: imgs//islenacultures.png  used on input line 620.
+Package pdftex.def Info: imgs//islenacultures.png  used on input line 623.
 (pdftex.def)             Requested size: 512.1496pt x 286.21521pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 620--621
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 623--624
  [][] 
  []
 
-[20 <./imgs//gerici.jpg> <./imgs//silvanese.png> <./imgs//moonaegisci.jpg> <./i
-mgs//islenacultures.png>] [21]
+[19 <./imgs//gerici.jpg> <./imgs//silvanese.png> <./imgs//moonaegisci.jpg> <./i
+mgs//islenacultures.png>] [20]
 Capitolo 6.
-[22
+[21
 
-] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 753--754
-\T1/cmr/m/n/10 Clay-ho-st(M), New-to-w-n-wall(M), Cit-tà
+]
+Underfull \hbox (badness 6741) in paragraph at lines 731--732
+[]\T1/IMFELLEnglish-TLF/regular/n/10 Città: Ka-ne-da(GC), El-do-ra-do, The Ci-t
+y of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 753--754
-\T1/cmr/m/n/10 di Ze-ta (GC), Boul-se-mi(GC), Wil-
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
+[]\T1/IMFELLEnglish-TLF/regular/n/10 Città: Lao-rea(GC), Pho-ry-lis(PC), Nan-lu
+-my-
  []
 
-[24] [25] [26] [27] [28] [29]
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 756--757
+\T1/IMFELLEnglish-TLF/regular/n/10 Boul-se-mi(GC), Wil-der(PC), Ear-thill(PC), 
+Ho-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 756--757
+\T1/IMFELLEnglish-TLF/regular/n/10 ceans(PC), Sh-rou-drock(PC), Lost-ford(PC),
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 783--784
+[]\T1/IMFELLEnglish-TLF/regular/n/10 Città: Py-la-cos(GC), Po-do-po-ros(GC), Ku
+o-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 783--784
+\T1/IMFELLEnglish-TLF/regular/n/10 sis(PC), Cleo-ri-ta(PC), Mi-cro-wa-ve Oven(P
+C),
+ []
+
+[24]
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/m/n' in size <13> not avai
+lable
+(Font)              Font shape `T1/IMFELLEnglish-TLF/regular/n' tried instead o
+n input line 842.
+LaTeX Font Info:    Font shape `T1/IMFELLEnglish-TLF/regular/n' will be
+(Font)              scaled to size 13.0pt on input line 842.
+ [25]
+Underfull \hbox (badness 5954) in paragraph at lines 847--848
+\T1/IMFELLEnglish-TLF/regular/n/10 Sna-gong-view (GP), Bel-le (GP), Dray-mon-d-
+hol
+ []
+
+[26] [27]
 Capitolo 7.
-[30
+[28
 
-] [31
+] [29
 
 ]
 Capitolo 8.
-[32
+[30
 
 ]
 Capitolo 9.
-<imgs//azuril.png, id=339, 311.1625pt x 443.6575pt>
+<imgs//azuril.png, id=318, 311.1625pt x 443.6575pt>
 File: imgs//azuril.png Graphic file (type png)
 <use imgs//azuril.png>
-Package pdftex.def Info: imgs//azuril.png  used on input line 934.
+Package pdftex.def Info: imgs//azuril.png  used on input line 937.
 (pdftex.def)             Requested size: 142.26378pt x 202.8393pt.
-[33
+[31
 
- <./imgs//azuril.png>] [34]
+ <./imgs//azuril.png>] [32]
 Capitolo 10.
 
-Underfull \hbox (badness 10000) in paragraph at lines 964--968
+Underfull \hbox (badness 10000) in paragraph at lines 967--971
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 969--974
+Underfull \hbox (badness 10000) in paragraph at lines 972--977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 969--974
+Underfull \hbox (badness 10000) in paragraph at lines 972--977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 969--974
+Underfull \hbox (badness 10000) in paragraph at lines 972--977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 975--976
+Underfull \hbox (badness 10000) in paragraph at lines 978--979
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+IMFELLEnglish-TLF o
+n input line 980.
+(/usr/share/texlive/texmf-dist/tex/latex/imfellenglish/TS1IMFELLEnglish-TLF.fd
+File: TS1IMFELLEnglish-TLF.fd 2019/10/11 (autoinst) Font definitions for TS1/IM
+FELLEnglish-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/IMFELLEnglish-TLF/m/n' in size <10> not ava
+ilable
+(Font)              Font shape `TS1/IMFELLEnglish-TLF/regular/n' tried instead 
+on input line 980.
+LaTeX Font Info:    Font shape `TS1/IMFELLEnglish-TLF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 980.
+
+Underfull \hbox (badness 10000) in paragraph at lines 980--982
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 977--979
+Underfull \hbox (badness 10000) in paragraph at lines 983--984
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 980--981
+Underfull \hbox (badness 10000) in paragraph at lines 985--986
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 982--983
-
- []
-
-[35
+[33
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 991--992
+Underfull \hbox (badness 10000) in paragraph at lines 994--995
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 993--995
+Underfull \hbox (badness 10000) in paragraph at lines 996--998
 
  []
 
-<imgs//incantatrix.png, id=354, 401.5pt x 502.87875pt>
+<imgs//incantatrix.png, id=333, 401.5pt x 502.87875pt>
 File: imgs//incantatrix.png Graphic file (type png)
 <use imgs//incantatrix.png>
-Package pdftex.def Info: imgs//incantatrix.png  used on input line 996.
+Package pdftex.def Info: imgs//incantatrix.png  used on input line 999.
 (pdftex.def)             Requested size: 199.16928pt x 249.4667pt.
-[36 <./imgs//incantatrix.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1002--1003
+
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1006
+
+ []
+
+[34 <./imgs//incantatrix.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1008
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1006--1008
+Underfull \hbox (badness 10000) in paragraph at lines 1009--1011
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-1017.
+1020.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-Overfull \hbox (17.6554pt too wide) in paragraph at lines 1011--1039
+Overfull \hbox (16.88872pt too wide) in paragraph at lines 1014--1042
 []  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1011--1039
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1042
 
  []
 
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 1043--1043
-|[]\T1/cmr/bx/n/14.4 10.2[] \T1/cmr/bx/sc/14.4 Luo-go-te-nen-te del-la
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1046
+|[]\T1/IMFELLEnglish-TLF/regular/n/14.4 10.2[] \T1/IMFELLEnglish-TLF/regular/sc
+/14.4 Luo-go-te-nen-te del-la Spa-da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1052
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1053--1058
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1055
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1053--1058
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1061
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1053--1058
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1061
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1059--1060
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1061
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
+Underfull \hbox (badness 10000) in paragraph at lines 1062--1063
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1065--1066
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1067
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1067--1068
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1069
 
  []
 
-<imgs//ldsa.png, id=369, 501.875pt x 501.875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1070--1071
+
+ []
+
+<imgs//ldsa.png, id=346, 501.875pt x 501.875pt>
 File: imgs//ldsa.png Graphic file (type png)
 <use imgs//ldsa.png>
-Package pdftex.def Info: imgs//ldsa.png  used on input line 1069.
+Package pdftex.def Info: imgs//ldsa.png  used on input line 1072.
 (pdftex.def)             Requested size: 170.71652pt x 170.71947pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1072
+Underfull \hbox (badness 10000) in paragraph at lines 1074--1075
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1077
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1078--1079
 
  []
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 38 might be wrong on input line 107
-4.
+(multicol)                Footnotes on page 36 might be wrong on input line 107
+9.
 
-[38 <./imgs//ldsa.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1075--1076
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
+[36 <./imgs//ldsa.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1080--1081
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1086--1087
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1090
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1088--1089
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1090--1091
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1094
 
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 1101--1101
+Underfull \hbox (badness 2285) in paragraph at lines 1104--1104
 []\T1/cmss/m/n/10 Armatura di bril-la-nio, Do-mi-nio del-la
  []
 
 
-Overfull \hbox (23.43701pt too wide) in paragraph at lines 1095--1129
+Overfull \hbox (22.67033pt too wide) in paragraph at lines 1098--1132
 []  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1095--1129
+Underfull \hbox (badness 10000) in paragraph at lines 1098--1132
 
  []
 
-[39]
+[37]
 Capitolo 11.
-[40
+[38
 
 ] (./Guida all'ambientazione di Islena.aux)
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 24706 strings out of 476091
- 459220 string characters out of 5794081
- 1881330 words of memory out of 5000000
- 44494 multiletter control sequences out of 15000+600000
- 535825 words of font info for 74 fonts, out of 8000000 for 9000
+ 25265 strings out of 476091
+ 473018 string characters out of 5794081
+ 1886330 words of memory out of 5000000
+ 45011 multiletter control sequences out of 15000+600000
+ 602562 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,8n,90p,1847b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,8n,90p,1847b,813s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
-/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0500.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfsl0500.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-fsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfxc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-xc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc2074.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sfxc2488.pfb>
-Output written on "Guida all'ambientazione di Islena.pdf" (41 pages, 29258853 b
+/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/
+enc/dvips/imfellenglish/imfe_5cupvv.enc}{/usr/share/texlive/texmf-dist/fonts/en
+c/dvips/imfellenglish/imfe_mwjp4u.enc}{/usr/share/texlive/texmf-dist/fonts/enc/
+dvips/imfellenglish/imfe_6clpkg.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dv
+ips/imfellenglish/imfe_o7go57.enc}</usr/share/texlive/texmf-dist/fonts/type1/ig
+inomarini/imfellenglish/IM_FELL_English_Italic.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/iginomarini/imfellenglish/IM_FELL_English_Roman.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/iginomarini/imfellenglish/IM_FELL_English_SC.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sftt1000.pfb>
+Output written on "Guida all'ambientazione di Islena.pdf" (39 pages, 29501066 b
 ytes).
 PDF statistics:
- 609 PDF objects out of 1000 (max. 8388607)
- 428 compressed objects within 5 object streams
- 89 named destinations out of 1000 (max. 500000)
+ 539 PDF objects out of 1000 (max. 8388607)
+ 387 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
  669 words of extra memory for PDF output out of 10000 (max. 10000000)
 
