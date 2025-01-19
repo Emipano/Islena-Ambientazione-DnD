@@ -1,5 +1,5 @@
 
-\documentclass[a4paper]{report}
+\documentclass[10pt, a4paper]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=2cm]{geometry}
 \usepackage{graphicx}
@@ -23,15 +23,17 @@
 \usepackage{tikz}
 \usepackage{enumitem}
 \usepackage{etoolbox}
+\usepackage{imfellEnglish}
 
 % Define custom colors for the D&D theme
 \definecolor{DNDGold}{rgb}{0.698, 0.549, 0.278} % Darker Gold #B28C47
-\definecolor{DNDDarkBlue}{rgb}{0.173, 0.290, 0.365} % Darker Blue #2C4A5D
+\definecolor{DNDDarkBlue}{HTML}{4C788A} % Darker Blue #2C4A5D
 \definecolor{DNDGray}{rgb}{0.2, 0.2, 0.2} % Dark gray for text
+\definecolor{DNDWhite}{rgb}{253, 253, 253}
 
 % Custom part title format
 \titleformat{\part}[display]
-{\Huge\bfseries\color{DNDDarkBlue}\centering} % Centered, bold, dark blue font
+{\Huge\color{DNDDarkBlue}\centering} % Centered, bold, dark blue font
 {\textcolor{DNDDarkBlue}{Parte \textcolor{DNDGold}{\thepart}}} % "Parte" + part number in gold
 {0em} % No space between number and title
 {\vspace{0.5cm}\Huge\scshape} % Title in small caps
@@ -39,7 +41,7 @@
 
 % Custom chapter title format
 \titleformat{\chapter}[block]
-{\huge\bfseries\color{DNDDarkBlue}} % Slightly smaller than \part
+{\huge\color{DNDDarkBlue}} % Slightly smaller than \part
 {\textcolor{DNDGold}{\thechapter}} % Chapter number in gold
 {1em} % Space between number and title
 {\huge\scshape} % Title in small caps
@@ -47,7 +49,7 @@
 
 % Custom section title format
 \titleformat{\section}[block]
-{\Large\bfseries\color{DNDDarkBlue}} % Smaller font than \chapter
+{\Large\color{DNDDarkBlue}} % Smaller font than \chapter
 {\textcolor{DNDGold}{\thesection}} % Section number in gold
 {1em} % Space between number and title
 {\Large\scshape} % Title in small caps
@@ -56,7 +58,7 @@
 
 % Custom subsubsection title format
 \titleformat{\subsection}[block]
-{\fontsize{13}{16}\bfseries\color{DNDDarkBlue}} % Normal font, dark blue color, bold
+{\fontsize{13}{16}\color{DNDDarkBlue}} % Normal font, dark blue color, bold
 {\textcolor{DNDGold}{\thesubsection}} % Subsection number
 {1em} % Space between number and title
 {\fontsize{13}{17}\scshape}
@@ -79,6 +81,7 @@
 \DeclareUnicodeCharacter{0259}{\u{e}} % schwa
 \DeclareUnicodeCharacter{015F}{\c{s}} % s con cediglia
 
+
 \begin{document}
 	
 \begin{titlepage}
@@ -97,8 +100,8 @@
 \end{tikzpicture}
 \vspace{11.5cm}
 \par
-{\scshape\Huge \textcolor{MintCream}{\textbf{Guida \\
-			all'Ambientazione}}}
+{\Huge\scshape\textcolor{MintCream}{Guida \\
+			all'Ambientazione}}
 \vfill
 \par
 {\textbf{\textcolor{MintCream}{Manu-ale assolutamente non ufficiale}}}
@@ -106,7 +109,7 @@
 \textcolor{MintCream}{\textbf{\today}}
 \end{titlepage}
 
-\pagecolor{Ivory}
+\pagecolor{DNDWhite}
 
 %\begin{multicols}{2}
 \tableofcontents
@@ -697,7 +700,7 @@ Il Sultanato di Ajedij si estende attraverso vaste distese desertiche, la cultur
 	\item \textbf{Città: }Tasab(GC), Duwairah(GP)
 	\item \textbf{Risorse:}  bestiame, spezie, incenso, tappeti, tessuti.
 	\item \textbf{Popolazione e Cultura:} Arabas, Umani 59\%, Nani 17\%, Halfling 12\%, Mezzorchi 10\%, Altro 2\% 
-	\item \textbf{Legge:LN}
+	\item \textbf{Legge:} LN
 	\item \textbf{Situazione diplomatica: }Impegnato nell'Alleanza Triangolare insieme al Sultanato di Ajedij e All'Emirato Kstatungterkiano, basata su accordi commerciali e di non belligeranza. Alleati: Rocciafertia.
 \end{itemize}
 Al Molkha nacque dalle unioni di diverse tribù nomadi del deserto, riunite sotto un unico comando. Le leggende narrano che il primo Duca Divino ricevette una visione dalla divinità protettrice del deserto, che lo incaricò di unificare il popolo e guidarlo verso la prosperità.  La società di Al Molkha è profondamente religiosa e organizzata secondo rigidi valori tradizionali. Per secoli, i Duchi Divini hanno mantenuto stabilità e prosperità attraverso un governo giusto e rispettoso delle necessità della popolazione, equilibrando gli interessi delle tribù, distribuendo equamente le risorse, guidando così lo stato a una notevole crescita economica.
