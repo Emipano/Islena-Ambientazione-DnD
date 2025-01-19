@@ -23,7 +23,7 @@
 \usepackage{tikz}
 \usepackage{enumitem}
 \usepackage{etoolbox}
-\usepackage{imfellEnglish}
+\usepackage[nf]{coelacanth}
 
 % Define custom colors for the D&D theme
 \definecolor{DNDGold}{rgb}{0.698, 0.549, 0.278} % Darker Gold #B28C47
@@ -33,43 +33,43 @@
 
 % Custom part title format
 \titleformat{\part}[display]
-{\Huge\color{DNDDarkBlue}\centering} % Centered, bold, dark blue font
+{\Huge\bfseries\color{DNDDarkBlue}\centering} % Centered, bold, dark blue font
 {\textcolor{DNDDarkBlue}{Parte \textcolor{DNDGold}{\thepart}}} % "Parte" + part number in gold
 {0em} % No space between number and title
-{\vspace{0.5cm}\Huge\scshape} % Title in small caps
+{\vspace{0.5cm}\Huge\scshape\bfseries} % Title in small caps
 [] % Rule below title
 
 % Custom chapter title format
 \titleformat{\chapter}[block]
-{\huge\color{DNDDarkBlue}} % Slightly smaller than \part
+{\Huge\color{DNDDarkBlue}\bfseries} % Slightly smaller than \part
 {\textcolor{DNDGold}{\thechapter}} % Chapter number in gold
 {1em} % Space between number and title
-{\huge\scshape} % Title in small caps
+{\Huge\scshape\bfseries} % Title in small caps
 [\vspace{-0.16em}\titlerule] % Rule below title
 
 % Custom section title format
 \titleformat{\section}[block]
-{\Large\color{DNDDarkBlue}} % Smaller font than \chapter
+{\Large\color{DNDDarkBlue}\bfseries} % Smaller font than \chapter
 {\textcolor{DNDGold}{\thesection}} % Section number in gold
 {1em} % Space between number and title
-{\Large\scshape} % Title in small caps
+{\Large\scshape\bfseries} % Title in small caps
 [\vspace{-0.16em}\titlerule] % Thin rule below title
 
 
 % Custom subsubsection title format
 \titleformat{\subsection}[block]
-{\fontsize{13}{16}\color{DNDDarkBlue}} % Normal font, dark blue color, bold
+{\fontsize{13}{16}\color{DNDDarkBlue}\bfseries} % Normal font, dark blue color, bold
 {\textcolor{DNDGold}{\thesubsection}} % Subsection number
 {1em} % Space between number and title
-{\fontsize{13}{17}\scshape}
+{\fontsize{13}{17}\bfseries\scshape}
 [] % No rule below
 
 % Custom subsubsection title format
 \titleformat{\subsubsection}[block]
-{\large\bfseries\color{DNDDarkBlue}\bfseries} % Normal font, dark blue color, bold
+{\fontsize{11}{15}\color{DNDDarkBlue}\bfseries} % Normal font, dark blue color, bold
 {\textcolor{DNDGold}{\thesubsubsection}} % Subsubsection number
 {1em} % Space between number and title
-{\large\bfseries}
+{\fontsize{11}{15}\bfseries}
 [] % No rule below
 
 % Global configuration for itemize
@@ -100,7 +100,7 @@
 \end{tikzpicture}
 \vspace{11.5cm}
 \par
-{\Huge\scshape\textcolor{MintCream}{Guida \\
+{\Huge\scshape\bfseries\textcolor{MintCream}{Guida \\
 			all'Ambientazione}}
 \vfill
 \par
@@ -406,7 +406,7 @@ Engur, Signore delle Profondità Entropiche. È rappresentato come un minaccioso
 {\sffamily
 \begin{tabular}{||c|c||}
 \hline
-\bf	Razza & \bf Divinità\\
+\bfseries	Razza & \bfseries Divinità\\
 \hline
 Umano & Per classe e allineamento\\
 \hline
@@ -434,7 +434,7 @@ Azuril & Talas, Whest Falia o per classe e allineamento\\
 {\sffamily
 \begin{tabular}{||c|c||}
 \hline
-\bf Classe & \bf Divinità(Allineamento)\\
+\bfseries Classe & \bfseries Divinità(Allineamento)\\
 \hline
 Barbaro & Talas(CN), Wrhat(CM)\\
 \hline
@@ -567,47 +567,46 @@ Come per le divinità se avete richieste particolari si possono tranquillamente 
 \\
 Le culture principali del continente (a cui	ho dato nomi solamente per distinguerli tra di noi, in realtà non usati tra la gente di Islena che non fa proprio queste distinzioni) sono:\\
 
-\begin{itemize}
-	\item I Nord: Come dice il nome la cultura Nord è diffusa al nord di Islena, in particolare al nord-est, nelle regioni più fredde. Il carattere di questa cultura è vichinghesco e skyrimmiano, e fa riferimento alla cultura Norrena.\\
-	\\
-	\includegraphics[width=6cm]{nord.jpg}
-	\\
-	\\
-	
-	\item Gli Slenici: La cultura Slenica è quella di gran lunga più diffusa. Rappresenta la classica cultura medievalesca europea, nulla di particolare.\\
-	\\
-	\includegraphics[width=6cm]{islenici.jpg}
-	\\
-	
-	\item Gli Injines: È la cultura meno diffusa, presente solo in una regione del nord, ma sicuramente la più particolare: È infatti un misto di cultura indiana e giapponese/asiatica con elementi random spagnoleggianti.\\
-	\\
-	\includegraphics[width=6cm]{injines.jpg}
-	\\
-	
-	\item Gli Arabas: Cultura diffusa in una regione desertica, caratterizzata da elementi arabeggianti e dotraki.\\
-	\\
-	\includegraphics[width=6cm]{arabas.jpg}
-	\\
-	
-	\item Gli Egisci: Anche loro abitano una regione desertica e sono ispirati agli antichi egizi.\\
-	\\
-	\includegraphics[width=6cm]{egisci.jpg}
-	
-	\item I Felezi: Cultura diffusa in un territorio giungloso (tipo Sud America), ispirata principalmente all'antica Mesopotamia, con elementi Maya e indigeni/tribali. \\
-	\\
-	\includegraphics[width=6cm]{felezi.jpg} 
-	\\
+\subsection*{I Nord}
+Come dice il nome la cultura Nord è diffusa al nord di Islena, in particolare al nord-est, nelle regioni più fredde. Il carattere di questa cultura è vichinghesco e skyrimmiano, e fa riferimento alla cultura Norrena.\\
+\\
+\includegraphics[width=6cm]{nord.jpg}
 
-	\item I Gerici: Cultura ampiamente diffusa sulle coste orientali. È la cultura caratterizzata dagli elementi steam-punk, di cui si è già parlato, su una base simile all'antica Grecia ma un po' più sobria. Ripeto che la roba steam-punk è in secondo piano e è molto più legata alla magia che alla scienza.\\
-	\\
-	\includegraphics[width=6cm]{gerici.jpg}	
-	\\
+\subsection*{Gli Slenici}
+La cultura Slenica è quella di gran lunga più diffusa. Rappresenta la classica cultura medievalesca europea, nulla di particolare.\\
+\\
+\includegraphics[width=6cm]{islenici.jpg}
 
-	\item I Silvanesi: La cultura silvanese è diffusa in aree boschive e fortestal del sud-est e sud-ovest. È ispirata alla classica architettura elfica tipo Lord of the Rings, ma non è esclusiva agli elfi, anche se molto presenti in queste zone.\\
-	\\
-	\includegraphics[width=6cm]{silvanese.png}
-\end{itemize}
-\vspace{4cm}
+\subsection*{Gli Injines}
+È la cultura meno diffusa, presente solo in una regione del nord, ma sicuramente la più particolare: È infatti un misto di cultura indiana e giapponese/asiatica con elementi random spagnoleggianti.\\
+\\
+\includegraphics[width=6cm]{injines.jpg}
+
+\subsection*{Gli Arabas}
+Cultura diffusa in una regione desertica, caratterizzata da elementi arabeggianti e dotraki.\\
+\\
+\includegraphics[width=6cm]{arabas.jpg}
+
+\subsection*{Gli Egisci}
+Anche loro abitano una regione desertica e sono ispirati agli antichi egizi.\\
+\\
+\includegraphics[width=6cm]{egisci.jpg}
+
+\subsection*{I Felezi}
+Cultura diffusa in un territorio giungloso (tipo Sud America), ispirata principalmente all'antica Mesopotamia, con elementi Maya e indigeni/tribali. \\
+\\
+\includegraphics[width=6cm]{felezi.jpg} 
+
+\subsection*{I Gerici}
+Cultura ampiamente diffusa sulle coste orientali. È la cultura caratterizzata dagli elementi steam-punk, di cui si è già parlato, su una base simile all'antica Grecia ma un po' più sobria. Ripeto che la roba steam-punk è in secondo piano e è molto più legata alla magia che alla scienza.\\
+\\
+\includegraphics[width=6cm]{gerici.jpg}	
+
+\subsection*{I Silvanesi}
+La cultura silvanese è diffusa in aree boschive e fortestal del sud-est e sud-ovest. È ispirata alla classica architettura elfica tipo Lord of the Rings, ma non è esclusiva agli elfi, anche se molto presenti in queste zone.\\
+\\
+\includegraphics[width=6cm]{silvanese.png}
+
 \subsection*{Divinità e Culture}
 Ci tengo a specificare che le divinità sono le stesse in tutto il continente, ciò che può variare sono le rappresentazioni di esse da parte di ciascuna cultura. \\
 Ad esempio una rappresentazione egiscia di Moohona potrebbe essere qualcosa del genere:\\
@@ -616,7 +615,7 @@ Ad esempio una rappresentazione egiscia di Moohona potrebbe essere qualcosa del 
 
 \includegraphics[width=7cm]{moonaegisci.jpg}
 \end{multicols}
-\vspace{1cm}
+
 \subsection{Mappa delle Culture di Islena}
 \begin{figure}[h!]
 	\centering
@@ -640,7 +639,7 @@ Ad esempio una rappresentazione egiscia di Moohona potrebbe essere qualcosa del 
 	\begin{table}[h]
 		\centering
 		\begin{tabular}{||ccc||}
-			\bf Giorno & & \bf Attività\\
+			\textbf{Giorno} & & \textbf{Attività}\\
 			Kygedì & & Lavoro\\
 			Hnanedì & & Lavoro\\
 			Huaifedì & & Lavoro\\
@@ -654,7 +653,7 @@ Ad esempio una rappresentazione egiscia di Moohona potrebbe essere qualcosa del 
 	\begin{table}[h]
 		\centering
 		\begin{tabular}{||ccc||}
-			\bf Mese/Festività  & & \bf Stagione \\
+			\textbf{Mese/Festività}  & & \textbf{Stagione} \\
 			Levante & & Inverno\\
 			Fresco/Giorni Scarlatti & & Inverno/Primavera\\
 			Risveglio & & Primavera\\
@@ -907,11 +906,11 @@ Chissà se questo capitolo verrà mai scritto...
 \begin{multicols}{2}
 
 \section{Scoprire trappole}
-Una meccanica terribile di D\&D 3.5 è la ricerca delle trappole, è una palla dover cercare in ogni quadretto, con una prova singola per ogni quadretto ecc.
+Una meccanica terribile di D\&D $3.5$ è la ricerca delle trappole, è una palla dover cercare in ogni quadretto, con una prova singola per ogni quadretto ecc.
 Quindi si attueranno questi cambiamenti:
 \begin{itemize}
-	\item Un personaggio che non ha l'abilità di \textit{Scoprire Trappole} dovrà volontariamente effettuare una prova di Cercare per scovare trappole con CD 20 o inferiore in una zona. Basta una prova per cercare tutte le trappole in una data area. Se nella stessa area ci sono più trappole, verranno trovate solo quelle di cui si è passata la CD.
-	\item Un personaggio che possiede l'abilità di \textit{Scoprire Trappole} (o un nano che affronta trappole di pietra) che passa entro un raggio di 1.5m da una trappola con CD 20 o inferiore può individuarla automaticamente se la prova passiva, pari a 10 + Modificatore di Cercare, supera la CD della trappola. Altrimenti può scegliere di perlustrare attentamente una zona con una prova di Cercare, in questo caso ha la possibilità di trovare anche trappole con CD superiore a 20.
+	\item Un personaggio che non ha l'abilità di \textit{Scoprire Trappole} dovrà volontariamente effettuare una prova di Cercare per scovare trappole con CD $20$ o inferiore in una zona. Basta una prova per cercare tutte le trappole in una data area. Se nella stessa area ci sono più trappole, verranno trovate solo quelle di cui si è passata la CD.
+	\item Un personaggio che possiede l'abilità di \textit{Scoprire Trappole} (o un nano che affronta trappole di pietra) che passa entro un raggio di 1.5m da una trappola con CD $20$ o inferiore può individuarla automaticamente se la prova passiva, pari a $10$ + Modificatore di Cercare, supera la CD della trappola. Altrimenti può scegliere di perlustrare attentamente una zona con una prova di Cercare, in questo caso ha la possibilità di trovare anche trappole con CD superiore a $20$.
 \end{itemize}
 
 \section{Metamagia}
@@ -966,14 +965,14 @@ Lontani parenti degli umani, gli Azuril sono esperti pescatori e commercianti, d
 \subsubsection*{Requisiti}
 \textbf{Abilità:} Concentrazione 4 gradi, Conoscenze (Arcane) 8 gradi, Sapienza Magica 8 gradi\\
 \textbf{Talenti:} Volontà di Ferro, un qualsiasi talento di metamagia\\
-\textbf{Incantesimi:} Abilità di lanciare incantesimi arcani di livello 3\\
+\textbf{Incantesimi:} Abilità di lanciare incantesimi arcani di terzo livello\\
 \textbf{Speciale:} Il candidato non può avere Abiurazione come scuola proibita\\
 \subsubsection*{Privilegi di Classe}
-\textbf{Dado Vita:} d4\\
+\textbf{Dado Vita:} d$4$\\
 \\
 \textbf{Abilità di Classe:} Artigianato (Int), Concentrazione (Cos), Conoscenze (arcane, piani) (Int), Guarire (Sag), Intimidire (Car), Professione (Sag), Sapienza Magica (Int)\\
 \\
-\textbf{Punti abilità per livello:} 2 + modificatore di Int\\
+\textbf{Punti abilità per livello:} $2$ + modificatore di Int\\
 
 \textbf{Competenza nelle Armi e nelle Armature:} Le incantatrix non ottengono alcuna competenza nell'uso di armi, armature o scudi. In caso di armature più pesanti delle armature in cuoio vengono applicate le penalità di armatura alle prove di Acrobazia, Artista della Fuga, Equilibrio, Muoversi Silenziosamente, Nascondersi, Rapidità di Mano, Saltare e Scalare, e viene applicata una doppia penalità di armatura alle prove di Nuotare.\\
 
@@ -986,10 +985,10 @@ Se un personaggio apparteneva a più di una classe di incantatori arcani che con
 
 \textbf{Trucchi metamagici:} Un'incantatrix può usare un trucco metamagico un numero di volte al giorno pari a 1 + Mod Int. Un'incantatrix conosce i seguenti trucchi metamagici:
 
-\textit{Metamagia collaborativa (Sop):} Al 2° livello, un incantatrix acquisisce la capacità di applicare qualsiasi talento di metamagia posseduto (fatta eccezione per Incantesimi Immobili, Rapidi o Silenziosi) a un incantesimo lanciato da un incantatore alleato e consenziente. L'incantatore non ha bisogno di preparare l'incantesimo nella sua forma di metamagia o in uno slot di incantesimo di livello più alto; l'incantatrix si limita semplicemente a modificare l'incantesimo nel corso del lancio. Usare questa capacità è un'azione standard che provoca un attacco di opportunità, proprio come quando si lancia un incantesimo, sebbene l'incantatrix possa usare l'abilità di Concentrazione con questa capacità come se stesse lanciando sulla difensiva. L'incantatrix deve superare una prova di Sapienza Magica (CD 18 + [3 x il livello dell'incantesimo modificato]) per riuscirci. Per \enquote*{livello modificato dell'incantesimo} si intende il livello dello slot incantesimo che l'incantesimo occuperebbe se fosse stato preparato applicando su di esso il talento di metamagia. Qualsiasi incremento del livello dell'incantesimo derivato da altri talenti di metamagia applicati dall'incantatore deve essere contagiato al fine di determinare il livello modificato dell'incantesimo. Ad esempio, se un'incantatrix applica il talento Incantesimi Massimizzati all'incantesimo catena di fulmini di un alleato, il livello modificato dell'incantesimo è il 9° (incantesimo di 6° livello, +3 del talento Incantesimi Massimizzati) e la CD è pari a 18 + (3 x 9) = 45. Se l'incantatrix applica lo stesso talento all'incantesimo catena di fulmini silenzioso, il livello modificato dell'incantesimo è il 10° e la CD di Sapienza Magica è pari a 48.
+\textit{Metamagia collaborativa (Sop):} Al 2° livello, un incantatrix acquisisce la capacità di applicare qualsiasi talento di metamagia posseduto (fatta eccezione per Incantesimi Immobili, Rapidi o Silenziosi) a un incantesimo lanciato da un incantatore alleato e consenziente. L'incantatore non ha bisogno di preparare l'incantesimo nella sua forma di metamagia o in uno slot di incantesimo di livello più alto; l'incantatrix si limita semplicemente a modificare l'incantesimo nel corso del lancio. Usare questa capacità è un'azione standard che provoca un attacco di opportunità, proprio come quando si lancia un incantesimo, sebbene l'incantatrix possa usare l'abilità di Concentrazione con questa capacità come se stesse lanciando sulla difensiva. L'incantatrix deve superare una prova di Sapienza Magica (CD $18$ + [$3$ x il livello dell'incantesimo modificato]) per riuscirci. Per \enquote*{livello modificato dell'incantesimo} si intende il livello dello slot incantesimo che l'incantesimo occuperebbe se fosse stato preparato applicando su di esso il talento di metamagia. Qualsiasi incremento del livello dell'incantesimo derivato da altri talenti di metamagia applicati dall'incantatore deve essere contagiato al fine di determinare il livello modificato dell'incantesimo. Ad esempio, se un'incantatrix applica il talento Incantesimi Massimizzati all'incantesimo catena di fulmini di un alleato, il livello modificato dell'incantesimo è il 9° (incantesimo di 6° livello, +3 del talento Incantesimi Massimizzati) e la CD è pari a $18$ + ($3$ x $9$) = $45$. Se l'incantatrix applica lo stesso talento all'incantesimo catena di fulmini silenzioso, il livello modificato dell'incantesimo è il 10° e la CD di Sapienza Magica è pari a $48$.
 
-\textit{Effetto di metamagia (Sop):} Al 3° livello, un'incantatrix può tentare di applicare qualsiasi talento di metamagia posseduto a un effetto magico persistente già in atto. Ad esempio, potrebbe usare Incantesimi Estesi per prolungare la durata di muro di fuoco o Incantesimi Massimizzati per massimizzare il danno inferto da una nube mortale. Per usare questa capacità, l'incantatrix deve trovarsi adiacente o all'interno dell'effetto magico e superare una prova di Sapienza Magica (CD 18 + [3 x livello modificato dell'incantesimo]). Per \enquote*{livello modificato dell'incantesimo} si intende il livello dello slot incantesimo che l'incantesimo occuperebbe se fosse stato preparato applicando su di esso il talento di metamagia. Gli incrementi di slot incantesimo relativi ai talenti di metamagia applicati per influenzare il lancio dell'incantesimo (come ad esempio Incantesimi Immobili, Incantesimi Rapidi o Incantesimi Silenziosi) non vengono conteggiati per determinare il livello modificato dell'incantesimo, mentre i modificatori per quegli effetti di metamagia che cambiano l'effetto dell'incantesimo (come ad esempio Incantesimi Ampliati, Ingranditi o Potenziati) vengono conteggiati.
-Ad esempio, applicando il talento Incantesimi Estesi a un muro di fuoco si ottiene un livello modificato di incantesimo pari a 5 (incantesimo di 4° livello +1 per il talento Incantesimi Estesi), quindi la CD sarebbe pari a 18 + (3 x 5)= 33. Se il muro di fuoco fosse stato lanciato con l'applicazione del talento Incantesimi Silenziosi, la CD sarebbe rimasta comunque 33, dal momento che quel talento agisce sul metodo di lancio dell'incantesimo, e non sul suo effetto. D'altro canto, estendere un muro di fuoco potenziato avrebbe portato il livello modificato di incantesimo a 7 e la CD di Sapienza Magica a 39.
+\textit{Effetto di metamagia (Sop):} Al 3° livello, un'incantatrix può tentare di applicare qualsiasi talento di metamagia posseduto a un effetto magico persistente già in atto. Ad esempio, potrebbe usare Incantesimi Estesi per prolungare la durata di muro di fuoco o Incantesimi Massimizzati per massimizzare il danno inferto da una nube mortale. Per usare questa capacità, l'incantatrix deve trovarsi adiacente o all'interno dell'effetto magico e superare una prova di Sapienza Magica (CD $18$ + [$3$ x livello modificato dell'incantesimo]). Per \enquote*{livello modificato dell'incantesimo} si intende il livello dello slot incantesimo che l'incantesimo occuperebbe se fosse stato preparato applicando su di esso il talento di metamagia. Gli incrementi di slot incantesimo relativi ai talenti di metamagia applicati per influenzare il lancio dell'incantesimo (come ad esempio Incantesimi Immobili, Incantesimi Rapidi o Incantesimi Silenziosi) non vengono conteggiati per determinare il livello modificato dell'incantesimo, mentre i modificatori per quegli effetti di metamagia che cambiano l'effetto dell'incantesimo (come ad esempio Incantesimi Ampliati, Ingranditi o Potenziati) vengono conteggiati.
+Ad esempio, applicando il talento Incantesimi Estesi a un muro di fuoco si ottiene un livello modificato di incantesimo pari a 5 (incantesimo di 4° livello +1 per il talento Incantesimi Estesi), quindi la CD sarebbe pari a $18$ + ($3$ x $5$)= $33$. Se il muro di fuoco fosse stato lanciato con l'applicazione del talento Incantesimi Silenziosi, la CD sarebbe rimasta comunque $33$, dal momento che quel talento agisce sul metodo di lancio dell'incantesimo, e non sul suo effetto. D'altro canto, estendere un muro di fuoco potenziato avrebbe portato il livello modificato di incantesimo a 7 e la CD di Sapienza Magica a $39$.
 
 Usare questa capacità è un'azione di round completo che provoca attacchi di opportunità.\\
 
@@ -1000,7 +999,7 @@ Un'incantatrix non può usare questa capacità quando usa un oggetto magico ad a
 
 \textbf{Controllo Magico:} Un'incantatrix può usare un'abilità di controllo magico un numero di volte al giorno pari a 1 + Mod Int. Un'incantatrix conosce le seguenti abilità di controllo magico:
 
-\textit{Afferrare concentrazione (Sop):} Al 6° livello, un'incantatrix acquisisce la capacità di strappare il controllo di un incantesimo che richiede concentrazione (come ad esempio evoca sciame, immagine maggiore o implosione) da un altro incantatore entro 9 metri. Se l'incantatore bersaglio è consenziente, il trasferimento di concentrazione avviene automaticamente. In caso contrario, l'incantatrix e l'incantatore bersaglio effettuano una prova contrapposta di livello dell'incantatore. Un incantatore divino ottiene un bonus di +2 a questa prova. Se l'incantatrix vince la prova, acquisisce il controllo dell'incantesimo fintanto che mantiene la concentrazione o finché la durata dell'incantesimo originale non si esaurisce. L'incantesimo funziona come se fosse stata l'incantatrix a lanciarlo (anche se si tratta di un incantesimo che l'incantatrix non è in grado di lanciare), con la sola differenza che eventuali variabili determinate quando l'incantesimo è stato lanciato (compreso il suo livello dell'incantatore) rimangono quelle determinate dall'incantatore originario. L'incantatore originario può essere influenzato dal suo stesso incantesimo, anche se riceve un bonus di circostanza +2 a qualsiasi tiro salvezza concesso contro di esso. Se l'incantatrix abbandona la concentrazione prima che la durata dell'incantesimo si esaurisca, l'incantatore può riassumere il controllo sul suo incantesimo superando una prova di livello dell'incantatore (CD 15 + livello dell'incantesimo). Se non la supera, nessuno mantiene il controllo dell'incantesimo.
+\textit{Afferrare concentrazione (Sop):} Al 6° livello, un'incantatrix acquisisce la capacità di strappare il controllo di un incantesimo che richiede concentrazione (come ad esempio evoca sciame, immagine maggiore o implosione) da un altro incantatore entro 9 metri. Se l'incantatore bersaglio è consenziente, il trasferimento di concentrazione avviene automaticamente. In caso contrario, l'incantatrix e l'incantatore bersaglio effettuano una prova contrapposta di livello dell'incantatore. Un incantatore divino ottiene un bonus di +2 a questa prova. Se l'incantatrix vince la prova, acquisisce il controllo dell'incantesimo fintanto che mantiene la concentrazione o finché la durata dell'incantesimo originale non si esaurisce. L'incantesimo funziona come se fosse stata l'incantatrix a lanciarlo (anche se si tratta di un incantesimo che l'incantatrix non è in grado di lanciare), con la sola differenza che eventuali variabili determinate quando l'incantesimo è stato lanciato (compreso il suo livello dell'incantatore) rimangono quelle determinate dall'incantatore originario. L'incantatore originario può essere influenzato dal suo stesso incantesimo, anche se riceve un bonus di circostanza +2 a qualsiasi tiro salvezza concesso contro di esso. Se l'incantatrix abbandona la concentrazione prima che la durata dell'incantesimo si esaurisca, l'incantatore può riassumere il controllo sul suo incantesimo superando una prova di livello dell'incantatore (CD $15$ + livello dell'incantesimo). Se non la supera, nessuno mantiene il controllo dell'incantesimo.
 
 \textit{Afferrare incantesimo (Sop):} All'8° livello, un'incantatrix può tentare di impadronirsi del controllo di un effetto persistente creato da un altro incantatore. L'effetto in questione non deve essere un effetto dipendente dalla concentrazione, ma comunque basato o dipendente dal controllo dell'incantatore (come un incantesimo arma spirituale o evoca mostri, ma non un muro di fuoco o nebbia acida). Inoltre l'effetto (ma non necessariamente l'incantatore) deve trovarsi entro 9 metri dell'incantatrix. L'incantatrix e l'incantatore bersaglio effettuano una prova contrapposta di livello dell'incantatore. Un incantatore divino ottiene un bonus di +2 a questa prova. Se l'incantatrix vince la prova, acquisisce il controllo dell'incantesimo finché la durata dell'incantesimo originale non si esaurisce. L'incantesimo funziona come se fosse stata l'incantatrix a lanciarlo, con la sola differenza che eventuali variabili determinate quando l'incantesimo è stato lanciato (compreso il suo livello dell'incantatore) rimangono quelle determinate dell'incantatore originario. L'incantatore originario può essere influenzato dal suo stesso incantesimo, anche se riceve un bonus di circostanza +2 a qualsiasi tiro salvezza concesso contro di esso. Se l'incantesimo può essere interrotto e l'incantatrix desidera interromperlo, deve superare una seconda prova contrapposta di livello dell'incantatore per farlo. Se non supera la prova, l'incantesimo rimane in effetto e il controllo torna al suo incantatore originario.\\
 
@@ -1046,18 +1045,18 @@ Questo beneficio viene applicato anche alle altre capacità di classe dell'incan
 \section{Luogotenente della Spada Alata}
 
 \subsubsection*{Requisiti}
-\textbf{Allineamento:} LB o NB
-\textbf{Bonus di attacco base:} +5
+\textbf{Allineamento:} LB o NB\\
+\textbf{Bonus di attacco base:} +5\\
 \textbf{Abilità:} Artigianato (fabbricazione di armaure) 6 gradi, Conoscenze (Religioni) 5 gradii\\
-\textbf{Capacità speciali:} Scacciare non morti
-\textbf{Incantesimi:} Abilità di lanciare incantesimi divini di livello 1\\
+\textbf{Capacità speciali:} Scacciare non morti\\
+\textbf{Incantesimi:} Abilità di lanciare incantesimi divini di primo livello\\
 \textbf{Speciale:} Aver ricevuto l’educazione da novizio all’Accademia dell’Ordine dei Combattenti della Spada Alata e di conseguenza aver fatto parte dell’Ordine. Per entrare in questa CdP bisogna incontrare un Luogotenente dell’Ordine (o qualcuno che abbia fatto parte in passato dell’ordine raggiungendo questo grado, ma che ora non ne faccia più parte) e trascorrere con lui almeno due settimane al fine di ricevere un addestramento necessario per diventare LdSA.\\
 \subsubsection*{Privilegi di Classe}
-\textbf{Dado Vita:} d10\\
+\textbf{Dado Vita:} d$10$\\
 \\
 \textbf{Abilità di Classe:} Artigianato (Int), Concentrazione (Cos), Conoscenze (piani, religioni, storia) (Int), Diplomazia (Car), Guarire (Sag), Professione (Sag), Sapienza Magica (Int)\\
 \\
-\textbf{Punti abilità per livello:} 2 + modificatore di Int\\
+\textbf{Punti abilità per livello:} $2$ + modificatore di Int\\
 
 \textbf{Competenza nelle armi e nelle armature:} I LdSA sono competenti nell’uso di tutte le armi semplici, in tutti i tipi di armature (leggere, medie e pesanti) e negli scudi (tranne negli scudi torre). Kygeus ha, come arma preferita, lo spadone, perciò un LdSA è competente in esso e, col dominio della Guerra, ottiene per esso il talento Arma Focalizzata.\\
 
@@ -1071,7 +1070,7 @@ Questo beneficio viene applicato anche alle altre capacità di classe dell'incan
 
 \includegraphics[width=6cm]{ldsa.png}
 
-\textbf{Punire (Sop):} Al livello 2, si può spendere un uso giornaliero della propria capacità scacciare non morti come azione veloce per trasformare l’attacco in mischia in una punizione. Ottieni un bonus pari al tuo modificatore di Carisma ai tiri per colpire e infliggi danni extra pari al tuo livello effettivo totale di scacciare. Il tuo attacco di punire non è limitato dall'allineamento o dalla razza; puoi tentare di colpire qualsiasi nemico. Un LdSA può decidere, oltre a spendere un uso di scacciare non morti, di sacrificare anche un incantesimo preparato o uno slot incantesimo. In questo caso, nei round successivi a quello in cui ha eseguito la punizione, l’LdSA ottiene un bonus sacro ai danni dell’arma pari al livello dell’incantesimo sacrificato, per un numero di round pari al suo livello effettivo di scacciare/4 (minimo 1). Ad eccezione di quanto indicato qui, questa capacità funziona come la capacità \textit{punire il male} del Paladino (PH 44).\\
+\textbf{Punire (Sop):} Al livello 2, si può spendere un uso giornaliero della propria capacità scacciare non morti come azione veloce per trasformare l’attacco in mischia in una punizione. Ottieni un bonus pari al tuo modificatore di Carisma ai tiri per colpire e infliggi danni extra pari al tuo livello effettivo totale di scacciare. Il tuo attacco di punire non è limitato dall'allineamento o dalla razza; puoi tentare di colpire qualsiasi nemico. Un LdSA può decidere, oltre a spendere un uso di scacciare non morti, di sacrificare anche un incantesimo preparato o uno slot incantesimo. In questo caso, nei round successivi a quello in cui ha eseguito la punizione, l’LdSA ottiene un bonus sacro ai danni dell’arma pari al livello dell’incantesimo sacrificato, per un numero di round pari al suo livello effettivo di scacciare/$4$ (minimo $1$). Ad eccezione di quanto indicato qui, questa capacità funziona come la capacità \textit{punire il male} del Paladino (PH $44$).\\
 
 \textbf{Lancio spontaneo modificato (Str):} Al livello 2, un LdSA perde la capacità di lanciare spontaneamente incantesimi curare. Invece, puoi sostituire gli incantesimi da chierico preparati in precedenza con qualsiasi incantesimo di livello uguale o inferiore dal dominio della Guerra.\\
 
@@ -1082,15 +1081,15 @@ Questo beneficio viene applicato anche alle altre capacità di classe dell'incan
 \textbf{Armatura di brillanio migliorata (Str):}  Ai livelli 5, 8 e 11, la riduzione del danno fornita dall’armatura di Brillanio aumenta di 1. Inoltre, un LdSA ottiene ulteriori benefici mentre indossa questa armatura, come descritto di seguito:
 \begin{itemize}
 	\item L’armatura di Brillanio garantisce l'immunità agli attacchi stordenti e ai danni non letali.
-	\item L’armatura di Brillanio ha una probabilità del 25\% di negare qualsiasi colpo critico o attacco furtivo effettuato contro un LdSA. Inoltre, consente di agire e combattere senza penalità anche mentre un LdSA è inabile o morente.
-	\item L’armatura di Brillanio ha una probabilità del 50\% di negare qualsiasi colpo critico o attacco furtivo effettuato contro un LdSA.
+	\item L’armatura di Brillanio ha una probabilità del $25\%$ di negare qualsiasi colpo critico o attacco furtivo effettuato contro un LdSA. Inoltre, consente di agire e combattere senza penalità anche mentre un LdSA è inabile o morente.
+	\item L’armatura di Brillanio ha una probabilità del $50\%$ di negare qualsiasi colpo critico o attacco furtivo effettuato contro un LdSA.
 \end{itemize}
 
-\textbf{Spada alata (Str):} Al livello 6, se un LdSA ha almeno 5 gradi in Artigianato (fabbricazione di armi), può fabbricare armi di Brillanio. La spada alata ha lo stesso costo e lo stesso tempo per creare un'arma normale di quel tipo (ovvero uno spadone). È possibile spendere più tempo e denaro per produrre una spada alata perfetta (che può poi essere ulteriormente potenziata attraverso la magia). Nelle mani di un LdSA di livello 6 o superiore, un'arma di Brillanio infligge +1d6 danni contro le creature caotiche e/o malvagie.\\
+\textbf{Spada alata (Str):} Al livello 6, se un LdSA ha almeno 5 gradi in Artigianato (fabbricazione di armi), può fabbricare armi di Brillanio. La spada alata ha lo stesso costo e lo stesso tempo per creare un'arma normale di quel tipo (ovvero uno spadone). È possibile spendere più tempo e denaro per produrre una spada alata perfetta (che può poi essere ulteriormente potenziata attraverso la magia). Nelle mani di un LdSA di livello 6 o superiore, un'arma di Brillanio infligge +$1$d$6$ danni contro le creature caotiche e/o malvagie.\\
 
 \textbf{Lancio spontaneo rapido (Str):} Al livello 9, qualsiasi incantesimo del dominio della Guerra che un LdSA lancia spontaneamente richiede solo un'azione veloce se il suo normale tempo di lancio non è superiore a 1 azione standard, o un'azione standard se il suo normale tempo di lancio è 1 azione di round completo.\\
 
-\textbf{Colpo dell'ala affilata (Sop):} Al livello 12, una volta al giorno, si può usare una Spada Alata (vedi sopra) per abbattere un nemico. Un LdSA deve decidere di usare questa capacità prima che venga effettuato il tiro per colpire. Se l'attacco ha successo, il bersaglio deve superare un Tiro Salvezza su Tempra (CD 7 + il livello da LdSA + il modificatore di Car) o morire.\\
+\textbf{Colpo dell'ala affilata (Sop):} Al livello 12, una volta al giorno, si può usare una Spada Alata (vedi sopra) per abbattere un nemico. Un LdSA deve decidere di usare questa capacità prima che venga effettuato il tiro per colpire. Se l'attacco ha successo, il bersaglio deve superare un Tiro Salvezza su Tempra (CD $7$ + il livello da LdSA + il modificatore di Car) o morire.\\
 
 \textbf{Fusione col brillanio (Str):} Al livello 13, l’armatura di Brillanio si fonde col corpo di un LdSA e non può essere rimossa senza ucciderlo. Tuttavia, ottiene immunità agli effetti di morte, danni alle caratteristiche ai punteggi di caratteristica fisica, risucchio di caratteristica, risucchio di energia e morte per danni ingenti.
 \end{multicols}
@@ -1134,7 +1133,7 @@ Questo beneficio viene applicato anche alle altre capacità di classe dell'incan
 \begin{multicols}{2}
 \section{Descrizione Talenti}
 \end{multicols}
-\subsection{Metamagia Rapida [Generale]}
+\subsection{Metamagia Rapida [generale]}
 \label{rapidmetamagic}
 \textbf{Prerequisiti}\\
 Sapienza Magica 6 gradi, abilità di lanciare incantesimi spontaneamente\\
