@@ -1,5 +1,5 @@
 
-\documentclass[10pt, a4paper]{report}
+\documentclass[10pt, a4paper, oneside]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=2cm]{geometry}
 \usepackage{graphicx}
@@ -18,12 +18,13 @@
 \usepackage{lipsum}
 \usepackage{amsmath}
 \usepackage{csquotes}
-\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{tikz}
 \usepackage{enumitem}
 \usepackage{etoolbox}
 \usepackage[nf]{coelacanth}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{transparent}
 
 % Define custom colors for the D&D theme
 \definecolor{DNDGold}{rgb}{0.698, 0.549, 0.278} % Darker Gold #B28C47
@@ -31,12 +32,27 @@
 \definecolor{DNDGray}{rgb}{0.2, 0.2, 0.2} % Dark gray for text
 \definecolor{DNDWhite}{rgb}{253, 253, 253}
 
+% Variabile per immagine della parte
+\newcommand{\partimagefile}{}
+
+% Comando per impostare l'immagine
+\newcommand{\partimage}[1]{%
+	\renewcommand{\partimagefile}{#1}% Aggiorna l'immagine corrente
+}
+
+
 % Custom part title format
 \titleformat{\part}[display]
 {\Huge\bfseries\color{DNDDarkBlue}\centering} % Centered, bold, dark blue font
 {\textcolor{DNDDarkBlue}{Parte \textcolor{DNDGold}{\thepart}}} % "Parte" + part number in gold
 {0em} % No space between number and title
-{\vspace{0.5cm}\Huge\scshape\bfseries} % Title in small caps
+{
+	\begin{tikzpicture}[remember picture, overlay]
+		\node[opacity=0.86] at (current page.center) {
+			\includegraphics[width=\paperwidth, height=\paperheight]{\partimagefile}
+		};
+	\end{tikzpicture}
+\vspace{0.5cm}\Huge\scshape\bfseries} % Title in small caps
 [] % Rule below title
 
 % Custom chapter title format
@@ -49,26 +65,26 @@
 
 % Custom section title format
 \titleformat{\section}[block]
-{\Large\color{DNDDarkBlue}\bfseries} % Smaller font than \chapter
-{\textcolor{DNDGold}{\thesection}} % Section number in gold
-{1em} % Space between number and title
-{\Large\scshape\bfseries} % Title in small caps
-[\vspace{-0.16em}\titlerule] % Thin rule below title
+{\huge\color{DNDDarkBlue}\bfseries} % Smaller font than \chapter
+{} % Section number in gold
+{0.6em} % Space between number and title
+{\huge\scshape\bfseries} % Title in small caps
+[\vspace{-0.3em}\titlerule] % Thin rule below title
 
 
 % Custom subsubsection title format
 \titleformat{\subsection}[block]
-{\fontsize{13}{16}\color{DNDDarkBlue}\bfseries} % Normal font, dark blue color, bold
-{\textcolor{DNDGold}{\thesubsection}} % Subsection number
-{1em} % Space between number and title
-{\fontsize{13}{17}\bfseries\scshape}
+{\fontsize{14}{16}\color{DNDDarkBlue}\bfseries} % Normal font, dark blue color, bold
+{} % Subsection number
+{0.6em} % Space between number and title
+{\fontsize{14}{16}\bfseries\scshape}
 [] % No rule below
 
 % Custom subsubsection title format
 \titleformat{\subsubsection}[block]
 {\fontsize{11}{15}\color{DNDDarkBlue}\bfseries} % Normal font, dark blue color, bold
-{\textcolor{DNDGold}{\thesubsubsection}} % Subsubsection number
-{1em} % Space between number and title
+{} % Subsubsection number
+{0.6em} % Space between number and title
 {\fontsize{11}{15}\bfseries}
 [] % No rule below
 
@@ -109,7 +125,7 @@
 \textcolor{MintCream}{\textbf{\today}}
 \end{titlepage}
 
-\pagecolor{DNDWhite}
+\pagecolor{Ivory}
 
 %\begin{multicols}{2}
 \tableofcontents
@@ -129,8 +145,9 @@ PS: Se trovate cazzate di ortografia, robe che non tornano o che non capite e al
 \\
 - Emipano
 
-
+\partimage{cosmpart1.png}
 \part{Cosmologia}
+
 \chapter{Struttura della Cosmologia}
 \begin{multicols}{2}
 \section{Introduzione}
@@ -511,6 +528,7 @@ Un'implicazione minore è che adesso anche stregoni e bardi sono esposti allo st
 
 \end{multicols}
 
+\partimage{islenapart.png}
 \part{Islena}
 
 \chapter{Storia}
@@ -900,6 +918,7 @@ L’Impero di Ghiur ha origini antiche. Inizialmente era solo una piccola città
 \chapter{Elementi Geografici di Interesse}
 Chissà se questo capitolo verrà mai scritto...
 
+\partimage{giocopart.png}
 \part{Aspetti di Gioco}
 
 \chapter{Regole di Gioco}
