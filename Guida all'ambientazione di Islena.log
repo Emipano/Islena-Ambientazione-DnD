@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.12)  21 JAN 2025 09:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.12)  23 JAN 2025 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,10 +6,10 @@ entering extended mode
 (./Guida all'ambientazione di Islena.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16>
-(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@chapter=\count186
@@ -974,13 +974,13 @@ LaTeX Font Info:    ... okay on input line 101.
 * \textheight=731.23584pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-45.43198pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
-* \headsep=18.06749pt
+* \headsep=25.0pt
 * \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=61.0pt
-* \marginparsep=7.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=28.45274pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
@@ -1056,7 +1056,6 @@ LaTeX Font Info:    Font shape `T1/Coelacanth-LF/bold/n' will be
 
 [1
 
-
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./imgs//titlepageislena1.j
 pg> <./imgs//dnd1.png>]
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/b/n' in size <24.88> not avail
@@ -1129,20 +1128,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--147
 
  []
 
-LaTeX Font Info:    Font shape `T1/Coelacanth-LF/m/sl' in size <10> not availab
-le
-(Font)              Font shape `T1/Coelacanth-LF/regular/sl' tried instead on i
-nput line 149.
-LaTeX Font Info:    Font shape `T1/Coelacanth-LF/regular/sl' in size <10> not a
-vailable
-(Font)              Font shape `T1/Coelacanth-LF/regular/it' tried instead on i
-nput line 149.
-LaTeX Font Info:    Font shape `T1/Coelacanth-LF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 149.
 [2
 
 ]
-<imgs//cosmpart1.png, id=102, 597.432pt x 845.0772pt>
+<imgs//cosmpart1.png, id=101, 597.432pt x 845.0772pt>
 File: imgs//cosmpart1.png Graphic file (type png)
 <use imgs//cosmpart1.png>
 Package pdftex.def Info: imgs//cosmpart1.png  used on input line 149.
@@ -1159,82 +1148,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--158
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/m/it' in size <10> not availab
 le
 (Font)              Font shape `T1/Coelacanth-LF/regular/it' tried instead on i
-nput line 161.
+nput line 166.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 161.
+(Font)              scaled to size 10.0pt on input line 166.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/b/n' in size <14> not availabl
 e
 (Font)              Font shape `T1/Coelacanth-LF/bold/n' tried instead on input
- line 166.
+ line 171.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/bold/n' will be
-(Font)              scaled to size 14.0pt on input line 166.
+(Font)              scaled to size 14.0pt on input line 171.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/b/sc' in size <14> not availab
 le
 (Font)              Font shape `T1/Coelacanth-LF/bold/sc' tried instead on inpu
-t line 166.
+t line 171.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/bold/sc' will be
-(Font)              scaled to size 14.0pt on input line 166.
-<imgs//stars.jpeg, id=108, 542.025pt x 338.76563pt>
+(Font)              scaled to size 14.0pt on input line 171.
+<imgs//stars.jpeg, id=107, 542.025pt x 338.76563pt>
 File: imgs//stars.jpeg Graphic file (type jpg)
 <use imgs//stars.jpeg>
-Package pdftex.def Info: imgs//stars.jpeg  used on input line 169.
+Package pdftex.def Info: imgs//stars.jpeg  used on input line 174.
 (pdftex.def)             Requested size: 170.71652pt x 106.69621pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--173
+Underfull \hbox (badness 10000) in paragraph at lines 172--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--173
+Underfull \hbox (badness 10000) in paragraph at lines 172--178
 
  []
 
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/m/n' in size <9> not available
 
 (Font)              Font shape `T1/Coelacanth-LF/regular/n' tried instead on in
-put line 173.
+put line 178.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 173.
+(Font)              scaled to size 9.0pt on input line 178.
 [4
 
  <./imgs//stars.jpeg>]
 <imgs//tatakai.png, id=114, 1927.2pt x 1084.05pt>
 File: imgs//tatakai.png Graphic file (type png)
 <use imgs//tatakai.png>
-Package pdftex.def Info: imgs//tatakai.png  used on input line 200.
+Package pdftex.def Info: imgs//tatakai.png  used on input line 205.
 (pdftex.def)             Requested size: 170.71652pt x 96.02194pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--204
+Underfull \hbox (badness 10000) in paragraph at lines 201--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--204
+Underfull \hbox (badness 10000) in paragraph at lines 201--209
 
  []
 
 <imgs//takai.jpg, id=115, 421.575pt x 210.7875pt>
 File: imgs//takai.jpg Graphic file (type jpg)
 <use imgs//takai.jpg>
-Package pdftex.def Info: imgs//takai.jpg  used on input line 216.
+Package pdftex.def Info: imgs//takai.jpg  used on input line 221.
 (pdftex.def)             Requested size: 170.71652pt x 85.35881pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--220
+Underfull \hbox (badness 10000) in paragraph at lines 219--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--220
+Underfull \hbox (badness 10000) in paragraph at lines 219--225
 
  []
 
 <imgs//fukai.jpeg, id=116, 848.16875pt x 356.33125pt>
 File: imgs//fukai.jpeg Graphic file (type jpg)
 <use imgs//fukai.jpeg>
-Package pdftex.def Info: imgs//fukai.jpeg  used on input line 232.
+Package pdftex.def Info: imgs//fukai.jpeg  used on input line 237.
 (pdftex.def)             Requested size: 170.71652pt x 71.7217pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--236
+Underfull \hbox (badness 10000) in paragraph at lines 235--241
 
  []
 
@@ -1243,83 +1232,83 @@ Capitolo 2.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/m/n' in size <7> not available
 
 (Font)              Font shape `T1/Coelacanth-LF/regular/n' tried instead on in
-put line 252.
+put line 257.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 252.
+(Font)              scaled to size 7.0pt on input line 257.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/m/n' in size <8> not available
 
 (Font)              Font shape `T1/Coelacanth-LF/regular/n' tried instead on in
-put line 252.
+put line 257.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 252.
+(Font)              scaled to size 8.0pt on input line 257.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/m/n' in size <6> not available
 
 (Font)              Font shape `T1/Coelacanth-LF/regular/n' tried instead on in
-put line 252.
+put line 257.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 252.
+(Font)              scaled to size 6.0pt on input line 257.
 <imgs//althes.png, id=122, 694.595pt x 1027.84pt>
 File: imgs//althes.png Graphic file (type png)
 <use imgs//althes.png>
-Package pdftex.def Info: imgs//althes.png  used on input line 259.
+Package pdftex.def Info: imgs//althes.png  used on input line 264.
 (pdftex.def)             Requested size: 99.58464pt x 147.36269pt.
 <imgs//althes_simbolo.png, id=123, 501.875pt x 501.875pt>
 File: imgs//althes_simbolo.png Graphic file (type png)
 <use imgs//althes_simbolo.png>
-Package pdftex.def Info: imgs//althes_simbolo.png  used on input line 260.
+Package pdftex.def Info: imgs//althes_simbolo.png  used on input line 265.
 (pdftex.def)             Requested size: 128.0374pt x 128.03386pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--261
+Underfull \hbox (badness 10000) in paragraph at lines 262--266
 
  []
 
 
-Overfull \hbox (1.36697pt too wide) in paragraph at lines 257--261
+Overfull \hbox (1.36697pt too wide) in paragraph at lines 262--266
 [] [] 
  []
 
 <imgs//asvahal.jpg, id=124, 727.71875pt x 779.91376pt>
 File: imgs//asvahal.jpg Graphic file (type jpg)
 <use imgs//asvahal.jpg>
-Package pdftex.def Info: imgs//asvahal.jpg  used on input line 264.
+Package pdftex.def Info: imgs//asvahal.jpg  used on input line 269.
 (pdftex.def)             Requested size: 99.58464pt x 106.72377pt.
 <imgs//asvahal_simbolo.jpg, id=125, 325.215pt x 325.215pt>
 File: imgs//asvahal_simbolo.jpg Graphic file (type jpg)
 <use imgs//asvahal_simbolo.jpg>
-Package pdftex.def Info: imgs//asvahal_simbolo.jpg  used on input line 265.
+Package pdftex.def Info: imgs//asvahal_simbolo.jpg  used on input line 270.
 (pdftex.def)             Requested size: 85.35826pt x 85.3578pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--266
+Underfull \hbox (badness 10000) in paragraph at lines 267--271
 
  []
 
 <imgs//bharbhero.jpg, id=126, 319.1925pt x 404.51125pt>
 File: imgs//bharbhero.jpg Graphic file (type jpg)
 <use imgs//bharbhero.jpg>
-Package pdftex.def Info: imgs//bharbhero.jpg  used on input line 269.
+Package pdftex.def Info: imgs//bharbhero.jpg  used on input line 274.
 (pdftex.def)             Requested size: 99.58464pt x 126.19958pt.
 <imgs//bharbhero_symbol.png, id=127, 803.0pt x 722.7pt>
 File: imgs//bharbhero_symbol.png Graphic file (type png)
 <use imgs//bharbhero_symbol.png>
-Package pdftex.def Info: imgs//bharbhero_symbol.png  used on input line 270.
+Package pdftex.def Info: imgs//bharbhero_symbol.png  used on input line 275.
 (pdftex.def)             Requested size: 85.35826pt x 76.81755pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--271
+Underfull \hbox (badness 10000) in paragraph at lines 272--276
 
  []
 
 <imgs//byroe.jpeg, id=128, 497.86pt x 628.3475pt>
 File: imgs//byroe.jpeg Graphic file (type jpg)
 <use imgs//byroe.jpeg>
-Package pdftex.def Info: imgs//byroe.jpeg  used on input line 274.
+Package pdftex.def Info: imgs//byroe.jpeg  used on input line 279.
 (pdftex.def)             Requested size: 99.58464pt x 125.68645pt.
 <imgs//byroe_simbolo.png, id=129, 271.0125pt x 302.12875pt>
 File: imgs//byroe_simbolo.png Graphic file (type png)
 <use imgs//byroe_simbolo.png>
-Package pdftex.def Info: imgs//byroe_simbolo.png  used on input line 275.
+Package pdftex.def Info: imgs//byroe_simbolo.png  used on input line 280.
 (pdftex.def)             Requested size: 85.35826pt x 95.15723pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--276
+Underfull \hbox (badness 10000) in paragraph at lines 277--281
 
  []
 
@@ -1330,100 +1319,100 @@ s//asvahal_simbolo.jpg> <./imgs//bharbhero.jpg> <./imgs//bharbhero_symbol.png>]
 <imgs//chaahad.jpeg, id=139, 96.36pt x 95.8782pt>
 File: imgs//chaahad.jpeg Graphic file (type jpg)
 <use imgs//chaahad.jpeg>
-Package pdftex.def Info: imgs//chaahad.jpeg  used on input line 279.
+Package pdftex.def Info: imgs//chaahad.jpeg  used on input line 284.
 (pdftex.def)             Requested size: 113.81102pt x 113.24207pt.
 <imgs//chaahad_simbolo.png, id=140, 501.875pt x 452.69125pt>
 File: imgs//chaahad_simbolo.png Graphic file (type png)
 <use imgs//chaahad_simbolo.png>
-Package pdftex.def Info: imgs//chaahad_simbolo.png  used on input line 280.
+Package pdftex.def Info: imgs//chaahad_simbolo.png  used on input line 285.
 (pdftex.def)             Requested size: 85.35826pt x 76.99103pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--281
+Underfull \hbox (badness 10000) in paragraph at lines 282--286
 
  []
 
 <imgs//ccc.jpeg, id=141, 1027.84pt x 1027.84pt>
 File: imgs//ccc.jpeg Graphic file (type jpg)
 <use imgs//ccc.jpeg>
-Package pdftex.def Info: imgs//ccc.jpeg  used on input line 284.
+Package pdftex.def Info: imgs//ccc.jpeg  used on input line 289.
 (pdftex.def)             Requested size: 113.81102pt x 113.79987pt.
 <imgs//ccc_simbolo.png, id=142, 501.875pt x 501.875pt>
 File: imgs//ccc_simbolo.png Graphic file (type png)
 <use imgs//ccc_simbolo.png>
-Package pdftex.def Info: imgs//ccc_simbolo.png  used on input line 285.
+Package pdftex.def Info: imgs//ccc_simbolo.png  used on input line 290.
 (pdftex.def)             Requested size: 113.81102pt x 113.80533pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--286
+Underfull \hbox (badness 10000) in paragraph at lines 287--291
 
  []
 
 
-Overfull \hbox (1.36697pt too wide) in paragraph at lines 282--286
+Overfull \hbox (1.36697pt too wide) in paragraph at lines 287--291
 [] [] 
  []
 
 <imgs//coepius.jpg, id=143, 602.25pt x 569.87906pt>
 File: imgs//coepius.jpg Graphic file (type jpg)
 <use imgs//coepius.jpg>
-Package pdftex.def Info: imgs//coepius.jpg  used on input line 289.
+Package pdftex.def Info: imgs//coepius.jpg  used on input line 294.
 (pdftex.def)             Requested size: 99.58464pt x 94.22598pt.
 <imgs//coepius_simbolo.png, id=144, 36.91954pt x 32.6738pt>
 File: imgs//coepius_simbolo.png Graphic file (type png)
 <use imgs//coepius_simbolo.png>
-Package pdftex.def Info: imgs//coepius_simbolo.png  used on input line 290.
+Package pdftex.def Info: imgs//coepius_simbolo.png  used on input line 295.
 (pdftex.def)             Requested size: 99.58464pt x 88.14507pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--291
+Underfull \hbox (badness 10000) in paragraph at lines 292--296
 
  []
 
 <imgs//dictum.jpeg, id=145, 1027.84pt x 1027.84pt>
 File: imgs//dictum.jpeg Graphic file (type jpg)
 <use imgs//dictum.jpeg>
-Package pdftex.def Info: imgs//dictum.jpeg  used on input line 294.
+Package pdftex.def Info: imgs//dictum.jpeg  used on input line 299.
 (pdftex.def)             Requested size: 99.58464pt x 99.57489pt.
 <imgs//dictum_simbolo.png, id=146, 579.16376pt x 434.62375pt>
 File: imgs//dictum_simbolo.png Graphic file (type png)
 <use imgs//dictum_simbolo.png>
-Package pdftex.def Info: imgs//dictum_simbolo.png  used on input line 295.
+Package pdftex.def Info: imgs//dictum_simbolo.png  used on input line 300.
 (pdftex.def)             Requested size: 99.58464pt x 74.7273pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--296
+Underfull \hbox (badness 10000) in paragraph at lines 297--301
 
  []
 
 <imgs//djenl.png, id=147, 722.7pt x 883.3pt>
 File: imgs//djenl.png Graphic file (type png)
 <use imgs//djenl.png>
-Package pdftex.def Info: imgs//djenl.png  used on input line 299.
+Package pdftex.def Info: imgs//djenl.png  used on input line 304.
 (pdftex.def)             Requested size: 113.81102pt x 139.09352pt.
 <imgs//djenl_simbolo.jpeg, id=148, 1027.84pt x 1027.84pt>
 File: imgs//djenl_simbolo.jpeg Graphic file (type jpg)
 <use imgs//djenl_simbolo.jpeg>
-Package pdftex.def Info: imgs//djenl_simbolo.jpeg  used on input line 300.
+Package pdftex.def Info: imgs//djenl_simbolo.jpeg  used on input line 305.
 (pdftex.def)             Requested size: 85.35826pt x 85.3499pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--301
+Underfull \hbox (badness 10000) in paragraph at lines 302--306
 
  []
 
 <imgs//fjorsh.jpg, id=149, 3262.1875pt x 4896.2925pt>
 File: imgs//fjorsh.jpg Graphic file (type jpg)
 <use imgs//fjorsh.jpg>
-Package pdftex.def Info: imgs//fjorsh.jpg  used on input line 304.
+Package pdftex.def Info: imgs//fjorsh.jpg  used on input line 309.
 (pdftex.def)             Requested size: 99.58464pt x 149.42262pt.
 <imgs//fjorsh_simbolo.jpeg, id=150, 1027.84pt x 1027.84pt>
 File: imgs//fjorsh_simbolo.jpeg Graphic file (type jpg)
 <use imgs//fjorsh_simbolo.jpeg>
-Package pdftex.def Info: imgs//fjorsh_simbolo.jpeg  used on input line 305.
+Package pdftex.def Info: imgs//fjorsh_simbolo.jpeg  used on input line 310.
 (pdftex.def)             Requested size: 99.58464pt x 99.57489pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--306
+Underfull \hbox (badness 10000) in paragraph at lines 307--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--306
+Underfull \hbox (badness 10000) in paragraph at lines 307--311
 
  []
 
@@ -1434,82 +1423,82 @@ um_simbolo.png> <./imgs//djenl.png> <./imgs//djenl_simbolo.jpeg>]
 <imgs//hnana.jpeg, id=160, 1247.66125pt x 1340.00626pt>
 File: imgs//hnana.jpeg Graphic file (type jpg)
 <use imgs//hnana.jpeg>
-Package pdftex.def Info: imgs//hnana.jpeg  used on input line 310.
+Package pdftex.def Info: imgs//hnana.jpeg  used on input line 315.
 (pdftex.def)             Requested size: 113.81102pt x 122.2311pt.
 <imgs//hnana_simbolo.jpeg, id=161, 694.595pt x 645.41125pt>
 File: imgs//hnana_simbolo.jpeg Graphic file (type jpg)
 <use imgs//hnana_simbolo.jpeg>
-Package pdftex.def Info: imgs//hnana_simbolo.jpeg  used on input line 311.
+Package pdftex.def Info: imgs//hnana_simbolo.jpeg  used on input line 316.
 (pdftex.def)             Requested size: 85.35826pt x 79.30731pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--312
+Underfull \hbox (badness 10000) in paragraph at lines 312--317
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--312
+Underfull \hbox (badness 10000) in paragraph at lines 312--317
 
  []
 
 <imgs//huaifu.jpeg, id=162, 496.85625pt x 642.4pt>
 File: imgs//huaifu.jpeg Graphic file (type jpg)
 <use imgs//huaifu.jpeg>
-Package pdftex.def Info: imgs//huaifu.jpeg  used on input line 315.
+Package pdftex.def Info: imgs//huaifu.jpeg  used on input line 320.
 (pdftex.def)             Requested size: 99.58464pt x 128.75218pt.
 <imgs//huaifu_simbolo.png, id=163, 2007.5pt x 2007.5pt>
 File: imgs//huaifu_simbolo.png Graphic file (type png)
 <use imgs//huaifu_simbolo.png>
-Package pdftex.def Info: imgs//huaifu_simbolo.png  used on input line 316.
+Package pdftex.def Info: imgs//huaifu_simbolo.png  used on input line 321.
 (pdftex.def)             Requested size: 113.81102pt x 113.79767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--317
+Underfull \hbox (badness 10000) in paragraph at lines 318--322
 
  []
 
 <imgs//immaru.jpg, id=164, 738.76pt x 844.15375pt>
 File: imgs//immaru.jpg Graphic file (type jpg)
 <use imgs//immaru.jpg>
-Package pdftex.def Info: imgs//immaru.jpg  used on input line 320.
+Package pdftex.def Info: imgs//immaru.jpg  used on input line 325.
 (pdftex.def)             Requested size: 99.58464pt x 113.78839pt.
 <imgs//immaru_simbolo.jpg, id=165, 1029.8475pt x 983.675pt>
 File: imgs//immaru_simbolo.jpg Graphic file (type jpg)
 <use imgs//immaru_simbolo.jpg>
-Package pdftex.def Info: imgs//immaru_simbolo.jpg  used on input line 321.
+Package pdftex.def Info: imgs//immaru_simbolo.jpg  used on input line 326.
 (pdftex.def)             Requested size: 85.35826pt x 81.51741pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--322
+Underfull \hbox (badness 10000) in paragraph at lines 323--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--322
+Underfull \hbox (badness 10000) in paragraph at lines 323--327
 
  []
 
 <imgs//kygeus.jpeg, id=166, 511.9125pt x 569.12625pt>
 File: imgs//kygeus.jpeg Graphic file (type jpg)
 <use imgs//kygeus.jpeg>
-Package pdftex.def Info: imgs//kygeus.jpeg  used on input line 327.
+Package pdftex.def Info: imgs//kygeus.jpeg  used on input line 332.
 (pdftex.def)             Requested size: 99.58464pt x 110.7143pt.
 <imgs//kygeus_simbolo.jpg, id=167, 904.37875pt x 1048.91875pt>
 File: imgs//kygeus_simbolo.jpg Graphic file (type jpg)
 <use imgs//kygeus_simbolo.jpg>
-Package pdftex.def Info: imgs//kygeus_simbolo.jpg  used on input line 328.
+Package pdftex.def Info: imgs//kygeus_simbolo.jpg  used on input line 333.
 (pdftex.def)             Requested size: 85.35826pt x 98.9921pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--329
+Underfull \hbox (badness 10000) in paragraph at lines 328--334
 
  []
 
 <imgs//lialgha.jpeg, id=168, 1606.0pt x 1902.10625pt>
 File: imgs//lialgha.jpeg Graphic file (type jpg)
 <use imgs//lialgha.jpeg>
-Package pdftex.def Info: imgs//lialgha.jpeg  used on input line 333.
+Package pdftex.def Info: imgs//lialgha.jpeg  used on input line 338.
 (pdftex.def)             Requested size: 99.58464pt x 117.92355pt.
 <imgs//lialgha_simbolo.jpeg, id=169, 602.25pt x 622.325pt>
 File: imgs//lialgha_simbolo.jpeg Graphic file (type jpg)
 <use imgs//lialgha_simbolo.jpeg>
-Package pdftex.def Info: imgs//lialgha_simbolo.jpeg  used on input line 334.
+Package pdftex.def Info: imgs//lialgha_simbolo.jpeg  used on input line 339.
 (pdftex.def)             Requested size: 85.35826pt x 88.19794pt.
 [8 <./imgs//fjorsh.jpg> <./imgs//fjorsh_simbolo.jpeg> <./imgs//hnana.jpeg> <./i
 mgs//hnana_simbolo.jpeg> <./imgs//huaifu.jpeg> <./imgs//huaifu_simbolo.png> <./
@@ -1518,80 +1507,80 @@ ygeus_simbolo.jpg>]
 <imgs//mona1.jpeg, id=174, 642.4pt x 732.7375pt>
 File: imgs//mona1.jpeg Graphic file (type jpg)
 <use imgs//mona1.jpeg>
-Package pdftex.def Info: imgs//mona1.jpeg  used on input line 338.
+Package pdftex.def Info: imgs//mona1.jpeg  used on input line 343.
 (pdftex.def)             Requested size: 113.81102pt x 129.80745pt.
 <imgs//moohona_simbolo.jpg, id=175, 62.1522pt x 86.724pt>
 File: imgs//moohona_simbolo.jpg Graphic file (type jpg)
 <use imgs//moohona_simbolo.jpg>
-Package pdftex.def Info: imgs//moohona_simbolo.jpg  used on input line 339.
+Package pdftex.def Info: imgs//moohona_simbolo.jpg  used on input line 344.
 (pdftex.def)             Requested size: 85.35826pt x 119.1102pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--340
+Underfull \hbox (badness 10000) in paragraph at lines 341--345
 
  []
 
 <imgs//pathon.jpg, id=176, 578.16pt x 770.88pt>
 File: imgs//pathon.jpg Graphic file (type jpg)
 <use imgs//pathon.jpg>
-Package pdftex.def Info: imgs//pathon.jpg  used on input line 343.
+Package pdftex.def Info: imgs//pathon.jpg  used on input line 348.
 (pdftex.def)             Requested size: 99.58464pt x 132.77698pt.
 <imgs//pathon_simbolo.png, id=177, 464.73625pt x 501.875pt>
 File: imgs//pathon_simbolo.png Graphic file (type png)
 <use imgs//pathon_simbolo.png>
-Package pdftex.def Info: imgs//pathon_simbolo.png  used on input line 344.
+Package pdftex.def Info: imgs//pathon_simbolo.png  used on input line 349.
 (pdftex.def)             Requested size: 99.58464pt x 107.54109pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--345
+Underfull \hbox (badness 10000) in paragraph at lines 346--350
 
  []
 
 <imgs//sathona.jpeg, id=178, 495.8525pt x 668.4975pt>
 File: imgs//sathona.jpeg Graphic file (type jpg)
 <use imgs//sathona.jpeg>
-Package pdftex.def Info: imgs//sathona.jpeg  used on input line 348.
+Package pdftex.def Info: imgs//sathona.jpeg  used on input line 353.
 (pdftex.def)             Requested size: 85.35826pt x 115.07112pt.
 <imgs//sathona_simbolo.png, id=179, 260.975pt x 254.9525pt>
 File: imgs//sathona_simbolo.png Graphic file (type png)
 <use imgs//sathona_simbolo.png>
-Package pdftex.def Info: imgs//sathona_simbolo.png  used on input line 349.
+Package pdftex.def Info: imgs//sathona_simbolo.png  used on input line 354.
 (pdftex.def)             Requested size: 85.35826pt x 83.38765pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--350
+Underfull \hbox (badness 10000) in paragraph at lines 351--355
 
  []
 
 <imgs//tahia.jpg, id=180, 1023.825pt x 1284.8pt>
 File: imgs//tahia.jpg Graphic file (type jpg)
 <use imgs//tahia.jpg>
-Package pdftex.def Info: imgs//tahia.jpg  used on input line 354.
+Package pdftex.def Info: imgs//tahia.jpg  used on input line 359.
 (pdftex.def)             Requested size: 99.58464pt x 124.95872pt.
 <imgs//tahia_simbolo.png, id=181, 260.975pt x 254.9525pt>
 File: imgs//tahia_simbolo.png Graphic file (type png)
 <use imgs//tahia_simbolo.png>
-Package pdftex.def Info: imgs//tahia_simbolo.png  used on input line 355.
+Package pdftex.def Info: imgs//tahia_simbolo.png  used on input line 360.
 (pdftex.def)             Requested size: 85.35826pt x 83.38765pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--356
+Underfull \hbox (badness 10000) in paragraph at lines 356--361
 
  []
 
 <imgs//talas.png, id=182, 235.88126pt x 301.125pt>
 File: imgs//talas.png Graphic file (type png)
 <use imgs//talas.png>
-Package pdftex.def Info: imgs//talas.png  used on input line 360.
+Package pdftex.def Info: imgs//talas.png  used on input line 365.
 (pdftex.def)             Requested size: 99.58464pt x 127.12868pt.
 <imgs//talas_simbolo.png, id=183, 501.875pt x 501.875pt>
 File: imgs//talas_simbolo.png Graphic file (type png)
 <use imgs//talas_simbolo.png>
-Package pdftex.def Info: imgs//talas_simbolo.png  used on input line 361.
+Package pdftex.def Info: imgs//talas_simbolo.png  used on input line 366.
 (pdftex.def)             Requested size: 102.43008pt x 102.42555pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--362
+Underfull \hbox (badness 10000) in paragraph at lines 362--367
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--362
+Underfull \hbox (badness 10000) in paragraph at lines 362--367
 
  []
 
@@ -1602,46 +1591,46 @@ s//tahia_simbolo.png>]
 <imgs//whestfalia.png, id=190, 427.5975pt x 596.2275pt>
 File: imgs//whestfalia.png Graphic file (type png)
 <use imgs//whestfalia.png>
-Package pdftex.def Info: imgs//whestfalia.png  used on input line 365.
+Package pdftex.def Info: imgs//whestfalia.png  used on input line 370.
 (pdftex.def)             Requested size: 85.35826pt x 119.01595pt.
 <imgs//whestfalia_simbolo.jpeg, id=191, 246.6816pt x 238.491pt>
 File: imgs//whestfalia_simbolo.jpeg Graphic file (type jpg)
 <use imgs//whestfalia_simbolo.jpeg>
-Package pdftex.def Info: imgs//whestfalia_simbolo.jpeg  used on input line 366.
+Package pdftex.def Info: imgs//whestfalia_simbolo.jpeg  used on input line 371.
 
 (pdftex.def)             Requested size: 99.58464pt x 96.27536pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--367
+Underfull \hbox (badness 10000) in paragraph at lines 368--372
 
  []
 
 <imgs//wrhat.jpeg, id=192, 829.0975pt x 1082.0425pt>
 File: imgs//wrhat.jpeg Graphic file (type jpg)
 <use imgs//wrhat.jpeg>
-Package pdftex.def Info: imgs//wrhat.jpeg  used on input line 370.
+Package pdftex.def Info: imgs//wrhat.jpeg  used on input line 375.
 (pdftex.def)             Requested size: 99.58464pt x 129.95506pt.
 <imgs//wrhat_simbolo.jpeg, id=193, 738.76pt x 951.555pt>
 File: imgs//wrhat_simbolo.jpeg Graphic file (type jpg)
 <use imgs//wrhat_simbolo.jpeg>
-Package pdftex.def Info: imgs//wrhat_simbolo.jpeg  used on input line 371.
+Package pdftex.def Info: imgs//wrhat_simbolo.jpeg  used on input line 376.
 (pdftex.def)             Requested size: 85.35826pt x 109.94196pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--372
+Underfull \hbox (badness 10000) in paragraph at lines 373--377
 
  []
 
 <imgs//yennifer.jpg, id=194, 341.3553pt x 427.8384pt>
 File: imgs//yennifer.jpg Graphic file (type jpg)
 <use imgs//yennifer.jpg>
-Package pdftex.def Info: imgs//yennifer.jpg  used on input line 375.
+Package pdftex.def Info: imgs//yennifer.jpg  used on input line 380.
 (pdftex.def)             Requested size: 99.58464pt x 124.81418pt.
 <imgs//yennifer_simbolo.jpeg, id=195, 1027.84pt x 1027.84pt>
 File: imgs//yennifer_simbolo.jpeg Graphic file (type jpg)
 <use imgs//yennifer_simbolo.jpeg>
-Package pdftex.def Info: imgs//yennifer_simbolo.jpeg  used on input line 376.
+Package pdftex.def Info: imgs//yennifer_simbolo.jpeg  used on input line 381.
 (pdftex.def)             Requested size: 85.35826pt x 85.3499pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--377
+Underfull \hbox (badness 10000) in paragraph at lines 378--382
 
  []
 
@@ -1649,12 +1638,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 373--377
 /imgs//whestfalia_simbolo.jpeg> <./imgs//wrhat.jpeg> <./imgs//wrhat_simbolo.jpe
 g> <./imgs//yennifer.jpg> <./imgs//yennifer_simbolo.jpeg>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-82.
+87.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-Underfull \hbox (badness 6842) in paragraph at lines 399--399
+Underfull \hbox (badness 6842) in paragraph at lines 404--404
 []\T1/Coelacanth-LF/regular/it/10 Gli Dei af-fron-ta-ro-no An-sur e En-gur con
  []
 
@@ -1662,46 +1651,46 @@ Underfull \hbox (badness 6842) in paragraph at lines 399--399
 <imgs//gizzard.jpg, id=212, 963.6pt x 770.88pt>
 File: imgs//gizzard.jpg Graphic file (type jpg)
 <use imgs//gizzard.jpg>
-Package pdftex.def Info: imgs//gizzard.jpg  used on input line 406.
+Package pdftex.def Info: imgs//gizzard.jpg  used on input line 411.
 (pdftex.def)             Requested size: 170.71652pt x 136.56456pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--407
+Underfull \hbox (badness 10000) in paragraph at lines 409--412
 
  []
 
 <imgs//engur.jpg, id=213, 462.528pt x 346.896pt>
 File: imgs//engur.jpg Graphic file (type jpg)
 <use imgs//engur.jpg>
-Package pdftex.def Info: imgs//engur.jpg  used on input line 411.
+Package pdftex.def Info: imgs//engur.jpg  used on input line 416.
 (pdftex.def)             Requested size: 170.71652pt x 128.0372pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--412
+Underfull \hbox (badness 10000) in paragraph at lines 414--417
 
  []
 
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/m/n' in size <5> not available
 
 (Font)              Font shape `T1/Coelacanth-LF/regular/n' tried instead on in
-put line 416.
+put line 421.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 416.
+(Font)              scaled to size 5.0pt on input line 421.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/m/sl' in size <5> not availabl
 e
 (Font)              Font shape `T1/Coelacanth-LF/regular/sl' tried instead on i
-nput line 417.
+nput line 422.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/regular/sl' in size <5> not av
 ailable
 (Font)              Font shape `T1/Coelacanth-LF/regular/it' tried instead on i
-nput line 417.
+nput line 422.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/regular/it' will be
-(Font)              scaled to size 5.0pt on input line 417.
+(Font)              scaled to size 5.0pt on input line 422.
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--419
+Underfull \hbox (badness 10000) in paragraph at lines 422--424
 
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
-23.
+28.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 ) [12 <./imgs//gizzard.jpg> <./imgs//engur.jpg>]
@@ -1709,12 +1698,12 @@ Capitolo 3.
 <imgs//monascintipietra.jpeg, id=225, 1017.8025pt x 1606.0pt>
 File: imgs//monascintipietra.jpeg Graphic file (type jpg)
 <use imgs//monascintipietra.jpeg>
-Package pdftex.def Info: imgs//monascintipietra.jpeg  used on input line 504.
+Package pdftex.def Info: imgs//monascintipietra.jpeg  used on input line 509.
 (pdftex.def)             Requested size: 170.71652pt x 269.36507pt.
 [13
 
 ]
-Underfull \hbox (badness 6675) in paragraph at lines 523--523
+Underfull \hbox (badness 6675) in paragraph at lines 528--528
 | \T1/Coelacanth-LF/bold/sc/20.74 Le-ga-me tra ma-gia e
  []
 
@@ -1722,7 +1711,7 @@ Underfull \hbox (badness 6675) in paragraph at lines 523--523
 <imgs//islenapart.png, id=235, 597.432pt x 845.0772pt>
 File: imgs//islenapart.png Graphic file (type png)
 <use imgs//islenapart.png>
-Package pdftex.def Info: imgs//islenapart.png  used on input line 532.
+Package pdftex.def Info: imgs//islenapart.png  used on input line 537.
 (pdftex.def)             Requested size: 597.55817pt x 845.04933pt.
  [15
 
@@ -1733,47 +1722,47 @@ Capitolo 4.
 ]
 Capitolo 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 569--570
+Underfull \hbox (badness 10000) in paragraph at lines 574--575
 
  []
 
 <imgs//ruins.png, id=245, 1784.6675pt x 1003.75pt>
 File: imgs//ruins.png Graphic file (type png)
 <use imgs//ruins.png>
-Package pdftex.def Info: imgs//ruins.png  used on input line 571.
+Package pdftex.def Info: imgs//ruins.png  used on input line 576.
 (pdftex.def)             Requested size: 199.16928pt x 112.00569pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 571--572
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
 
  []
 
 <imgs//insideruins.jpg, id=246, 1927.2pt x 1128.215pt>
 File: imgs//insideruins.jpg Graphic file (type jpg)
 <use imgs//insideruins.jpg>
-Package pdftex.def Info: imgs//insideruins.jpg  used on input line 573.
+Package pdftex.def Info: imgs//insideruins.jpg  used on input line 578.
 (pdftex.def)             Requested size: 199.16928pt x 116.58101pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--574
+Underfull \hbox (badness 10000) in paragraph at lines 578--579
 
  []
 
 <imgs//ruinsincity.jpg, id=247, 1445.4pt x 781.92125pt>
 File: imgs//ruinsincity.jpg Graphic file (type jpg)
 <use imgs//ruinsincity.jpg>
-Package pdftex.def Info: imgs//ruinsincity.jpg  used on input line 575.
+Package pdftex.def Info: imgs//ruinsincity.jpg  used on input line 580.
 (pdftex.def)             Requested size: 199.16928pt x 107.7382pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--576
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
  []
 
 <imgs//ruinsinwall.png, id=248, 1407.2575pt x 757.83125pt>
 File: imgs//ruinsinwall.png Graphic file (type png)
 <use imgs//ruinsinwall.png>
-Package pdftex.def Info: imgs//ruinsinwall.png  used on input line 577.
+Package pdftex.def Info: imgs//ruinsinwall.png  used on input line 582.
 (pdftex.def)             Requested size: 199.16928pt x 107.252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--578
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
 
  []
 
@@ -1781,82 +1770,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 577--578
 
  <./imgs//ruins.png> <./imgs//insideruins.jpg> <./imgs//ruinsincity.jpg> <./img
 s//ruinsinwall.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 583--587
+Underfull \hbox (badness 10000) in paragraph at lines 588--592
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 583--587
+Underfull \hbox (badness 10000) in paragraph at lines 588--592
 
  []
 
 <imgs//nord.jpg, id=253, 1927.2pt x 1197.47375pt>
 File: imgs//nord.jpg Graphic file (type jpg)
 <use imgs//nord.jpg>
-Package pdftex.def Info: imgs//nord.jpg  used on input line 591.
+Package pdftex.def Info: imgs//nord.jpg  used on input line 596.
 (pdftex.def)             Requested size: 170.71652pt x 106.0687pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 589--592
+Underfull \hbox (badness 10000) in paragraph at lines 594--597
 
  []
 
 <imgs//islenici.jpg, id=254, 355.3275pt x 130.3269pt>
 File: imgs//islenici.jpg Graphic file (type jpg)
 <use imgs//islenici.jpg>
-Package pdftex.def Info: imgs//islenici.jpg  used on input line 596.
+Package pdftex.def Info: imgs//islenici.jpg  used on input line 601.
 (pdftex.def)             Requested size: 170.71652pt x 62.61584pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--597
+Underfull \hbox (badness 10000) in paragraph at lines 599--602
 
  []
 
 <imgs//injines.jpg, id=255, 693.792pt x 271.37386pt>
 File: imgs//injines.jpg Graphic file (type jpg)
 <use imgs//injines.jpg>
-Package pdftex.def Info: imgs//injines.jpg  used on input line 601.
+Package pdftex.def Info: imgs//injines.jpg  used on input line 606.
 (pdftex.def)             Requested size: 170.71652pt x 66.77495pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--602
+Underfull \hbox (badness 10000) in paragraph at lines 604--607
 
  []
 
 <imgs//arabas.jpg, id=256, 1284.8pt x 803.0pt>
 File: imgs//arabas.jpg Graphic file (type jpg)
 <use imgs//arabas.jpg>
-Package pdftex.def Info: imgs//arabas.jpg  used on input line 606.
+Package pdftex.def Info: imgs//arabas.jpg  used on input line 611.
 (pdftex.def)             Requested size: 170.71652pt x 106.69717pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--607
+Underfull \hbox (badness 10000) in paragraph at lines 609--612
 
  []
 
 <imgs//egisci.jpg, id=257, 1195.06268pt x 671.29144pt>
 File: imgs//egisci.jpg Graphic file (type jpg)
 <use imgs//egisci.jpg>
-Package pdftex.def Info: imgs//egisci.jpg  used on input line 611.
+Package pdftex.def Info: imgs//egisci.jpg  used on input line 616.
 (pdftex.def)             Requested size: 170.71652pt x 95.89561pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--612
+Underfull \hbox (badness 10000) in paragraph at lines 614--617
 
  []
 
 <imgs//felezi.jpg, id=258, 2055.68pt x 1174.3875pt>
 File: imgs//felezi.jpg Graphic file (type jpg)
 <use imgs//felezi.jpg>
-Package pdftex.def Info: imgs//felezi.jpg  used on input line 616.
+Package pdftex.def Info: imgs//felezi.jpg  used on input line 621.
 (pdftex.def)             Requested size: 170.71652pt x 97.51894pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 614--617
+Underfull \hbox (badness 10000) in paragraph at lines 619--622
 
  []
 
 <imgs//gerici.jpg, id=259, 963.6pt x 542.025pt>
 File: imgs//gerici.jpg Graphic file (type jpg)
 <use imgs//gerici.jpg>
-Package pdftex.def Info: imgs//gerici.jpg  used on input line 621.
+Package pdftex.def Info: imgs//gerici.jpg  used on input line 626.
 (pdftex.def)             Requested size: 170.71652pt x 96.02194pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--622
+Underfull \hbox (badness 10000) in paragraph at lines 624--627
 
  []
 
@@ -1865,35 +1854,35 @@ abas.jpg> <./imgs//egisci.jpg> <./imgs//felezi.jpg>]
 <imgs//silvanese.png, id=265, 1003.75pt x 526.96875pt>
 File: imgs//silvanese.png Graphic file (type png)
 <use imgs//silvanese.png>
-Package pdftex.def Info: imgs//silvanese.png  used on input line 626.
+Package pdftex.def Info: imgs//silvanese.png  used on input line 631.
 (pdftex.def)             Requested size: 170.71652pt x 89.6237pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 624--627
+Underfull \hbox (badness 10000) in paragraph at lines 629--632
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 629--633
+Underfull \hbox (badness 10000) in paragraph at lines 634--638
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 629--633
+Underfull \hbox (badness 10000) in paragraph at lines 634--638
 
  []
 
 <imgs//moonaegisci.jpg, id=266, 1927.2pt x 1084.05pt>
 File: imgs//moonaegisci.jpg Graphic file (type jpg)
 <use imgs//moonaegisci.jpg>
-Package pdftex.def Info: imgs//moonaegisci.jpg  used on input line 634.
+Package pdftex.def Info: imgs//moonaegisci.jpg  used on input line 639.
 (pdftex.def)             Requested size: 199.16928pt x 112.01733pt.
 <imgs//islenacultures.png, id=267, 7708.8pt x 4308.095pt>
 File: imgs//islenacultures.png Graphic file (type png)
 <use imgs//islenacultures.png>
-Package pdftex.def Info: imgs//islenacultures.png  used on input line 640.
+Package pdftex.def Info: imgs//islenacultures.png  used on input line 645.
 (pdftex.def)             Requested size: 512.1496pt x 286.21521pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 640--641
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 645--646
  [][] 
  []
 
@@ -1903,64 +1892,70 @@ Capitolo 6.
 [21
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 748--749
+Underfull \hbox (badness 10000) in paragraph at lines 753--754
 []\T1/Coelacanth-LF/bold/n/10 Città: \T1/Coelacanth-LF/regular/n/10 Ka-ne-da(GC
 ), El-do-ra-do, The Ci-ty
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 748--749
+Underfull \hbox (badness 10000) in paragraph at lines 753--754
 \T1/Coelacanth-LF/regular/n/10 of Gold(GC), Izu-mi(PC), Bin Chi-lin(PP),
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 759--760
+Underfull \hbox (badness 5592) in paragraph at lines 764--765
 \T1/Coelacanth-LF/regular/n/10 mo NB (Ter-ri-to-rio di Askro-nia); Gran-de Ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 761--762
+Underfull \hbox (badness 10000) in paragraph at lines 766--767
 []\T1/Coelacanth-LF/bold/n/10 Città: \T1/Coelacanth-LF/regular/n/10 Lao-rea(GC)
 , Pho-ry-lis(PC), Nan-lu-my-
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 762--763
+Underfull \hbox (badness 5924) in paragraph at lines 767--768
 \T1/Coelacanth-LF/regular/n/10 fer-ro, vi-no, mac-chi-na-ri, co-no-scen-ze ma-g
 i-che e
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 773--774
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
 \T1/Coelacanth-LF/regular/n/10 Boul-se-mi(GC), Wil-der(PC), Ear-thill(PC), Ho-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 773--774
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
 \T1/Coelacanth-LF/regular/n/10 ceans(PC), Sh-rou-drock(PC), Lost-ford(PC),
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 779--781
+Underfull \hbox (badness 5893) in paragraph at lines 784--786
 \T1/Coelacanth-LF/regular/n/10 La Com-pa-gnia Com-mer-cia-le del-l'U-nio-ne Cen
 -tra-le si
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 800--801
+Underfull \hbox (badness 10000) in paragraph at lines 805--806
 []\T1/Coelacanth-LF/bold/n/10 Città: \T1/Coelacanth-LF/regular/n/10 Py-la-cos(G
 C), Po-do-po-ros(GC), Kuo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 800--801
+Underfull \hbox (badness 10000) in paragraph at lines 805--806
 \T1/Coelacanth-LF/regular/n/10 sis(PC), Cleo-ri-ta(PC), Mi-cro-wa-ve Oven(PC),
  []
 
 [24] [25]
-Underfull \hbox (badness 5302) in paragraph at lines 865--866
+Underfull \hbox (badness 5302) in paragraph at lines 870--871
 []\T1/Coelacanth-LF/bold/n/10 Risorse: \T1/Coelacanth-LF/regular/n/10 Ali-men-t
 a-ri, gem-me (fi-no a III), oro,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
+[]\T1/Coelacanth-LF/bold/n/10 Città: \T1/Coelacanth-LF/regular/n/10 Ra-hib(GC),
+ Do-ha(GP), Dü³m[]en(GC),
  []
 
 [26] [27]
@@ -1971,7 +1966,7 @@ Capitolo 7.
 <imgs//giocopart.png, id=314, 597.432pt x 845.0772pt>
 File: imgs//giocopart.png Graphic file (type png)
 <use imgs//giocopart.png>
-Package pdftex.def Info: imgs//giocopart.png  used on input line 922.
+Package pdftex.def Info: imgs//giocopart.png  used on input line 927.
 (pdftex.def)             Requested size: 597.55817pt x 845.04933pt.
  [29
 
@@ -1984,7 +1979,7 @@ Capitolo 9.
 <imgs//azuril.png, id=328, 311.1625pt x 443.6575pt>
 File: imgs//azuril.png Graphic file (type png)
 <use imgs//azuril.png>
-Package pdftex.def Info: imgs//azuril.png  used on input line 955.
+Package pdftex.def Info: imgs//azuril.png  used on input line 960.
 (pdftex.def)             Requested size: 142.26378pt x 202.8393pt.
 [31
 
@@ -1993,48 +1988,26 @@ Capitolo 10.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/b/n' in size <11> not availabl
 e
 (Font)              Font shape `T1/Coelacanth-LF/bold/n' tried instead on input
- line 984.
+ line 989.
 LaTeX Font Info:    Font shape `T1/Coelacanth-LF/bold/n' will be
-(Font)              scaled to size 11.0pt on input line 984.
+(Font)              scaled to size 11.0pt on input line 989.
 
-Underfull \hbox (badness 10000) in paragraph at lines 985--989
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 990--995
+Underfull \hbox (badness 10000) in paragraph at lines 990--994
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--995
+Underfull \hbox (badness 10000) in paragraph at lines 995--1000
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--995
+Underfull \hbox (badness 10000) in paragraph at lines 995--1000
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 996--997
-
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+Coelacanth-LF on in
-put line 998.
-(/usr/share/texlive/texmf-dist/tex/latex/coelacanth/TS1Coelacanth-LF.fd
-File: TS1Coelacanth-LF.fd 2019/10/10 (autoinst) Font definitions for TS1/Coelac
-anth-LF.
-)
-LaTeX Font Info:    Font shape `TS1/Coelacanth-LF/m/n' in size <10> not availab
-le
-(Font)              Font shape `TS1/Coelacanth-LF/regular/n' tried instead on i
-nput line 998.
-LaTeX Font Info:    Font shape `TS1/Coelacanth-LF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 998.
-
-Underfull \hbox (badness 10000) in paragraph at lines 998--1000
+Underfull \hbox (badness 10000) in paragraph at lines 995--1000
 
  []
 
@@ -2043,154 +2016,176 @@ Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
 
  []
 
+LaTeX Font Info:    Trying to load font information for TS1+Coelacanth-LF on in
+put line 1003.
+(/usr/share/texlive/texmf-dist/tex/latex/coelacanth/TS1Coelacanth-LF.fd
+File: TS1Coelacanth-LF.fd 2019/10/10 (autoinst) Font definitions for TS1/Coelac
+anth-LF.
+)
+LaTeX Font Info:    Font shape `TS1/Coelacanth-LF/m/n' in size <10> not availab
+le
+(Font)              Font shape `TS1/Coelacanth-LF/regular/n' tried instead on i
+nput line 1003.
+LaTeX Font Info:    Font shape `TS1/Coelacanth-LF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 1003.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1003--1004
+Underfull \hbox (badness 10000) in paragraph at lines 1003--1005
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1006--1007
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1009
 
  []
 
 [33
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
+Underfull \hbox (badness 10000) in paragraph at lines 1017--1018
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1014--1016
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1021
 
  []
 
 <imgs//incantatrix.png, id=343, 401.5pt x 502.87875pt>
 File: imgs//incantatrix.png Graphic file (type png)
 <use imgs//incantatrix.png>
-Package pdftex.def Info: imgs//incantatrix.png  used on input line 1017.
+Package pdftex.def Info: imgs//incantatrix.png  used on input line 1022.
 (pdftex.def)             Requested size: 199.16928pt x 249.4667pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1023--1024
+Underfull \hbox (badness 10000) in paragraph at lines 1028--1029
 
  []
 
 [34 <./imgs//incantatrix.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1026
+Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1027--1029
+Underfull \hbox (badness 10000) in paragraph at lines 1032--1034
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-1038.
+1043.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-Overfull \hbox (16.8007pt too wide) in paragraph at lines 1032--1060
+Overfull \hbox (16.8007pt too wide) in paragraph at lines 1037--1065
 []  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1032--1060
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1065
 
  []
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 1067--1073
+Underfull \hbox (badness 10000) in paragraph at lines 1072--1078
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1079
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1084
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1079
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1084
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1079
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1084
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1080--1081
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1086
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1084--1085
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1090
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1086--1087
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1088--1089
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1094
 
  []
 
 <imgs//ldsa.png, id=355, 501.875pt x 501.875pt>
 File: imgs//ldsa.png Graphic file (type png)
 <use imgs//ldsa.png>
-Package pdftex.def Info: imgs//ldsa.png  used on input line 1090.
+Package pdftex.def Info: imgs//ldsa.png  used on input line 1095.
 (pdftex.def)             Requested size: 170.71652pt x 170.71947pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1092--1093
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1098
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1095
+Underfull \hbox (badness 10000) in paragraph at lines 1099--1100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1096--1097
+Underfull \hbox (badness 10000) in paragraph at lines 1101--1102
 
  []
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 36 might be wrong on input line 109
-7.
+(multicol)                Footnotes on page 36 might be wrong on input line 110
+2.
 
 [36 <./imgs//ldsa.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1099
+Underfull \hbox (badness 10000) in paragraph at lines 1103--1104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1107--1108
+Underfull \hbox (badness 10000) in paragraph at lines 1112--1113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1109--1110
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1111--1112
+Underfull \hbox (badness 10000) in paragraph at lines 1116--1117
 
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 1122--1122
+Underfull \hbox (badness 2285) in paragraph at lines 1127--1127
 []\T1/cmss/m/n/10 Armatura di bril-la-nio, Do-mi-nio del-la
  []
 
 
-Overfull \hbox (22.58232pt too wide) in paragraph at lines 1116--1150
+Overfull \hbox (22.58232pt too wide) in paragraph at lines 1121--1155
 []  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1116--1150
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1155
 
  []
 
@@ -2200,13 +2195,13 @@ Capitolo 11.
 
 ] (./Guida all'ambientazione di Islena.aux) ) 
 Here is how much of TeX's memory you used:
- 26356 strings out of 476091
- 496415 string characters out of 5794081
+ 26347 strings out of 476091
+ 496324 string characters out of 5794081
  1879330 words of memory out of 5000000
- 46076 multiletter control sequences out of 15000+600000
+ 46068 multiletter control sequences out of 15000+600000
  611830 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,8n,90p,1847b,809s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,8n,90p,1847b,807s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/
 cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/coelac
 anth/coel_bgukot.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc
@@ -2221,7 +2216,7 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive
 dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx100
 0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on "Guida all'ambientazione di Islena.pdf" (39 pages, 57063967 b
+Output written on "Guida all'ambientazione di Islena.pdf" (39 pages, 57059271 b
 ytes).
 PDF statistics:
  558 PDF objects out of 1000 (max. 8388607)
