@@ -25,6 +25,8 @@
 \usepackage[nf]{coelacanth}
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{transparent}
+\usepackage{fancybox}
+
 
 % Define custom colors for the D&D theme
 \definecolor{DNDGold}{rgb}{0.698, 0.549, 0.278} % Darker Gold #B28C47
@@ -125,7 +127,8 @@
 \textcolor{MintCream}{\textbf{\today}}
 \end{titlepage}
 
-\pagecolor{Ivory}
+%\pagecolor{Ivory}
+\pagecolor[rgb]{0.98, 0.98, 0.96}
 
 %\begin{multicols}{2}
 \tableofcontents
@@ -345,7 +348,7 @@ La dea della magia, Moohona, è neutrale. La sua grande conoscenza è superata s
 \subsection*{Pathon}
 Pathon, dio della fortuna e dei tesori nascosti è di allineamento caotico neutrale. Il suo titolo è Il Dio Pigro, perché ottiene ciò che vuole con la fortuna e non con il lavoro, e viene quindi venerato da quegli avventurieri che desiderano tesori e ricchezze senza la fatica di combattere, principalmente ladri e bardi. I domini a lui associati sono Fortuna, Greed, Sloth. La sua arma è il kukri.\\
 \\
-\includegraphics[width=3.5cm]{pathon.jpg}
+\ovalbox{\includegraphics[width=3.5cm]{pathon.jpg}}
 \includegraphics[width=3.5cm]{pathon_simbolo.png}
 \subsection*{Sathona}
 Sathona, dea degli inganni e delle menzogne è caotica malvagia. È protettrice degli impostori e ha il titolo di Regina Senza Volto. Veglia sulle menzogne e sui travestimenti. Viene venerata principalmente da ladri malvagi. È l'unica divinità malvagia che vive veramente nel Tatakai. I suoi domini sono Inganno, Male e Conoscenza. La sua arma preferita è il katar.\\
@@ -817,6 +820,21 @@ La società di Kstatungterk è organizzata in modo stratificato, con un chiaro d
 L'esercito dell'Emirato è diviso nelle Guardie dell'Emiro che si comportano da polizia sui territori interni, e il Corpo Splendente dell'Arma dell'Emiro, addestrato alla difesa dei confini, affiancato spesso da soldati provenienti da Rocciafertia.
 Nonostante la stabilità economica, l’Emirato vive sotto la minaccia di conflitti interni. La crescente autonomia delle province e la crescente influenza dei Satrapi potrebbero minare l’autorità centrale dell’Emiro. Le tensioni tra i Satrapi più fedeli all’Emiro e quelli più inclini a un maggior grado di indipendenza potrebbe essere il fattore scatenante di futuri conflitti politici.
 
+\subsection*{Laorylia}
+\begin{itemize}
+	\item \textbf{Nome appropriato:} Santo Stato della Terra Magica di Laorylia
+	\item \textbf{Sovrano:} Otzot Bygbrian, il Buon Maestro, Servo della Madre di Scintipietra, Gnomo LN
+	\item \textbf{Governo:} Teo-arcano-crazia, il Governo è detenuto dal Concilio del Firmamento, un organo misto diviso in due rami: Il Collegio della Conoscenza, composto da otto arcimaghi rappresentanti le otto scuole di magia, spesso affiliati all'Accademia di Asteria Choris Synnefa; e l'Ordine Celeste, composto da sette gran chierici di Moohona. Il leader dello stato è l'Arcano-Pontefice, una figura che deve essere sia un potente mago che un fedele servitore di Moohona, che viene eletto ogni 20 anni dal Concilio del Firmamento.
+	\item \textbf{Città:} Hegita(GC), Naetemita(PC), Plaion(GP), Hanira(GP), Dounyamput(PP)
+	\item \textbf{Risorse:} scintipietra, conoscenze magiche, oggetti magici e tecnomagici.
+	\item \textbf{Popolazione e cultura:} Gerica, Felezia, Mezz'elfi 35\%, Elfi 24\%, Umani 21\%, Gnomi 14\%, Halfling 5\%, Azuril 1\%
+	\item \textbf{Legge:} LN
+	\item \textbf{Situazione diplomatica:} Alleati: Collaborazioni accademiche con diverse università di Aulicelia. Membro del Patto in Nome degli Dei insieme a Musefell e Kstatungterk che comprende accordi di economici, commerciali e di non belligeranza ; Nemici: Neverland
+\end{itemize}
+Con la caduta dell’Impero dei Quoti e il progressivo sgretolamento dell’Impero di Hooke, le terre di Laorylia si trovarono ad affrontare una fase di vuoto di potere, ma anche di potenziale crescita. Mentre gran parte dei territori del Vecchio Mos e dell’Impero di Hooke si frammentavano e venivano contesi tra potenze emergenti, le piccole scuole di magia di Laorylia iniziarono a guadagnare sempre maggiore importanza. L’Accademia di Asteria Choris Synnefa, una delle principali scuole della regione, diventò portavoce di una nuova era di conoscenza arcana. La magia, un tempo relegata a riti oscuri e studi ermetici, iniziò a permeare progressivamente la vita quotidiana. In questo clima, anche il culto di Moohona conobbe una notevole crescita, poiché il popolo si rivolgeva sempre più alla magia e ai suoi servitori per trovare protezione, benedizioni e un senso di ordine. È in questo contesto che nacque la teo-arcano-crazia, un sistema di governo unico in cui il potere magico e quello religioso sono inseparabili.
+Nel corso dei decenni, Laorylia si è trasformata in una potenza culturale e magica, diventando il centro della conoscenza arcana del continente. Maghi e studiosi provenienti da ogni angolo del continente si dirigono verso la prestigiosa Accademia di Asteria Choris Synnefa, la più importante di Islena, situata nei pressi della città di Hegita. La società è altamente stratificata, con i cittadini distinguibili principalmente in due classi: i praticanti della magia e i non-maghi. La classe dei maghi, che include arcimaghi, chierici di Moohona e incantatori minori, è la più rispettata e influente, e i loro titoli godono di grande prestigio. I non-maghi, che si occupano prevalentemente di agricoltura, commercio e artigianato, pur rivestendo un ruolo fondamentale nell’economia, sono considerati subordinati agli arcani.
+L’economia di Laorylia ruota principalmente intorno alla produzione e al commercio di scintipietra, artefatti magici e altri materiali arcani. La crescente influenza del paese è legata anche alla sua capacità di controllare risorse magiche rare e potenti. Sebbene l’esercito di Laorylia sia relativamente modesto in numero e preparazione, la sua forza risiede nell’uso di avanzati costrutti magici, veri e propri golem e creature incantate che fungono da guardiani e soldati. Questo rende l’esercito di Laorylia una forza temibile, capace di difendere efficacemente i propri confini se necessario.
+
 \subsection*{Neverland}
 \begin{itemize}
 	\item \textbf{Nome appropriato}: Serenissima Repubblica dell'Isola di Neverland
@@ -933,6 +951,7 @@ L'Antico Dominio dei Draghi di Valyria sorge su uno sperone di terra circondato 
 	\item \textbf{Situazione diplomatica:} - 
 \end{itemize}
 Circa 40 anni fa scoppiò un'epidemia di un misterioso malanno chiamato Kovid, nei territori del nord dell'Impero di Vega, per impedire la veloce espansione della malattia, che non sembrava poter essere curata magicamente, furono quarantenati i territori della città di Volpfer. Al confine con il territorio in quarantena fu eretto un muro per impedire il transito di persone. Ancora oggi è impossibile attraversare il muro che rimane strettamente sorvegliato dalle truppe imperiali, inoltre la costa del Volpferlterz è costituita principalmente da alte scogliere rocciose che non permettono un facile l'attracco delle navi. La difficoltà di un'eventuale spedizione e la paura del ritorno del Kovid hanno tenuto lontani i curiosi da questa regione. Nel territorio del Bostnesto nell'Unione Centrale, la cui costa è di fronte a quella del Volpfelterz, girano innumerevoli leggende locali e storie popolari riguardanti fantasiosi avvistamenti oltre il canale. 
+
 
 
 \subsection*{Lipsum}
