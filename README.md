@@ -8,6 +8,6 @@ _Dovrebbe_ essere tutto spoler free ma vi comunque consiglio di non curiosare ne
 
 ## Download pdf
 Dato che il pdf ha raggiunto una dimensione notevole GitHub ci mette un bel po' a preparare il download.
-Quindi per scaricare più comodamente cliccate su [questo link](https://media.githubusercontent.com/media/Emipano/Islena/main/Guida%20all'ambientazione%20di%20Islena.pdf)
+Quindi per scaricare più comodamente cliccate su [questo link](https://media.githubusercontent.com/media/Emipano/Islena-Ambientazione-DnD/main/Guida%20all%27ambientazione%20di%20Islena.pdf)
 
 
