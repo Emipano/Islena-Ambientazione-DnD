@@ -1,0 +1,30 @@
+name: Aggiorna README con info ultimo commit
+
+on:
+  push:
+    branches: [ main ]  # Se usi "master", cambia qui
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clona il repository
+        uses: actions/checkout@v3
+
+      - name: Estrai info ultimo commit
+        id: lastcommit
+        run: |
+          COMMIT_MESSAGE=$(git log -1 --pretty=%s)
+          COMMIT_DATE=$(git log -1 --date=format:"%d %B %Y" --pretty=format:"%cd")
+          echo "msg=**Ultimo aggiornamento:** $COMMIT_DATE – $COMMIT_MESSAGE" >> $GITHUB_OUTPUT
+
+      - name: Aggiorna la riga nel README
+        run: |
+          LINE_REPLACE="${{ steps.lastcommit.outputs.msg }}"
+          sed -i '/^\*\*Ultimo aggiornamento:\*\*/c\'"$LINE_REPLACE" README.md
+
+      - name: Commit automatico
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Aggiorna ultima data e messaggio nel README
