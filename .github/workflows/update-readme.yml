@@ -1,35 +1,36 @@
-name: update-readme
+name: Aggiorna README con ultimo commit
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      # Lascia il token default qui. Non serve forzare il PAT qui.
-    
-    - name: Estrai data e messaggio del commit
-      run: |
-        DATE=$(date +'%d %B %Y')
-        MSG=$(git log -1 --pretty=%s)
-        echo "**Ultimo aggiornamento:** $DATE – $MSG"
-        sed -i '/^\*\*Ultimo aggiornamento:\*\*/c\**Ultimo aggiornamento:** '"$DATE – $MSG" README.md
 
-    - name: Configura Git
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
 
-    - name: Commit e push con PAT
-      env:
-        PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
-      run: |
-        git add README.md
-        git commit -m "Aggiorna ultima data e messaggio nel README" || echo "Nessuna modifica da committare"
-        git push https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+      - name: Ottieni info ultimo commit
+        id: commit_info
+        run: |
+          echo "date=$(git log -1 --format=%cd --date=short)" >> $GITHUB_OUTPUT
+          echo "message=$(git log -1 --format=%s)" >> $GITHUB_OUTPUT
 
+      - name: Aggiorna README.md
+        run: |
+          sed -i "s/^Ultimo aggiornamento:.*/Ultimo aggiornamento: ${{ steps.commit_info.outputs.date }} - ${{ steps.commit_info.outputs.message }}/" README.md
+
+      - name: Commit e push modifiche
+        uses: EndBug/add-and-commit@v9
+        with:
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
+          add: README.md
+          message: 'Aggiorna data e messaggio ultimo commit nel README'
