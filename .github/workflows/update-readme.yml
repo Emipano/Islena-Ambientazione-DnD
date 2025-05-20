@@ -1,33 +1,33 @@
-name: Aggiorna README con info ultimo commit
+name: update-readme
 
 on:
   push:
-    branches: [ main ]  # Se usi "master", cambia qui
+    branches: [ main ]
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clona il repository
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
-      - name: Estrai info ultimo commit
-        id: lastcommit
-        run: |
-          COMMIT_MESSAGE=$(git log -1 --pretty=%s)
-          COMMIT_DATE=$(git log -1 --date=format:"%d %B %Y" --pretty=format:"%cd")
-          echo "msg=**Ultimo aggiornamento:** $COMMIT_DATE – $COMMIT_MESSAGE" >> $GITHUB_OUTPUT
+    - name: Estrai data e messaggio del commit
+      id: vars
+      run: |
+        DATE=$(date +'%d %B %Y')
+        MSG=$(git log -1 --pretty=%s)
+        echo "LINE_REPLACE=**Ultimo aggiornamento:** $DATE – $MSG" >> "$GITHUB_ENV"
 
-      - name: Aggiorna la riga nel README
-        run: |
-          LINE_REPLACE="${{ steps.lastcommit.outputs.msg }}"
-          sed -i '/^\*\*Ultimo aggiornamento:\*\*/c\'"$LINE_REPLACE" README.md
+    - name: Sostituisci riga nel README
+      run: |
+        sed -i '/^\*\*Ultimo aggiornamento:\*\*/c\'"$LINE_REPLACE" README.md
 
-      - name: Commit automatico
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Aggiorna ultima data e messaggio nel README
-          commit_user_name: Emipano
-          commit_user_email: 195299999+Emipano@users.noreply.github.com
-          github_token: ${{ secrets.PAT_TOKEN }}
+    - name: Commit e push con PAT
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Aggiorna ultima data e messaggio nel README
+        commit_user_name: Emipano
+        commit_user_email: 195299999+Emipano@users.noreply.github.com
+        github_token: ${{ secrets.PAT_TOKEN }}
+
