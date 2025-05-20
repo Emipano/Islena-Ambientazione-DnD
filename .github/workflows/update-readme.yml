@@ -28,3 +28,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Aggiorna ultima data e messaggio nel README
+          commit_user_name: Emipano
+          commit_user_email: 195299999+Emipano@users.noreply.github.com
+          github_token: ${{ secrets.PAT_TOKEN }}
