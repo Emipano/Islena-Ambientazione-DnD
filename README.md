@@ -10,4 +10,4 @@ _Dovrebbe_ essere tutto spoiler free ma vi comunque consiglio di non curiosare n
 Dato che il pdf ha raggiunto una dimensione notevole GitHub ci mette un bel po' a preparare il download.
 Quindi per scaricare più comodamente cliccate su [questo link](https://media.githubusercontent.com/media/Emipano/Islena-Ambientazione-DnD/main/Guida%20all%27ambientazione%20di%20Islena.pdf)
 
-
+**Ultimo aggiornamento:** automatico
