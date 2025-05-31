@@ -13,5 +13,5 @@ Il manuale è in continuo sviluppo: nuove sezioni, approfondimenti e correzioni 
 Per scaricare il manuale cliccate su [questo link](https://media.githubusercontent.com/media/Emipano/Islena-Ambientazione-DnD/main/Guida%20all%27ambientazione%20di%20Islena.pdf)
 
 
-Ultimo aggiornamento: 2025-05-24 - Link cliccabili ora di colore blu. Aggiunti Giusoviate e Fratellanza Halfling
+Ultimo aggiornamento: 2025-05-31 - Correzioni errori minori
 
