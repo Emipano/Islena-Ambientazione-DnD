@@ -14,5 +14,5 @@ Per scaricare il manuale cliccate su [questo link](https://media.githubuserconte
 )
 
 
-Ultimo aggiornamento: 2025-06-03 - Rimosso LFS: PDF trackato con Git
+Ultimo aggiornamento: 2025-06-03 - Update README.md
 
