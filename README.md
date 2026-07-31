@@ -13,5 +13,5 @@ Il manuale è in continuo sviluppo: nuove sezioni, approfondimenti e correzioni 
 Per scaricare il manuale cliccate su [questo link](https://raw.githubusercontent.com/Emipano/Islena/main/Guida%20all%27ambientazione%20di%20Islena.pdf)
 
 
-Ultimo aggiornamento: 2026-03-25 - Revisionate sezioni 'CdP' e 'Talenti'
+Ultimo aggiornamento: 2026-07-31 - Cambiamenti minori
 
